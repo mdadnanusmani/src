@@ -1,0 +1,165 @@
+.teamPeople {
+
+  &__inner {
+    padding: 50px 0
+  }
+
+  /* ---
+    Header
+  --- */
+
+    &__header {
+      margin-bottom: -37px;
+      overflow: hidden;
+
+      @include rwd('large-tablet') {
+        margin-bottom: 20px;
+      }
+    }
+
+    &__headline {
+      float: left;
+
+      @include rwd('large-tablet') {
+        float: none !important;
+      }
+    }
+
+    &__categories {
+      position: relative;
+      float: left;
+      margin: 36px -15px 0 15px;
+      overflow: hidden;
+      z-index: 10;
+
+      @include rtl() {
+        float: right;
+        margin-left: -15px;
+        margin-right: 15px;
+      }
+
+      @include rwd('large-tablet') {
+        float: none;
+        margin-top: 0;
+        margin-left: -15px;
+
+        @include rtl() {
+          margin-right: -15px;
+        }
+      }
+    }
+
+    &__category {
+      float: left;
+      margin: 0 15px;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 1.28;
+      color: $c-gray-02;
+      transition: color .3s;
+
+      &--active {
+        font-weight: 700;
+        color: $c-blue-01;
+      }
+    }
+
+  /* ---
+    Tabs
+  --- */
+
+    &__items {
+    }
+
+    &__item {
+      display: none;
+
+      &--active {
+        display: block;
+      }
+    }
+
+  /* ---
+    Slider
+  --- */
+
+    &__slider {
+      height: 436px;
+
+      &:before,
+      &:after {
+        content: '';
+        position: absolute;
+        top: 56px;
+        width: 1px;
+        height: 380px;
+        background-color: $c-gray-01;
+        z-index: 10;
+      }
+
+      &:before {
+        left: 0;
+      }
+
+      &:after {
+        right: 0;
+      }
+    }
+
+    &__sliderItem {
+      border-top: 1px solid $c-gray-01;
+      border-bottom: 1px solid $c-gray-01;
+    }
+
+    &__sliderItemInner {
+      position: relative;
+      display: block;
+      width: 100%;
+      height: 378px;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-left: 1px solid $c-gray-01;
+      overflow: hidden;
+    }
+
+    &__sliderItemOverlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      padding: 50px 0;
+      background-color: $c-blue-01;
+      z-index: 10;
+      opacity: 0;
+      transform: translateY(100%);
+      transition: opacity .3s, transform .3s;
+
+      @include parent('.teamPeople__sliderItem', ':hover') {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    &__sliderItemOverlayContent {
+      width: 100%;
+      text-align: center;
+    }
+
+    &__sliderItemOverlayTitle {
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 1.4;
+      color: $c-white;
+    }
+
+    &__sliderItemOverlayPosition {
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 1.4;
+      color: $c-white;
+    }
+}

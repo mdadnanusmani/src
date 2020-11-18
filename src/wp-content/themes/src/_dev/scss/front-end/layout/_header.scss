@@ -1,0 +1,561 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 0;
+  background-color: $c-white;
+  z-index: 1000;
+  transition: padding .3s;
+
+  @include rwd('large-laptop-h') {
+    padding: 10px 0;
+  }
+
+  &--intranet {
+    padding: 30px 0;
+    box-shadow: 0 0 3px rgba($c-black, .1);
+  }
+
+  &--sticky {
+    padding: 10px 0;
+    box-shadow: 0 0 3px rgba($c-black, .1);
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    @include rwd('large-tablet') {
+      display: block;
+    }
+
+    @include parent('.header', '.header--intranet') {
+      display: block;
+    }
+  }
+
+  &__logo,
+  &__content {
+    display: flex;
+    align-items: center;
+  }
+
+  &__content {
+    flex: 1;
+    justify-content: flex-end;
+  }
+
+  /* ---
+    Logo
+  --- */
+
+    &__logo {
+
+      @include rwd('large-tablet') {
+        float: left;
+
+        @include rtl() {
+          float: right;
+        }
+      }
+
+      @include parent('.header', '.header--intranet') {
+        float: left;
+
+        @include rtl() {
+          float: right;
+        }
+      }
+    }
+
+    &__logoInner {
+      font-size: 0;
+      line-height: 0;
+    }
+
+    &__logoImage {
+      width: auto;
+      height: 55px;
+      transform: translateZ(0);
+      transition: all .3s;
+
+      &:hover {
+        opacity: .5;
+      }
+
+      @include parent('.header', '.header--sticky || .header--intranet') {
+        height: 40px;
+      }
+
+      @include rwd('large-tablet') {
+        height: 40px;
+      }
+    }
+
+  /* ---
+    Menu
+  --- */
+
+    &__menuWrapper {
+      font-size: 0;
+      text-align: right;
+
+      @include rtl() {
+        text-align: left;
+      }
+
+      @include rwd('large-tablet') {
+        display: none;
+      }
+    }
+
+    &__menu {
+      display: inline-block;
+
+      &:before,
+      &:after {
+        content: '';
+        display: block;
+        clear: both;
+      }
+
+      &--small {
+        margin: 0 -20px 16px -20px;
+        transition: opacity .3s, margin .3s;
+
+        @include rwd('large-tablet', 'up') {
+
+          @include parent('.header', '.header--sticky') {
+            opacity: 0;
+            margin-top: -46px;
+          }
+
+          @include parent('.header', '.header--topVisible') {
+            opacity: 1;
+            margin-top: 0;
+          }
+        }
+
+        @include rwd('large-tablet') {
+          width: 100%;
+          margin-left: 0;
+          margin-right: 0;
+        }
+      }
+
+      &--large {
+        margin: 0 -30px;
+      }
+    }
+
+    &__menuItem {
+      float: left;
+
+      @include rtl() {
+        float: right;
+      }
+
+      @include rwd('large-tablet') {
+        float: none;
+        width: 100%;
+      }
+
+      &--lang {
+        font-family: $font-second;
+
+        @include rtl() {
+          font-family: $font-first;
+        }
+
+        @include rwd('large-tablet') {
+          margin-top: 10px;
+        }
+      }
+    }
+
+    &__menuLink {
+      position: relative;
+      display: block;
+
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: calc(100% + 12px);
+        left: 0;
+        right: 0;
+        width: 0;
+        height: 3px;
+        margin: 0 auto;
+        background-color: $c-blue-01;
+        transition: width .3s;
+
+        @include rwd('large-laptop-h') {
+          top: 100%;
+        }
+
+        @include parent('.header', '.header--sticky') {
+          top: 100%;
+        }
+      }
+
+      @include parent('.header__menu', '.header__menu--small') {
+        padding: 0 20px;
+        font-size: 14px;
+        line-height: 2.143;
+        color: rgba($c-gray-02, .5);
+        transition: color .3s;
+
+        &:hover,
+        &--active {
+          color: rgba($c-gray-02, 1);
+        }
+      }
+
+      @include parent('.header__menu', '.header__menu--large') {
+        padding: 0 30px;
+        font-size: 18px;
+        line-height: 1.889;
+        color: $c-gray-02;
+
+        &:hover,
+        &--active {
+
+          &:after {
+            width: calc(100% - 60px);
+          }
+        }
+      }
+    }
+
+  /* ---
+    Search
+  --- */
+
+    &__menuSearch {
+      padding: 0 20px;
+      overflow: hidden;
+    }
+
+    &__menuSearchInput {
+      width: 150px;
+      height: 30px;
+      font-size: 14px;
+      line-height: 29px;
+      color: rgba($c-gray-02, .5);
+      border-bottom: 1px solid $c-blue-01;
+      opacity: 0;
+      transform: translateX(-100%);
+      visibility: hidden;
+      transition: opacity .3s, transform .3s, visibility .3s;
+
+      @include rtl() {
+        transform: translateX(100%);
+      }
+
+      @include parent('.header__menuSearch', '.header__menuSearch--active') {
+        opacity: 1;
+        transform: translateX(0);
+        visibility: visible;
+
+        @include rtl() {
+          transform: translateX(0);
+        }
+      }
+
+      @include rwd('large-tablet') {
+        width: calc(100% - 26px);
+      }
+
+      @include placeholder() {
+        color: rgba($c-gray-02, .5);
+      }
+    }
+
+    &__menuSearchButton {
+      float: right;
+      margin-left: 10px;
+      cursor: pointer;
+      transition: opacity .3s;
+
+      @include rtl() {
+        float: left;
+        margin-left: 0;
+        margin-right: 10px;
+      }
+
+      &:hover {
+        opacity: .5;
+      }
+
+      &:before {
+        @include icomoon('search');
+        font-size: 16px;
+        line-height: 1.875;
+        color: $c-blue-01;
+      }
+    }
+
+  /* ---
+    Toggle
+  --- */
+
+    &__toggle {
+      display: none;
+      position: relative;
+      float: right;
+      width: 40px;
+      height: 30px;
+      margin-top: 5px;
+      overflow: hidden;
+      transition: opacity .3s;
+
+      @include rtl() {
+        float: left;
+      }
+
+      @include rwd('large-tablet') {
+        display: block;
+      }
+
+      &:hover {
+        opacity: .5;
+      }
+
+      span {
+        position: absolute;
+        display: block;
+        height: 2px;
+        background-color: $c-blue-01;
+
+        &:nth-child(1),
+        &:nth-child(2),
+        &:nth-child(3) {
+          width: 40px;
+          transition: width .3s;
+          transition-delay: .3s;
+        }
+
+        &:nth-child(1) {
+          top: 0px;
+          left: 0;
+        }
+
+        &:nth-child(2) {
+          top: 14px;
+          right: 0;
+        }
+
+        &:nth-child(3) {
+          top: 28px;
+          left: 0;
+        }
+
+        &:nth-child(4),
+        &:nth-child(5) {
+          top: 14px;
+          left: 0px;
+          width: 40px;
+          transition: transform .3s;
+        }
+
+        &:nth-child(4) {
+          transform: rotate(45deg) translateX(-40px);
+        }
+
+        &:nth-child(5) {
+          transform: rotate(-45deg) translateX(-40px);
+        }
+      }
+
+      &--active {    
+        opacity: 1 !important; 
+
+        span {
+
+          &:nth-child(1),
+          &:nth-child(2),
+          &:nth-child(3) {
+            width: 0;
+            transition-delay: initial;
+          }
+
+          &:nth-child(4),
+          &:nth-child(5) {
+            transition-delay: .3s;
+          }
+
+          &:nth-child(4) {
+            transform: rotate(45deg) translateX(0);
+          }
+
+          &:nth-child(5) {
+            transform: rotate(-45deg) translateX(0);
+          }
+        }
+      }
+    }
+
+  /* ---
+    Menu mobile
+  --- */
+
+    &__menuMobile {
+      position: fixed;
+      top: 60px;
+      right: 0;
+      width: 300px;
+      max-height: calc(100vh - 60px);
+      padding: 20px 10px 4px 10px;
+      font-size: 0;
+      background-color: $c-white;
+      box-shadow: 0 3px 3px rgba($c-black, .1);
+      overflow: auto;
+      transform: translateX(100%);
+      transition: transform .7s;
+
+      @include rtl() {
+        right: auto;
+        left: 0;
+        transform: translateX(-100%);
+      }
+
+      @include rwd('large-phone') {
+        width: 100%;
+      }
+
+      &--open {
+        transform: translateX(0);
+
+        @include rtl() {
+          transform: translateX(0);
+        }
+      }
+    }
+
+  /* ---
+    Profile
+  --- */
+
+    &__profile {
+      float: left;
+      display: block;
+      margin-left: 58px;
+      overflow: hidden;
+
+      @include rwd('tablet') {
+        margin-left: 30px;
+      }
+
+      @include rwd('small-tablet') {
+        float: right;
+        margin-left: 0;
+        margin-right: 30px;
+
+        @include rtl() {
+          float: left;
+          margin-right: 0;
+          margin-left: 30px;
+        }
+      }
+
+      @include rtl() {
+        float: right;
+        margin-left: 0;
+        margin-right: 58px;
+
+        @include rwd('tablet') {
+          margin-right: 30px;
+        }
+      }
+    }
+
+    &__profileImage {
+      float: left;
+      width: 40px;
+      height: 40px;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border: 1px solid $c-gray-01;
+      border-radius: 50%;
+
+      @include rtl() {
+        float: right;
+      }
+    }
+
+    &__profileText {
+      float: left;
+      margin-left: 10px;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 40px;
+      color: rgba($c-gray-02, .5);
+      transition: opacity .3s;
+
+      @include parent('.header__profile', ':hover') {
+        opacity: .5;
+      }
+
+      @include rwd('small-tablet') {
+        display: none;
+      }
+
+      @include rtl() {
+        float: right;
+        margin-left: 0;
+        margin-right: 10px;
+      }
+    }
+
+  /* ---
+    Logout
+  --- */
+
+    &__logout {
+      float: right;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 40px;
+      color: $c-gray-02;
+      transition: color .3s;
+
+      &:hover {
+        color: rgba($c-gray-02, .5);
+      }
+
+      @include rwd('large-tablet') {
+        font-size: 0;
+      }
+
+      @include rtl() {
+        float: left;
+      }
+
+      &:before {
+        float: left;
+        margin-right: 10px;
+        @include icomoon('logout');
+        font-size: 24px;
+        color: $c-blue-01;
+
+        @include rwd('large-tablet') {
+          margin-right: 0;
+        }
+
+        @include rtl() {
+          float: right;
+          margin-right: 0;
+          margin-left: 10px;
+
+          @include rwd('large-tablet') {
+            margin-left: 0;
+          }
+        }
+      }
+    }
+
+}

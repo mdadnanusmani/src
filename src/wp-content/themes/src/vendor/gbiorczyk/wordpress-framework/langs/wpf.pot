@@ -1,0 +1,929 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WordPress Framework\n"
+"POT-Creation-Date: 2018-12-12 14:46+0100\n"
+"PO-Revision-Date: 2018-10-24 23:28+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: src/Helpers/Breadcrumbs.php\n"
+
+#: src/Acf/Link.php:54
+msgid "Archive"
+msgstr ""
+
+#: src/Cache/Widget.php:30
+msgid "Cache management"
+msgstr ""
+
+#: src/Cache/Widget.php:54
+#, php-format
+msgid "Clear cache (%d)"
+msgstr ""
+
+#: src/Forms/Posttype.php:28 src/Forms/Posttype.php:29
+#: src/Options/Forms.php:24
+msgid "Contact Forms"
+msgstr ""
+
+#: src/Forms/Posttype.php:30
+msgid "Contact Form"
+msgstr ""
+
+#: src/Forms/Posttype.php:31
+msgid "Add new form"
+msgstr ""
+
+#: src/Options/Forms.php:28
+msgid "Allowed shortcodes"
+msgstr ""
+
+#: src/Options/Forms.php:30
+msgid "Loading..."
+msgstr ""
+
+#: src/Options/Forms.php:34
+msgid "Fields"
+msgstr ""
+
+#: src/Options/Forms.php:49 src/Options/Forms.php:195
+#: src/Options/Forms.php:854
+msgid "List"
+msgstr ""
+
+#: src/Options/Forms.php:56
+msgid "Add field"
+msgstr ""
+
+#: src/Options/Forms.php:60
+msgid "Type"
+msgstr ""
+
+#: src/Options/Forms.php:65
+msgid "Text"
+msgstr ""
+
+#: src/Options/Forms.php:66
+msgid "E-mail"
+msgstr ""
+
+#: src/Options/Forms.php:67
+msgid "Url"
+msgstr ""
+
+#: src/Options/Forms.php:68
+msgid "Telephone"
+msgstr ""
+
+#: src/Options/Forms.php:69
+msgid "Number"
+msgstr ""
+
+#: src/Options/Forms.php:70 src/Tools/Stats.php:157
+msgid "Date"
+msgstr ""
+
+#: src/Options/Forms.php:71
+msgid "Time"
+msgstr ""
+
+#: src/Options/Forms.php:72
+msgid "Datetime"
+msgstr ""
+
+#: src/Options/Forms.php:73
+msgid "Textarea"
+msgstr ""
+
+#: src/Options/Forms.php:74
+msgid "Select"
+msgstr ""
+
+#: src/Options/Forms.php:75
+msgid "Multiselect"
+msgstr ""
+
+#: src/Options/Forms.php:76
+msgid "Checkbox"
+msgstr ""
+
+#: src/Options/Forms.php:77
+msgid "Radio"
+msgstr ""
+
+#: src/Options/Forms.php:78
+msgid "File"
+msgstr ""
+
+#: src/Options/Forms.php:79
+msgid "reCAPTCHA"
+msgstr ""
+
+#: src/Options/Forms.php:89
+msgid "Name"
+msgstr ""
+
+#: src/Options/Forms.php:92
+msgid "(only only lowercase letters and underscores)"
+msgstr ""
+
+#: src/Options/Forms.php:97
+msgid "Is grouped options?"
+msgstr ""
+
+#: src/Options/Forms.php:120
+msgid "Different labels than values?"
+msgstr ""
+
+#: src/Options/Forms.php:124
+#, php-format
+msgid "(to show label instead of value use %s[{field_name}__label]%s)"
+msgstr ""
+
+#: src/Options/Forms.php:147
+msgid "Values"
+msgstr ""
+
+#: src/Options/Forms.php:184 src/Options/Forms.php:211
+msgid "Add value"
+msgstr ""
+
+#: src/Options/Forms.php:188 src/Options/Forms.php:215
+msgid "Value"
+msgstr ""
+
+#: src/Options/Forms.php:222 src/Options/Forms.php:261
+msgid "Label"
+msgstr ""
+
+#: src/Options/Forms.php:226 src/Options/Forms.php:265
+#: src/Options/Integration.php:100 src/Options/Integration.php:163
+#: src/Options/Integration.php:178 src/Options/Integration.php:185
+msgid "(optionally)"
+msgstr ""
+
+#: src/Options/Forms.php:310
+msgid "Default values"
+msgstr ""
+
+#: src/Options/Forms.php:313
+msgid "(seperate each value with | char)"
+msgstr ""
+
+#: src/Options/Forms.php:347
+msgid "Minimum value"
+msgstr ""
+
+#: src/Options/Forms.php:362
+msgid "Maximum value"
+msgstr ""
+
+#: src/Options/Forms.php:377
+msgid "Step value"
+msgstr ""
+
+#: src/Options/Forms.php:397
+msgid "Date before"
+msgstr ""
+
+#: src/Options/Forms.php:400
+msgid ""
+"(optionally; name of field in which user selects end date - this date can "
+"not be later than end date)"
+msgstr ""
+
+#: src/Options/Forms.php:427
+msgid "Date after"
+msgstr ""
+
+#: src/Options/Forms.php:430
+msgid ""
+"(optionally; name of field in which user selects start date - this date can "
+"not be earlier than start date)"
+msgstr ""
+
+#: src/Options/Forms.php:457
+msgid "First empty option?"
+msgstr ""
+
+#: src/Options/Forms.php:473
+msgid "Site key"
+msgstr ""
+
+#: src/Options/Forms.php:476 src/Options/Forms.php:493
+msgid ""
+"(get from website: <a href=\"https://www.google.com/recaptcha/\" target="
+"\"_blank\">google.com/recaptcha</a>)"
+msgstr ""
+
+#: src/Options/Forms.php:490
+msgid "Secret"
+msgstr ""
+
+#: src/Options/Forms.php:507
+msgid "Placeholder"
+msgstr ""
+
+#: src/Options/Forms.php:590
+msgid "Custom classes"
+msgstr ""
+
+#: src/Options/Forms.php:593
+msgid "(seperate each class with a space)"
+msgstr ""
+
+#: src/Options/Forms.php:597
+msgid "Is required?"
+msgstr ""
+
+#: src/Options/Forms.php:613
+msgid "Minimum length"
+msgstr ""
+
+#: src/Options/Forms.php:637
+msgid "Maximum length"
+msgstr ""
+
+#: src/Options/Forms.php:661
+msgid "Multiple files?"
+msgstr ""
+
+#: src/Options/Forms.php:677
+msgid "File max size"
+msgstr ""
+
+#: src/Options/Forms.php:680
+msgid "(value in KB)"
+msgstr ""
+
+#: src/Options/Forms.php:695
+msgid "File extensions"
+msgstr ""
+
+#: src/Options/Forms.php:753
+msgid "Regex"
+msgstr ""
+
+#: src/Options/Forms.php:756
+msgid "(e.g. <strong>^([0-9]+)$</strong>)"
+msgstr ""
+
+#: src/Options/Forms.php:806
+msgid "Form"
+msgstr ""
+
+#: src/Options/Forms.php:813
+msgid "Submit"
+msgstr ""
+
+#: src/Options/Forms.php:815
+msgid ""
+"Enter <strong>[submit_error]</strong> tag where you want to show error "
+"message when sending the form and <strong>[submit_success]</strong> for "
+"success message.\n"
+"Add anywhere button to send form (you can use <strong>input</strong> or "
+"<strong>button</strong>)."
+msgstr ""
+
+#: src/Options/Forms.php:821
+msgid "Template"
+msgstr ""
+
+#: src/Options/Forms.php:824
+msgid ""
+"<label>\n"
+"  <span>Your name</span>\n"
+"  [name]\n"
+"</label>\n"
+"\n"
+"<label>\n"
+"  <span>Your e-mail</span>\n"
+"  [email]\n"
+"</label>\n"
+"\n"
+"<label>\n"
+"  <span>Subject</span>\n"
+"  [subject]\n"
+"</label>\n"
+"\n"
+"<label>\n"
+"  <span>Message</span>\n"
+"  [message]\n"
+"</label>\n"
+"\n"
+"<button type=\"submit\">Submit</button>\n"
+"[submit_error]\n"
+"[submit_success]"
+msgstr ""
+
+#: src/Options/Forms.php:828
+msgid "Submit error class"
+msgstr ""
+
+#: src/Options/Forms.php:834
+msgid "Submit success class"
+msgstr ""
+
+#: src/Options/Forms.php:840
+msgid "JS variable holding of instance extension"
+msgstr ""
+
+#: src/Options/Forms.php:843
+msgid ""
+"(optionally, name of JS variable loaded before Vue.js; allows you to add "
+"custom Vue.js methods)"
+msgstr ""
+
+#: src/Options/Forms.php:847
+msgid "Mail"
+msgstr ""
+
+#: src/Options/Forms.php:860
+msgid "Add mail"
+msgstr ""
+
+#: src/Options/Forms.php:864
+msgid "To"
+msgstr ""
+
+#: src/Options/Forms.php:872
+msgid "From"
+msgstr ""
+
+#: src/Options/Forms.php:880
+msgid "Subject"
+msgstr ""
+
+#: src/Options/Forms.php:884
+msgid "Message \"[subject]\""
+msgstr ""
+
+#: src/Options/Forms.php:888
+msgid "Additional headers"
+msgstr ""
+
+#: src/Options/Forms.php:895
+msgid "Message"
+msgstr ""
+
+#: src/Options/Forms.php:898
+msgid ""
+"From: [name] <[email]>\n"
+"Message:\n"
+"[message]\n"
+"\n"
+"--\n"
+"\n"
+"This email was sent automatically by the form."
+msgstr ""
+
+#: src/Options/Forms.php:904
+msgid "Messages"
+msgstr ""
+
+#: src/Options/Forms.php:911
+msgid "Send success"
+msgstr ""
+
+#: src/Options/Forms.php:915
+msgid "Thank you for your message. It has been sent."
+msgstr ""
+
+#: src/Options/Forms.php:919
+msgid "Send error"
+msgstr ""
+
+#: src/Options/Forms.php:923
+msgid "The error occurred while sending your message. Please try again later."
+msgstr ""
+
+#: src/Options/Forms.php:927
+msgid "Send validate field"
+msgstr ""
+
+#: src/Options/Forms.php:930 src/Options/Forms.php:955
+#: src/Options/Forms.php:964 src/Options/Forms.php:997
+#: src/Options/Forms.php:1006 src/Options/Forms.php:1015
+#: src/Options/Forms.php:1024 src/Options/Forms.php:1057
+#, php-format
+msgid "(use <strong>%s</strong> for show dynamic value)"
+msgstr ""
+
+#: src/Options/Forms.php:932
+#, php-format
+msgid ""
+"The error occurred while validating \"%s\" field. Enter the value again and "
+"try submit form."
+msgstr ""
+
+#: src/Options/Forms.php:936
+msgid "Validation error"
+msgstr ""
+
+#: src/Options/Forms.php:940
+msgid "One or more fields have an error. Please check and try again."
+msgstr ""
+
+#: src/Options/Forms.php:944
+msgid "Required field"
+msgstr ""
+
+#: src/Options/Forms.php:948
+msgid "This field is required."
+msgstr ""
+
+#: src/Options/Forms.php:952
+msgid "Minimum field length"
+msgstr ""
+
+#: src/Options/Forms.php:957
+#, php-format
+msgid "This field must be at least %s characters."
+msgstr ""
+
+#: src/Options/Forms.php:961
+msgid "Maximum field length"
+msgstr ""
+
+#: src/Options/Forms.php:966
+#, php-format
+msgid "This field must be at maximum %s characters."
+msgstr ""
+
+#: src/Options/Forms.php:970
+msgid "Invalid e-mail"
+msgstr ""
+
+#: src/Options/Forms.php:974
+msgid "E-mail address is invalid."
+msgstr ""
+
+#: src/Options/Forms.php:978
+msgid "Incorrect URL"
+msgstr ""
+
+#: src/Options/Forms.php:982
+msgid "URL is incorrect."
+msgstr ""
+
+#: src/Options/Forms.php:986
+msgid "Incorrect number"
+msgstr ""
+
+#: src/Options/Forms.php:990
+msgid "This value must be number."
+msgstr ""
+
+#: src/Options/Forms.php:994
+msgid "Too small number value"
+msgstr ""
+
+#: src/Options/Forms.php:999
+#, php-format
+msgid "This field value must be %s or more."
+msgstr ""
+
+#: src/Options/Forms.php:1003
+msgid "Too large number value"
+msgstr ""
+
+#: src/Options/Forms.php:1008
+#, php-format
+msgid "This field value must be %s or less."
+msgstr ""
+
+#: src/Options/Forms.php:1012
+msgid "Invalid step in number"
+msgstr ""
+
+#: src/Options/Forms.php:1017
+#, php-format
+msgid "Step value is %s from minimum value."
+msgstr ""
+
+#: src/Options/Forms.php:1021
+msgid "Invalid date format"
+msgstr ""
+
+#: src/Options/Forms.php:1026
+#, php-format
+msgid "Date must be in format %s."
+msgstr ""
+
+#: src/Options/Forms.php:1030
+msgid "Too early date in range"
+msgstr ""
+
+#: src/Options/Forms.php:1034
+msgid "Date can not be earlier than other date in range."
+msgstr ""
+
+#: src/Options/Forms.php:1038
+msgid "Too late date in range"
+msgstr ""
+
+#: src/Options/Forms.php:1042
+msgid "Date can not be later than other date in range."
+msgstr ""
+
+#: src/Options/Forms.php:1046
+msgid "Invalid file extension"
+msgstr ""
+
+#: src/Options/Forms.php:1050
+msgid "Extension of file is invalid."
+msgstr ""
+
+#: src/Options/Forms.php:1054
+msgid "Too large file size"
+msgstr ""
+
+#: src/Options/Forms.php:1059
+#, php-format
+msgid "Size of file is larger than allowed %sKB."
+msgstr ""
+
+#: src/Options/Forms.php:1063
+msgid "Regex error"
+msgstr ""
+
+#: src/Options/Forms.php:1067
+msgid "Field value is invalid."
+msgstr ""
+
+#: src/Options/Integration.php:24 src/Options/Phpmailer.php:21
+#: src/Options/Phpmailer.php:31 src/Options/Share.php:29
+#: src/Options/Share.php:245 src/Options/Sitemap.php:24
+msgid "Settings"
+msgstr ""
+
+#: src/Options/Integration.php:28 src/Options/Phpmailer.php:25
+#: src/Options/Share.php:33 src/Options/Sitemap.php:28
+msgid "Module active?"
+msgstr ""
+
+#: src/Options/Integration.php:34
+msgid "Analytics"
+msgstr ""
+
+#: src/Options/Integration.php:49
+msgid "Google Analytics UA code"
+msgstr ""
+
+#: src/Options/Integration.php:52
+msgid "(optionally; allowed value format: UA-000000-0)"
+msgstr ""
+
+#: src/Options/Integration.php:65
+msgid "Google Tag Manager GTM code"
+msgstr ""
+
+#: src/Options/Integration.php:68
+msgid "(optionally; allowed value format: GTM-XXXXXX)"
+msgstr ""
+
+#: src/Options/Integration.php:81
+msgid "Facebook Pixel ID"
+msgstr ""
+
+#: src/Options/Integration.php:84
+msgid "(optionally; allowed value format: 000000000000000)"
+msgstr ""
+
+#: src/Options/Integration.php:97
+msgid "Hotjar"
+msgstr ""
+
+#: src/Options/Integration.php:105
+msgid "Hotjar ID"
+msgstr ""
+
+#: src/Options/Integration.php:111
+msgid "Hotjar Snippet Version"
+msgstr ""
+
+#: src/Options/Integration.php:129
+msgid "Chat"
+msgstr ""
+
+#: src/Options/Integration.php:144
+msgid "LiveChat license number"
+msgstr ""
+
+#: src/Options/Integration.php:147
+msgid "(optionally; allowed value format: 00000000)"
+msgstr ""
+
+#: src/Options/Integration.php:160
+msgid "Facebook Customer Chat"
+msgstr ""
+
+#: src/Options/Integration.php:168
+msgid "Facebook Page ID"
+msgstr ""
+
+#: src/Options/Integration.php:171
+msgid ""
+"(allowed value format: 000000000000000; remember to add domain to white "
+"list in Facebook Page settings)"
+msgstr ""
+
+#: src/Options/Integration.php:175
+msgid "Theme color"
+msgstr ""
+
+#: src/Options/Integration.php:182
+msgid "Greeting messages"
+msgstr ""
+
+#: src/Options/Integration.php:190
+msgid "Logged in users"
+msgstr ""
+
+#: src/Options/Integration.php:196
+msgid "Logged out users"
+msgstr ""
+
+#: src/Options/Integration.php:204
+msgid "Hide by default?"
+msgstr ""
+
+#: src/Options/Page.php:25
+msgid "WP Framework"
+msgstr ""
+
+#: src/Options/Page.php:29
+msgid "Social media share"
+msgstr ""
+
+#: src/Options/Page.php:30
+msgid "Integrations"
+msgstr ""
+
+#: src/Options/Page.php:31
+msgid "Sitemap"
+msgstr ""
+
+#: src/Options/Page.php:32
+msgid "PHPMailer"
+msgstr ""
+
+#: src/Options/Phpmailer.php:38
+msgid "Host"
+msgstr ""
+
+#: src/Options/Phpmailer.php:45
+msgid "Username"
+msgstr ""
+
+#: src/Options/Phpmailer.php:52
+msgid "Password"
+msgstr ""
+
+#: src/Options/Phpmailer.php:59
+msgid "Secure"
+msgstr ""
+
+#: src/Options/Phpmailer.php:63
+msgid "SSL"
+msgstr ""
+
+#: src/Options/Phpmailer.php:64
+msgid "TLS"
+msgstr ""
+
+#: src/Options/Phpmailer.php:70
+msgid "Port"
+msgstr ""
+
+#: src/Options/Phpmailer.php:79
+msgid "Debug level"
+msgstr ""
+
+#: src/Options/Phpmailer.php:83
+msgid "DEBUG_OFF"
+msgstr ""
+
+#: src/Options/Phpmailer.php:84
+msgid "DEBUG_CLIENT"
+msgstr ""
+
+#: src/Options/Phpmailer.php:85
+msgid "DEBUG_SERVER"
+msgstr ""
+
+#: src/Options/Phpmailer.php:86
+msgid "DEBUG_CONNECTION"
+msgstr ""
+
+#: src/Options/Phpmailer.php:87
+msgid "DEBUG_LOWLEVEL"
+msgstr ""
+
+#: src/Options/Share.php:36
+msgid "(enable support for Open Graph meta tags)"
+msgstr ""
+
+#: src/Options/Share.php:40
+msgid "Default"
+msgstr ""
+
+#: src/Options/Share.php:55
+msgid "Default settings"
+msgstr ""
+
+#: src/Options/Share.php:62 src/Options/Share.php:126
+#: src/Options/Share.php:190 src/Options/Share.php:266
+msgid "Image"
+msgstr ""
+
+#: src/Options/Share.php:65 src/Options/Share.php:129
+#: src/Options/Share.php:193 src/Options/Share.php:269
+msgid ""
+"(unique image representing content of page; recommended image size is 1200 "
+"x 630px)"
+msgstr ""
+
+#: src/Options/Share.php:80
+msgid "Post types"
+msgstr ""
+
+#: src/Options/Share.php:95 src/Options/Share.php:159
+msgid "Archives"
+msgstr ""
+
+#: src/Options/Share.php:98
+msgid "(custom settings for archive pages of selected post types)"
+msgstr ""
+
+#: src/Options/Share.php:101
+msgid "Add post type"
+msgstr ""
+
+#: src/Options/Share.php:105
+msgid "Post type"
+msgstr ""
+
+#: src/Options/Share.php:111 src/Options/Share.php:175
+#: src/Options/Share.php:251
+msgid "Title"
+msgstr ""
+
+#: src/Options/Share.php:114 src/Options/Share.php:178
+#: src/Options/Share.php:254
+msgid "(optionally; by default this is title of page)"
+msgstr ""
+
+#: src/Options/Share.php:118 src/Options/Share.php:182
+#: src/Options/Share.php:258
+msgid "Description"
+msgstr ""
+
+#: src/Options/Share.php:121 src/Options/Share.php:185
+#: src/Options/Share.php:261
+msgid "(description that concisely summarizes content)"
+msgstr ""
+
+#: src/Options/Share.php:144
+msgid "Taxonomies"
+msgstr ""
+
+#: src/Options/Share.php:162
+msgid "(custom settings for archive pages of selected taxonomies)"
+msgstr ""
+
+#: src/Options/Share.php:165
+msgid "Add taxonomy"
+msgstr ""
+
+#: src/Options/Share.php:169
+msgid "Taxonomy"
+msgstr ""
+
+#: src/Options/Share.php:241
+msgid "Share in social media"
+msgstr ""
+
+#: src/Options/Sitemap.php:34
+msgid "Sitemap path"
+msgstr ""
+
+#: src/Options/Sitemap.php:52
+msgid "Posttypes in sitemap"
+msgstr ""
+
+#: src/Options/Sitemap.php:67
+msgid "Taxonomies in sitemap"
+msgstr ""
+
+#: src/Settings/Phpmailer.php:73
+msgid "Enter your e-mail"
+msgstr ""
+
+#: src/Settings/Phpmailer.php:77
+msgid "Test your settings"
+msgstr ""
+
+#: src/Settings/Phpmailer.php:96 src/Settings/Phpmailer.php:98
+msgid "Test e-mail"
+msgstr ""
+
+#: src/Settings/Phpmailer.php:97
+msgid "This is a test message."
+msgstr ""
+
+#: src/Settings/Security.php:480 src/Settings/Security.php:536
+msgid "This page is locked."
+msgstr ""
+
+#: src/Settings/Security.php:549
+#, php-format
+msgid "%sERROR%s: An error occured. Try again."
+msgstr ""
+
+#: src/Tools/Categories.php:31
+#, php-format
+msgid ""
+"Validation failed. The minimum number of selected categories in section %s "
+"is %d"
+msgstr ""
+
+#: src/Tools/Categories.php:32
+#, php-format
+msgid ""
+"Validation failed. The maximum number of selected categories in section %s "
+"is %d"
+msgstr ""
+
+#: src/Tools/Cleaner.php:91
+msgid "Site management"
+msgstr ""
+
+#: src/Tools/Cleaner.php:122
+#, php-format
+msgid "Clear autodrafts (%d)"
+msgstr ""
+
+#: src/Tools/Cleaner.php:127
+#, php-format
+msgid "Clear post revisions (%d)"
+msgstr ""
+
+#: src/Tools/Stats.php:113
+msgid "Visit statistics"
+msgstr ""
+
+#: src/Tools/Stats.php:136
+msgid "Daily"
+msgstr ""
+
+#: src/Tools/Stats.php:137
+msgid "Monthly"
+msgstr ""
+
+#: src/Tools/Stats.php:138
+msgid "Yearly"
+msgstr ""
+
+#: src/Tools/Stats.php:158
+msgid "Users"
+msgstr ""
+
+#: src/Tools/Stats.php:159
+msgid "Views"
+msgstr ""
+
+#: src/Translate/Js.php:35
+msgid "Expand"
+msgstr ""
+
+#: src/Translate/Js.php:36
+msgid ""
+"Are you sure you want to change language of this page? If you want to only "
+"edit translation of current page for another language, go to post archive "
+"and choose variant in different language there."
+msgstr ""
+
+#: src/Translate/Optionspages.php:75
+msgid ""
+"Remember that settings saved on this page apply only to currently selected "
+"language. Change it using switch on top bar to configure settings for other "
+"languages."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "WordPress Framework"
+msgstr ""

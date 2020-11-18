@@ -1,0 +1,27 @@
+{
+  "name": "wordpress-starter-theme",
+  "description": "WordPress Starter Theme",
+  "authors": [
+    {
+      "name": "Mateusz Gbiorczyk",
+      "email": "mateusz.gbiorczyk@crafton.pl",
+      "homepage": "https://crafton.pl/",
+      "role": "Web Developer"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@gitlab.com:gbiorczyk/wordpress-framework.git"
+    }
+  ],
+  "require": {
+    "gbiorczyk/wordpress-framework": "1.2.*"
+  },
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "SiteManagement\\": "functions/api"
+    }
+  }
+}

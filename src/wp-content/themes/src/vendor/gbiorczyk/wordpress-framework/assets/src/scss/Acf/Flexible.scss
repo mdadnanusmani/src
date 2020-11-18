@@ -1,0 +1,14 @@
+.acf-table tr.acf-field > td.acf-label,
+#acf-field-group-fields .li-field-order,
+.acf-fields.-left > .acf-field > .acf-label,
+.acf-fields.-left > .acf-field:before {
+  width: 15% !important;
+}
+
+.acf-fields.-left > .acf-field > .acf-input {
+  width: 85% !important;
+}
+
+.acf-flexible-hidden {
+  display: none;
+}

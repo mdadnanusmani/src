@@ -1,0 +1,152 @@
+.iconsPath {
+
+  &__inner {
+    padding: 50px 0;
+  }
+
+  &__item {
+
+    @include rwd('large-tablet') {
+      margin-top: 50px;
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:before,
+    &:after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+  }
+
+  &__itemIconWrapper {
+    float: left;
+    width: 25%;
+    padding: 0 60px;
+    text-align: center;
+
+    @include rtl() {
+      float: right;
+    }
+
+    @include rwd('laptop') {
+      text-align: right;
+
+      @include rtl() {
+        text-align: left;
+      }
+    }
+
+    @include rwd('large-tablet') {
+      width: 33.33333%;
+      padding: 0 30px;
+      text-align: center;
+
+      @include rtl() {
+        text-align: center;
+      }
+    }
+
+    @include rwd('tablet') {
+      width: 100%;
+      text-align: left;
+
+      @include rtl() {
+        text-align: right;
+      }
+    }
+  }
+
+  &__itemContentWrapper {
+    float: left;
+    width: 75%;
+    min-height: 336px;
+    font-size: 0;
+
+    @include parent('.iconsPath__item', ':last-child') {
+      min-height: initial;
+    }
+
+    @include rwd('large-tablet') {
+      width: 66.66666%;
+      min-height: inherit;
+    }
+
+    @include rwd('tablet') {
+      width: 100%;
+    }
+  }
+
+  &__itemIcon {
+    position: relative;
+    display: inline-block;
+    margin: 10px 0;
+
+    @include rwd('tablet') {
+      margin: 20px 0;
+    }
+    
+    &:before {
+      font-size: 92px;
+      line-height: 1;
+      color: $c-blue-01;
+    }
+
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: calc(100% - 20px);
+      right: calc(100% + 60px);
+      width: 58px;
+      height: 284px;
+      background-image: url(../img/icons-path.png);
+
+      @include rtl() {
+        right: auto;
+        left: calc(100% + 60px);
+        background-image: url(../img/icons-path-arabic.png);
+      }
+
+      @include rwd('laptop') {
+        right: calc(100% + 40px);
+
+        @include rtl() {
+          right: auto;
+          left: calc(100% + 40px);
+        }
+      }
+
+      @include rwd('large-tablet') {
+        display: none;
+      }
+
+      @include parent('.iconsPath__item', ':last-child') {
+        display: none;
+      }
+    }
+
+    svg {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  &__itemContent {
+
+    @include rwd('tablet') {
+      margin-top: 20px;
+    }
+  }
+
+  &__itemButton {
+    margin: 20px 0;
+  }
+}

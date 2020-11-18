@@ -1,0 +1,17 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-first;
+  font-weight: 400;
+  color: $c-black;
+
+  @include rtl() {
+    font-family: $font-second;
+  }
+
+  &.single-intranet {
+    padding-top: 60px;
+  }
+}

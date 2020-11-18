@@ -1,0 +1,173 @@
+.wysiwyg {
+  padding: 10px 0;
+
+  &--white {
+    color: $c-white;
+  }
+
+  h1, h2, h3 {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 1.24;
+    color: $c-blue-01;
+
+    @include parent('.wysiwyg', '.wysiwyg--large') {
+      font-size: 50px;
+      line-height: 1.1;
+    }
+
+    @include parent('.wysiwyg', '.wysiwyg--black') {
+      color: initial;
+    }
+
+    @include parent('.wysiwyg', '.wysiwyg--white') {
+      color: $c-white;
+    }
+  }
+
+  h4, h5, h6 {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 1.333;
+  }
+
+  p,
+  ul li,
+  ol li {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.4;
+  }
+
+  /* ---
+    Margins
+  --- */
+
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 20px;
+
+      &:first-child {
+        margin-top: 0;
+      }
+
+      @include parent('.wysiwyg', '.wysiwyg--large') {
+        margin-top: 30px;
+
+        &:first-child {
+          margin-top: 0;
+        }
+      }
+
+      & + p,
+      & + ul,
+      & + ol {
+        margin-top: 20px;
+
+        @include parent('.wysiwyg', '.wysiwyg--large') {
+          margin-top: 30px;
+        }
+      }
+    }
+
+    p,
+    ul,
+    ol {
+      padding: 5px 0;
+      margin-top: 10px;
+
+      &:first-child {
+        margin-top: 0;
+      }
+
+      & + h1,
+      & + h2,
+      & + h3,
+      & + h4,
+      & + h5,
+      & + h6 {
+        margin-top: 20px;
+
+        @include parent('.wysiwyg', '.wysiwyg--large') {
+          margin-top: 30px;
+        }
+      }
+    }
+
+    ul li,
+    ol li {
+      margin-top: 20px;
+
+      &:first-child {
+        margin-top: 0;
+      }
+
+      @include parent('.wysiwyg', '.wysiwyg--large') {
+        margin-top: 30px;
+
+        &:first-child {
+          margin-top: 0;
+        }
+      }
+    }
+
+    ul {
+
+      li {
+        position: relative;
+        padding-left: 27px;
+
+        @include rtl() {
+          padding-left: 0;
+          padding-right: 27px;
+        }
+
+        &:before {
+          content: '';
+          position: absolute;
+          top: 5px;
+          left: 0;
+          width: 11px;
+          height: 11px;
+          background-color: $c-blue-01;
+
+          @include parent('.wysiwyg', '.wysiwyg--white') {
+            background-color: $c-white;
+          }
+
+          @include rtl() {
+            left: auto;
+            right: 0;
+          }
+        }
+      }
+    }
+
+    ol {
+      counter-reset: current;
+      list-style-type: none;
+
+      li {
+        position: relative;
+        padding-left: 40px;
+
+        @include rtl() {
+          padding-left: 0;
+          padding-right: 40px;
+        }
+
+        &:before {
+          position: absolute;
+          top: 0;
+          left: 0;
+          counter-increment: current;
+          content: counter(current) ')';
+
+          @include rtl() {
+            content: counter(current, arabic-indic) ')';
+            left: auto;
+            right: 0;
+          }
+        }
+      }
+    }
+}

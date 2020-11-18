@@ -1,0 +1,103 @@
+.textCircle {
+
+  &__inner {
+    padding: 30px 0 0 0;
+  }
+
+  &__items {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -20px (-$colGridMargin / 2);
+
+    @include rwd('large-tablet') {
+      display: block;
+      margin-top: 0;
+      margin-bottom: 44px;
+      padding-top: 6px;
+    }
+  }
+
+  &__item {
+    width: 33.33333%;
+    padding: 64px ($colGridMargin / 2);
+    text-align: center;
+
+    @include rwd('large-tablet') {
+      width: 100%;
+      padding-top: 0;
+      padding-bottom: 0;
+      margin-top: 28px;
+      text-align: left;
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+
+    &:nth-child(3n+4) {
+      clear: both;
+    }
+
+    &--blank {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 0;
+      padding-bottom: 0;
+
+      @include rwd('large-tablet') {
+        display: none;
+      }
+    }
+
+    &--topLeft {
+      justify-content: flex-end;
+      align-items: flex-end;
+      margin-bottom: -40px;
+    }
+
+    &--topRight {
+      justify-content: flex-start;
+      align-items: flex-end;
+      margin-bottom: -40px;
+    }
+
+    &--bottomLeft {
+      justify-content: flex-end;
+      align-items: flex-start;
+      margin-top: -30px;
+    }
+
+    &--bottomRight {
+      justify-content: flex-start;
+      align-items: flex-start;
+      margin-top: -30px;
+    }
+  }
+
+  &__itemArrows {
+
+    @include rtl() {
+      transform: scaleX(-1);
+    }
+  }
+
+  &__itemLogo {
+    width: 234px;
+    height: auto;
+  }
+
+  &__itemTitle {
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 1.17;
+    color: $c-blue-01;
+  }
+
+  &__itemDesc {
+    margin-top: 8px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.47;
+  }
+}

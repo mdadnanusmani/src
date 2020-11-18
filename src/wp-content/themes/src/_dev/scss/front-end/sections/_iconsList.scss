@@ -1,0 +1,114 @@
+.iconsList {
+
+  &__headline {
+    margin: 50px 0 30px 0;
+    color: $c-black;
+  }
+
+  &__inner {
+    padding-bottom: 40px;
+  }
+
+  &__item {
+    padding-top: 50px;
+    font-size: 0;
+
+    @include rwd('tablet') {
+      text-align: center;
+    }
+  }
+
+  &__itemLink {
+    position: relative;
+    width: 100%;
+    padding-bottom: 50px;
+  }
+
+  &__itemIcon {
+    position: relative;
+    display: inline-block;
+
+    &:before {
+      font-size: 92px;
+      line-height: 1;
+
+      @include parent('.iconsList__item', '.iconsList__item--blue') {
+        color: $c-blue-01;
+      }
+
+      @include parent('.iconsList__item', '.iconsList__item--violet') {
+        color: $c-blue-02;
+      }
+
+      @include parent('.iconsList__item', '.iconsList__item--navy') {
+        color: $c-blue-03;
+      }
+    }
+
+    svg {
+
+      @include parent('.iconsList__itemLink', ':hover') {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+  }
+
+  &__itemTitle {
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 1.333;
+
+    @include parent('.iconsList__item', '.iconsList__item--blue') {
+      color: $c-blue-01;
+    }
+
+    @include parent('.iconsList__item', '.iconsList__item--violet') {
+      color: $c-blue-02;
+    }
+
+    @include parent('.iconsList__item', '.iconsList__item--navy') {
+      color: $c-blue-03;
+    }
+
+    &:last-child {
+      color: inherit !important;
+    }
+  }
+
+  &__itemDesc {
+    margin-top: 20px;
+    padding: 5px 0;
+    max-width: 240px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.4;
+
+    @include rwd('large-tablet') {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  &__itemButton {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+
+    @include rwd('tablet') {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    @include rtl() {
+      left: auto;
+      right: 0;
+
+      @include rwd('tablet') {
+        right: 50%;
+        transform: translateX(50%);
+      }
+    }
+  }
+}

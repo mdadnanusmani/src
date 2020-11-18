@@ -1,0 +1,68 @@
+*[data-hover] {
+  position: relative;
+
+  svg {
+    position: absolute;
+    top: calc(50% - 97px);
+    left: calc(50% - 84px);
+    width: 168px;
+    height: 174px;
+    opacity: 0;
+    transform: scale(0.7);
+    transition: opacity .3s, transform .7s;
+
+    g {
+      opacity: 0;
+      animation: hoverAnimate 1.2s linear infinite;
+
+      &:nth-child(even) {
+        animation-name: hoverAnimateReverse;
+      }
+
+      @for $i from 1 to 15 {
+        
+        &:nth-child(#{$i}) {
+          animation-delay: #{(1.2 / 14 * $i)}s;
+        }
+      }
+    }
+  }
+
+  &:hover {
+
+    svg {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+}
+
+*[data-hover=blue] {
+
+  svg {
+
+    path {
+      fill: $c-blue-01 !important;
+    }
+  }
+}
+
+*[data-hover=violet] {
+
+  svg {
+
+    path {
+      fill: $c-blue-02 !important;
+    }
+  }
+}
+
+*[data-hover=navy] {
+
+  svg {
+
+    path {
+      fill: $c-blue-03 !important;
+    }
+  }
+}

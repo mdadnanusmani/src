@@ -1,0 +1,2 @@
+let isSafari   = /^((?!chrome|android).)*safari/i.test(navigator.userAgent.toLowerCase())
+let bodyScroll = isSafari ? (document.body || document.documentElement) : (document.documentElement || document.body)

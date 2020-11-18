@@ -1,0 +1,79 @@
+/*
+
+  Sample file name:
+
+    • OpenSans-Bold.ttf
+    • [prefix][delimiter][font_weight].ttf
+
+
+  Mixin args:
+
+    • path
+    • font family
+    • prefix (prefix in file names)
+    • delimiter (delimiter in file names)
+    • fonts weights: 
+
+      • name (font_weight in file names)
+      • weight
+      • style
+
+
+  Example:
+
+    $font : (
+      (
+        'name'   : 'Regular',
+        'weight' : 400,
+        'style'  : 'normal'
+      ),
+      (
+        'name'   : 'Medium',
+        'weight' : 500,
+        'style'  : 'normal'
+      ),
+      (
+        'name'   : 'Bold',
+        'weight' : 700,
+        'style'  : 'normal'
+      )
+    );
+    
+    @include fontFace('../sources/fonts/font/', 'My Font', 'MyFont', '-', $font);
+
+*/
+
+
+@mixin fontFace($url, $fontFamily, $prefix, $delimiter, $fonts) {
+
+  @if (type-of($fonts) == 'list') {
+
+    @each $font in $fonts {
+
+      @font-face {
+        font-family: $fontFamily;
+        src:
+          url('#{$url}#{$prefix}#{$delimiter}#{inspect(map-get($font, 'name'))}.woff2') format('woff2'),
+          url('#{$url}#{$prefix}#{$delimiter}#{inspect(map-get($font, 'name'))}.woff') format('woff'),
+          url('#{$url}#{$prefix}#{$delimiter}#{inspect(map-get($font, 'name'))}.ttf') format('truetype');
+        font-weight: #{inspect(map-get($font, 'weight'))};
+        font-style: #{inspect(map-get($font, 'style'))};
+      }
+
+    }
+
+  } @else {
+
+    @font-face {
+      font-family: $fontFamily;
+      src:
+        url('#{$url}#{$prefix}#{$delimiter}#{map-get($fonts, 'name')}.woff2') format('woff2'),
+        url('#{$url}#{$prefix}#{$delimiter}#{map-get($fonts, 'name')}.woff') format('woff'),
+        url('#{$url}#{$prefix}#{$delimiter}#{map-get($fonts, 'name')}.ttf') format('truetype');
+      font-weight: #{map-get($fonts, 'weight')};
+      font-style: #{map-get($fonts, 'style')};
+    }
+
+  }
+
+}

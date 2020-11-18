@@ -1,0 +1,205 @@
+.acf-table tr.acf-field > td.acf-label,
+#acf-field-group-fields .li-field-order,
+.acf-fields.-left > .acf-field > .acf-label,
+.acf-fields.-left > .acf-field:before {
+  width: 15% !important;
+}
+
+.acf-fields.-left > .acf-field > .acf-input {
+  width: 85% !important;
+}
+
+.acf-flexible-hidden {
+  display: none;
+}
+
+.select2-container .select2-selection {
+  border-radius: 4px !important;
+}
+
+.select2-container .select2-dropdown {
+  border: 1px solid #aaa !important;
+  border-radius: 4px !important;
+}
+
+.select2-container .select2-dropdown--above {
+  margin-top: -10px;
+}
+
+.select2-container .select2-dropdown--below {
+  margin-top: 10px;
+}
+
+.select2-container--icons .select2-dropdown {
+  min-width: 500px;
+}
+
+.select2-container--icons .select2-search {
+  display: none;
+}
+
+.select2-results__options--icons {
+  max-height: 304px !important;
+}
+
+.select2-results__options--icons .select2-results__option {
+  float: left;
+  width: 20%;
+  box-sizing: border-box;
+  padding: 15px !important;
+  font-size: 12px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-bottom: 0;
+}
+
+.select2-results__options--icons .select2-results__option:before {
+  display: block;
+  min-width: 30px;
+  margin: 0 auto;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#submitdiv.sticky {
+  position: fixed;
+  top: 52px;
+  width: 280px;
+  z-index: 1000;
+}
+
+@media (max-width: 850px) {
+  #submitdiv.sticky {
+    position: relative;
+    top: auto;
+  }
+}
+
+#wpf_widget_cache {
+  overflow: hidden;
+}
+
+#wpf_widget_cache p {
+  text-align: center;
+}
+
+#wpf_widget_cache a.button {
+  min-width: 250px;
+  text-align: center;
+}
+
+body.post-type-wpf-contact-forms .acf-field[data-name^="messages"] .acf-required {
+  float: left;
+  margin-right: 10px;
+}
+
+body.post-type-wpf-contact-forms .acf-field[data-type="message"] .acf-input strong {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 15px;
+  color: #ffffff;
+  background-color: #0073aa;
+}
+
+body.post-type-wpf-contact-forms .acf-field[data-type="message"] .acf-input strong::selection {
+  color: #444;
+  background-color: #ffffff;
+}
+
+body.post-type-wpf-contact-forms .acf-field[data-name="validate_file_extensions"] ul {
+  overflow: hidden;
+}
+
+body.post-type-wpf-contact-forms .acf-field[data-name="validate_file_extensions"] ul li {
+  float: left;
+  width: 12.5%;
+  min-width: 100px;
+}
+
+body.post-type-wpf-contact-forms .acf-field[data-name="validate_file_extensions"] ul li:first-child {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+body.post-type-wpf-contact-forms .acf-field[data-name="template"] textarea {
+  height: 550px;
+}
+
+body.post-type-wpf-contact-forms .acf-field[data-name="message"] textarea {
+  height: 220px;
+}
+
+.acf-field[data-name="wpf_seo_share"] {
+  padding: 0 !important;
+}
+
+.acf-field[data-name="wpf_seo_share"] > .acf-label {
+  display: none;
+}
+
+.acf-field[data-name="wpf_seo_share"] > .acf-input > .acf-fields {
+  border: 0;
+}
+
+#wpf_widget_cleaner {
+  overflow: hidden;
+}
+
+#wpf_widget_cleaner p {
+  text-align: center;
+}
+
+#wpf_widget_cleaner a.button {
+  min-width: 250px;
+  text-align: center;
+}
+
+.wpfStatsBox__buttons {
+  font-size: 0;
+  margin: -15px;
+}
+
+.wpfStatsBox__buttons .button {
+  margin: 15px;
+}
+
+.wpfStatsBox__tables {
+  margin-top: 30px;
+}
+
+.wpfStatsBox__table {
+  display: none;
+}
+
+.wpfStatsBox__table--active {
+  display: block;
+}
+
+.wpfStatsBox__header {
+  background-color: rgba(0, 0, 0, 0.05);
+  font-weight: bold;
+}
+
+.wpfStatsBox__row {
+  overflow: hidden;
+}
+
+.wpfStatsBox__cell {
+  float: left;
+  width: 33.33333%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.wpfStatsBox__cell:nth-child(n+2) {
+  border-left: 0;
+}
+
+.wpfStatsBox__list .wpfStatsBox__cell {
+  border-top: 0;
+}

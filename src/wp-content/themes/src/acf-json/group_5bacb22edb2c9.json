@@ -1,0 +1,150 @@
+{
+    "key": "group_5bacb22edb2c9",
+    "title": "Intranet categories",
+    "location": [
+        [
+            {
+                "param": "taxonomy",
+                "operator": "==",
+                "value": "intranet-category"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "fields": [
+        {
+            "key": "field_5bacb73d4a11c",
+            "label": "Priority",
+            "name": "priority",
+            "type": "number",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": 1,
+            "max": "",
+            "step": 1
+        },
+        {
+            "key": "field_5bacb22ee0a15",
+            "label": "Icon",
+            "name": "icon",
+            "type": "select",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "academy": "academy",
+                "calendar": "calendar",
+                "chart": "chart",
+                "cv": "cv",
+                "email": "email",
+                "eye-close": "eye-close",
+                "eye-open": "eye-open",
+                "file": "file",
+                "heart": "heart",
+                "home": "home",
+                "interview": "interview",
+                "letter": "letter",
+                "lifebuoy": "lifebuoy",
+                "linkedin": "linkedin",
+                "location": "location",
+                "logout": "logout",
+                "microphone": "microphone",
+                "money": "money",
+                "mouse": "mouse",
+                "palm": "palm",
+                "pdf": "pdf",
+                "phone": "phone",
+                "play": "play",
+                "rocket": "rocket",
+                "search": "search",
+                "share": "share",
+                "squares": "squares",
+                "star": "star",
+                "star-fill": "star-fill",
+                "stats": "stats",
+                "target": "target",
+                "team": "team",
+                "trash": "trash",
+                "twitter": "twitter",
+                "umbrella": "umbrella",
+                "vision": "vision",
+                "wallet": "wallet"
+            },
+            "default_value": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 1,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5bacb23b0805e",
+            "label": "Content type",
+            "name": "content_type",
+            "type": "select",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "page": "News \/ Form",
+                "link": "Link",
+                "file": "File"
+            },
+            "default_value": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5bacba427e72b",
+            "label": "Show date",
+            "name": "show_date",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        }
+    ],
+    "modified": 1541628649
+}

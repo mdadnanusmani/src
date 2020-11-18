@@ -1,0 +1,17 @@
+/* ---
+  Textarea field
+--- */
+
+  .acf-field[data-name=answer] textarea {
+    height: 132px;
+  }
+
+/* ---
+  Flexible content
+--- */
+
+  .acf-field[data-name=section_bg],
+  .acf-field[data-name=section_in_nav],
+  .acf-field[data-name=section_name] {
+    background-color: rgba(0, 0, 0, 0.025);
+  }

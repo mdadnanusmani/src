@@ -1,0 +1,17 @@
+.iconText {
+
+  &__inner {
+    padding: 50px 0;
+  }
+
+  &__wrapper {
+    margin-bottom: -20px;
+    text-align: center;
+  }
+
+  &__icon {
+    font-size: 60px;
+    line-height: 1;
+    color: $c-blue-01;
+  }
+}

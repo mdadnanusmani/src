@@ -1,0 +1,51 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "bffeed71e0e7ed5c853f68657c84038e",
+    "packages": [
+        {
+            "name": "gbiorczyk/wordpress-framework",
+            "version": "1.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/gbiorczyk/wordpress-framework.git",
+                "reference": "a3802cd5ee84aa201e3ba9afce66c2d131158fd0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/gbiorczyk%2Fwordpress-framework/repository/archive.zip?sha=a3802cd5ee84aa201e3ba9afce66c2d131158fd0",
+                "reference": "a3802cd5ee84aa201e3ba9afce66c2d131158fd0",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Framework\\": "src"
+                }
+            },
+            "license": [
+                "All rights reserved"
+            ],
+            "authors": [
+                {
+                    "name": "Mateusz Gbiorczyk",
+                    "email": "mateusz@gbiorczyk.pl",
+                    "homepage": "https://gbiorczyk.pl/"
+                }
+            ],
+            "description": "WordPress Framework",
+            "time": "2019-01-02T19:41:17+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

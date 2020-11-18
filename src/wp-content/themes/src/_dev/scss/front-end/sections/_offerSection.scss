@@ -1,0 +1,181 @@
+.offerSection {
+
+  &__inner {
+    padding: 50px 0;
+  }
+
+  &__content {
+    padding: 10px 0 15px 0;
+  }
+
+  /* ---
+    Header
+  --- */
+
+    &__title {
+      font-weight: 300;
+      font-size: 50px;
+      line-height: 1.1;
+      color: $c-blue-01;
+    }
+
+    &__position {
+      margin-top: 13px;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 1.17;
+      color: $c-gray-02;
+    }
+
+    &__text {
+      margin-top: 35px;
+    }
+
+  /* ---
+    Benefits
+  --- */
+
+    &__benefits {
+      margin-top: 30px;
+    }
+
+    &__benefitsTitle {
+      font-weight: 300;
+      font-size: 30px;
+      line-height: 1.24;
+      color: $c-blue-01;
+    }
+
+    &__benefitsItems {
+      margin: 0 -30px;
+
+      &:before,
+      &:after {
+        content: '';
+        display: block;
+        clear: both;
+      }
+    }
+
+    &__benefitsItem {
+      position: relative;
+      float: left;
+      width: 50%;
+      margin-top: 30px;
+      padding: 0 30px 0 110px;
+
+      @include rtl() {
+        padding: 0 110px 0 30px;
+      }
+
+      @include rwd('tablet') {
+        width: 100%;
+      }
+
+      &:before {
+        position: absolute;
+        top: 0;
+        left: 30px;
+        font-size: 50px;
+        line-height: 1;
+        color: $c-blue-01;
+
+        @include rtl() {
+          left: auto;
+          right: 30px;
+        }
+      }
+    }
+
+    &__benefitsItemTitle {
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 1.4;
+    }
+
+    &__benefitsItemDesc {
+      margin-top: 20px;
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 1.4;
+    }
+
+  /* ---
+    Box
+  --- */
+
+    &__box {
+      background-color: rgba($c-gray-01, .2);
+
+      @include rwd('large-tablet') {
+        position: static !important;
+        top: auto !important;
+        left: auto !important;
+        width: auto !important;
+        transform: none !important;
+        margin: 55px auto 0 auto;
+        max-width: 500px;
+      }
+    }
+
+    &__boxInner {
+      padding: 36px 30px;
+    }
+
+    &__boxTitle {
+      font-weight: 300;
+      font-size: 24px;
+      line-height: 1.125;
+      color: $c-blue-01;
+    }
+
+    &__boxRows {
+      margin-top: 30px;
+    }
+
+    &__boxRow {
+      margin: 20px -10px 0 -10px;
+      overflow: hidden;
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+
+    &__boxRowLabel,
+    &__boxRowValue {
+      float: left;
+      width: 50%;
+      padding: 0 10px;
+      font-size: 13px;
+      line-height: 1.54;
+
+      @include rtl() {
+        float: right;
+      }
+
+      @include rwd('large-phone') {
+        width: 100%;
+      }
+    }
+
+    &__boxRowLabel {
+      font-weight: 300;
+      color: $c-gray-02;
+    }
+
+    &__boxRowValue {
+      font-weight: 500;
+      color: $c-black;
+
+      @include rwd('large-phone') {
+        margin-top: 10px;
+      }
+    }
+
+    &__boxButtonWrapper {
+      margin-top: 30px;
+      font-size: 0;
+      text-align: center;
+    }
+}

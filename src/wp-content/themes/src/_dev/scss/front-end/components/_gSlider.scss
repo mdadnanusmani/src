@@ -1,0 +1,194 @@
+.gSlider {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  user-select: none;
+
+  &--horizontal {
+    padding-top: 56px;
+  }
+
+  &__itemsOuter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: transform .3s;
+
+    @include parent('.gSlider', '.gSlider--horizontal') {
+      top: 56px;
+      height: auto;
+    }
+
+    &--move {
+      transition: none;
+      pointer-events: none;
+    }
+  }
+
+  &__items {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    @include parent('.gSlider', '.gSlider--horizontal') {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+  &__item {
+    float: left;
+    width: 100%;
+    height: 100%;
+
+    @include parent('.gSlider', '.gSlider--horizontal') {
+      display: flex;
+      height: auto;
+      align-items: center;
+      justify-content: center;
+    }
+
+    @include rtl() {
+      float: right;
+    }
+  }
+
+  &__nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    @include rtl() {
+      right: auto;
+      left: 0;
+    }
+
+    @include parent('.gSlider', '.gSlider--vertical') {
+      height: 100%;
+      width: 25px;
+    }
+
+    @include parent('.gSlider', '.gSlider--horizontal') {
+      height: 16px;
+      width: 258px;
+
+      @include rtl() {
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+  &__navPrev,
+  &__navNext {
+    position: absolute;
+    overflow: hidden;
+
+    @include parent('.gSlider', '.gSlider--vertical') {
+      right: 0;
+      width: 25px;
+      height: 112px;
+      transition: height .3s, opacity .3s;
+    }
+
+    @include parent('.gSlider', '.gSlider--horizontal') {
+      top: 0;
+      width: 119px;
+      height: 16px;
+      transition: width .3s, opacity .3s;
+    }
+
+    &:before {
+      position: absolute;
+      display: block;
+      line-height: 1;
+      color: $c-blue-01;
+      transition: color .3s;
+
+      @include parent('.gSlider', '.gSlider--vertical') {
+        font-size: 112px;
+      }
+
+      @include parent('.gSlider', '.gSlider--horizontal') {
+        top: 0;
+        font-size: 16px;
+      }
+    }
+
+    &:hover {
+      opacity: .5;
+    }
+
+    &--disabled {
+      pointer-events: none;
+
+      @include parent('.gSlider', '.gSlider--vertical') {
+        height: 51px;
+      }
+
+      @include parent('.gSlider', '.gSlider--horizontal') {
+        width: 51px;
+      }
+
+      &:before {
+        color: $c-gray-01;
+      }
+    }
+  }
+
+  &__navPrev {
+
+    @include parent('.gSlider', '.gSlider--vertical') {
+      bottom: calc(50% + 10px);
+
+      &:before {
+        top: 0;
+      }
+    }
+
+    @include parent('.gSlider', '.gSlider--horizontal') {
+      right: calc(50% + 10px);
+
+      &:before {
+        left: 0;
+      }
+    }
+
+    &:before {
+      @include icomoon('arrow-long-up');
+
+      @include parent('.gSlider', '.gSlider--horizontal') {
+        @include icomoon('arrow-long-left');
+      }
+    }
+  }
+
+  &__navNext {
+
+    @include parent('.gSlider', '.gSlider--vertical') {
+      top: calc(50% + 10px);
+
+      &:before {
+        bottom: 0;
+      }
+    }
+
+    @include parent('.gSlider', '.gSlider--horizontal') {
+      left: calc(50% + 10px);
+
+      &:before {
+        right: 0;
+      }
+    }
+
+    &:before {
+      @include icomoon('arrow-long-down');
+
+      @include parent('.gSlider', '.gSlider--horizontal') {
+        @include icomoon('arrow-long-right');
+      }
+    }
+  }
+}

@@ -1,0 +1,382 @@
+/* ---
+  Login page
+--- */
+
+  #login {
+    width: 100%;
+    padding: 150px 0 100px 0;
+    background-color: rgba($c-gray-01, .2);
+
+    @include rwd('large-tablet') {
+      padding: 60px 0;
+    }
+
+    h1 {
+      margin-bottom: 100px;
+
+      @include rwd('large-tablet') {
+        margin-bottom: 60px;
+      }
+
+      a {
+        display: block;
+        width: 152px;
+        height: 55px;
+        margin: 0 auto;
+        font-size: 0;
+        line-height: 0;
+        background-image: url(../img/logo.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        transition: opacity .3s;
+
+        &:hover {
+          opacity: .5;
+        }
+      }
+    }
+
+
+  }
+
+/* ---
+  Form & inputs
+--- */
+
+  #login form {
+    width: 560px;
+    max-width: calc(100% - #{$colGridMargin});
+    margin: 0 auto;
+    padding: 80px 100px 90px 110px;
+    font-size: 0;
+    line-height: 0;
+    background-color: $c-white;
+    box-shadow: 0 3px 6px rgba($c-black, 0.08);
+
+    @include rwd('large-tablet') {
+      padding: 60px 40px;
+    }
+
+    p {
+      margin-top: 20px;
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+
+    /* ---
+      Inputs
+    --- */
+
+      label {
+        position: relative;
+        width: 100%;
+        display: block;
+        font-size: 0;
+        line-height: 0;
+      }
+
+      .placeholder {
+        display: block;
+        position: absolute;
+        top: 15px;
+        left: 0;
+        width: 100%;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 1.4;
+        color: $c-black;
+        pointer-events: none;
+        z-index: 10;
+        transition: font-size .3s, line-height .3s, color .3s, transform .3s;
+
+        &--active {
+          font-size: 10px;
+          line-height: 1.7;
+          color: $c-gray-01;
+          transform: translateY(-20px);
+        }
+      }
+
+      input[type=text],
+      input[type=password] {
+        width: 100%;
+        margin: 0;
+        padding: 15px 0;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 1.4;
+        color: $c-black;
+        background-color: $c-white;
+        border: 0;
+        border-bottom: 1px solid $c-gray-02;
+        appearance: none;
+        -webkit-text-fill-color: $c-black;
+        box-shadow: 0 0 0px 1000px $c-white inset;
+      }
+
+      input[type=checkbox] {
+        display: none;
+
+        & + label {
+          position: relative;
+          display: block;
+          margin-top: 25px;
+          padding-left: 26px;
+          font-weight: 300;
+          font-size: 15px;
+          line-height: 1.4;
+          cursor: pointer;
+
+          &:first-child {
+            margin-top: 0;
+          }
+
+          @include rtl() {
+            padding-left: 0;
+            padding-right: 26px;
+          }
+
+          &:before {
+            content: '';
+            position: absolute;
+            top: 2px;
+            left: 0;
+            width: 16px;
+            height: 16px;
+            border: 1px solid $c-gray-02;
+
+            @include rtl() {
+              left: auto;
+              right: 0;
+            }
+          }
+
+          &:after {
+            content: '';
+            position: absolute;
+            top: 5px;
+            left: 3px;
+            width: 10px;
+            height: 10px;
+            background-color: $c-blue-01;
+            transform: scale(0);
+            transition: transform .3s;
+
+            @include rtl() {
+              left: auto;
+              right: 3px;
+            }
+          }
+        }
+
+        &:checked + label {
+
+          &:after {
+            transform: scale(1);
+          }
+        }
+      }
+
+    /* ---
+      Rows
+    --- */
+
+      p {
+
+        &.forgetmenot {
+
+          label {
+            display: inline-block;
+            width: auto;
+          }
+        }
+
+        &.submit {
+
+          &:before,
+          &:after {
+            content: '';
+            display: block;
+            clear: both;
+          }
+
+          input[type=submit] {
+            float: right;
+
+            @include rtl() {
+              float: left;
+            }
+          }
+        }
+
+        @include parent('body', '.login-action-login') {
+
+          &.submit {
+
+            input[type=submit] {
+              margin-top: -51px;
+            }
+          }
+        }
+      }
+
+  }
+
+/* ---
+  Reset password
+--- */
+
+#resetpassform {
+  font-size: 0;
+  line-height: 0;
+
+  p > label {
+    display: inline-block;
+    margin-top: -10px;
+    padding: 5px 0;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.4;
+  }
+
+  .password-input-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+    input[type=password],
+    input[type=text] {
+      flex: 1;
+      padding: 0 20px 0 0;
+
+      @include rtl() {
+        padding: 0 0 0 20px;
+      }
+    }
+
+    input[type=text] {
+      display: none;
+    }
+
+    .button {
+      min-width: initial;
+      padding-left: 10px;
+      padding-right: 10px;
+      border-bottom-left-radius: 0;
+
+      @include rtl() {
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 0;
+      }
+
+      &:before {
+        display: block;
+        @include icomoon('eye-open');
+        font-size: 20px;
+        line-height: 38px;
+      }
+    }
+
+    &.show-password {
+
+      input[type=password] {
+        display: none;
+      }
+
+      input[type=text] {
+        display: inline-block;
+      }
+
+      .button {
+
+        &:before {
+          @include icomoon('eye-close');
+        }
+      }
+    }
+  }
+
+  #pass-strength-result {
+    margin-top: 10px;
+    padding: 5px 20px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.4;
+    color: $c-white;
+
+    &.strong {
+      background-color: green;
+    }
+
+    &.good {
+      background-color: orange;
+    }
+
+    &.bad {
+      background-color: red;
+    }
+
+    &.short {
+      background-color: black;
+    }
+  }
+
+  .description {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 5px 0;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.4;
+  }
+}
+
+/* ---
+  Messages
+--- */
+
+  #login_error,
+  #nav,
+  p.message,
+  #backtoblog {
+    width: 560px;
+    max-width: calc(100% - #{$colGridMargin});
+    margin: 0 auto;
+    padding: 15px 23px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.4;
+
+    a {
+      color: $c-blue-01;
+      transition: opacity .3s;
+
+      &:hover {
+        opacity: .5;
+      }
+    }
+  }
+
+  #login_error,
+  p.message {
+    margin: -20px auto 20px auto;
+    background-color: $c-white;
+    box-shadow: 0 3px 6px rgba($c-black, 0.08);
+    border-left: 4px solid $c-blue-01;
+
+    @include rtl() {
+      border-left: 0;
+      border-right: 4px solid $c-blue-01;
+    }
+  }
+
+  #login_error {
+    border-color: red;
+  }
+
+  #nav {
+    margin-bottom: -20px;
+  }

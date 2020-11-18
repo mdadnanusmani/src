@@ -1,0 +1,84 @@
+{
+    "key": "group_5ba94b553c18c",
+    "title": "News categories",
+    "location": [
+        [
+            {
+                "param": "taxonomy",
+                "operator": "==",
+                "value": "news-category"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "fields": [
+        {
+            "key": "field_5ba94b6826acc",
+            "label": "Icon",
+            "name": "icon",
+            "type": "select",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "academy": "academy",
+                "calendar": "calendar",
+                "chart": "chart",
+                "cv": "cv",
+                "email": "email",
+                "eye-close": "eye-close",
+                "eye-open": "eye-open",
+                "file": "file",
+                "heart": "heart",
+                "home": "home",
+                "interview": "interview",
+                "letter": "letter",
+                "lifebuoy": "lifebuoy",
+                "linkedin": "linkedin",
+                "location": "location",
+                "logout": "logout",
+                "microphone": "microphone",
+                "money": "money",
+                "mouse": "mouse",
+                "palm": "palm",
+                "pdf": "pdf",
+                "phone": "phone",
+                "play": "play",
+                "rocket": "rocket",
+                "search": "search",
+                "share": "share",
+                "squares": "squares",
+                "star": "star",
+                "star-fill": "star-fill",
+                "stats": "stats",
+                "target": "target",
+                "team": "team",
+                "trash": "trash",
+                "twitter": "twitter",
+                "umbrella": "umbrella",
+                "vision": "vision",
+                "wallet": "wallet"
+            },
+            "default_value": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 1,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        }
+    ],
+    "modified": 1541628650
+}

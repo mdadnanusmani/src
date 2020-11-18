@@ -1,0 +1,135 @@
+/* ---
+  Notice
+--- */
+
+  .notice[data-notice=wp-better-permalinks] {
+    padding-left: 20px;
+    padding-bottom: 8px;
+  }
+
+  .notice[data-notice=wp-better-permalinks] p {
+    margin: 1em 0;
+    overflow: hidden;
+  }
+
+  .notice[data-notice=wp-better-permalinks] .button {
+    float: left;
+    margin-right: 14px;
+  }
+
+/* ---
+  Admin page
+--- */
+
+  .wbsOptionPage {
+    margin: 0 20px 20px 0;
+  }
+
+  .wbsOptionPage .wp-heading-inline {
+    margin: 20px 0;
+    padding: 12px 0 15px 0;
+  }
+
+  .wbsOptionPage__columns {
+    overflow: hidden;
+    margin: 0 -10px;
+  }
+
+  .wbsOptionPage__column {
+    float: left;
+    margin: 0 10px;
+  }
+
+  .wbsOptionPage__column:first-child {
+    width: calc(100% - 440px);
+  }
+
+  .wbsOptionPage__column:last-child {
+    width: 400px;
+  }
+
+  .wbsOptionPage__column table + table,
+  .wbsOptionPage__column input[type=submit] {
+    margin-top: 20px;
+  }
+
+  .wbsOptionPage__column table thead th {
+    font-weight: bold;
+  }
+
+  .wbsOptionPage__column table thead th i {
+    font-weight: normal;
+  }
+
+  .wbsOptionPage__column table td {
+    width: 25%;
+  }
+
+  .wbsOptionPage__column table td:nth-child(3) {
+    width: 50%;
+  }
+
+  .wbsOptionPage__column table select {
+    width: 200px;
+    max-width: 100%;
+  }
+
+  .wbsOptionPage__column table td p {
+    margin: 0;
+  }
+
+  .wbsOptionPage__column table td p span {
+    display: inline-block;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+
+  .wbsOptionPage__column table td p span:first-child {
+    margin-left: 0;
+  }
+
+  .wbsOptionPage__column table td ul {
+    margin: 0;
+    padding-left: 30px;
+    list-style-type: circle;
+  }
+
+  .wbsOptionPage__column table td p + p,
+  .wbsOptionPage__column table td ul + p {
+    margin-top: 20px;
+  }
+
+  .wbsOptionPage__column table td p + ul {
+    margin-top: 10px;
+  }
+
+  .wbsOptionPage__button {
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
+  .wbsOptionPage__column table td img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+  }
+
+  @media screen and (max-width: 1366px) {
+
+    .wbsOptionPage__column table td {
+      width: 33.33333% !important;
+    }
+  }
+
+  @media screen and (max-width: 1280px) {
+
+    .wbsOptionPage__column:first-child,
+    .wbsOptionPage__column:last-child {
+      width: calc(100% - 20px);
+    }
+
+    .wbsOptionPage__column:last-child {
+      margin-top: 40px;
+    }
+  }

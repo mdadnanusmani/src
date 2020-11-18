@@ -1,0 +1,182 @@
+{
+    "key": "group_5baa450d58e7e",
+    "title": "People",
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "people"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "fields": [
+        {
+            "key": "field_5baa454340b69",
+            "label": "Image",
+            "name": "image",
+            "type": "image",
+            "instructions": "(recommended image size is 300 x 400px)",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5baa451133330",
+            "label": "Position",
+            "name": "position",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5baa451933331",
+            "label": "Contacts",
+            "name": "contacts",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "row",
+            "button_label": "Add contact",
+            "sub_fields": [
+                {
+                    "key": "field_5baa452d33333",
+                    "label": "Icon",
+                    "name": "icon",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "academy": "academy",
+                        "calendar": "calendar",
+                        "chart": "chart",
+                        "cv": "cv",
+                        "email": "email",
+                        "eye-close": "eye-close",
+                        "eye-open": "eye-open",
+                        "file": "file",
+                        "heart": "heart",
+                        "home": "home",
+                        "interview": "interview",
+                        "letter": "letter",
+                        "lifebuoy": "lifebuoy",
+                        "linkedin": "linkedin",
+                        "location": "location",
+                        "logout": "logout",
+                        "microphone": "microphone",
+                        "money": "money",
+                        "mouse": "mouse",
+                        "palm": "palm",
+                        "pdf": "pdf",
+                        "phone": "phone",
+                        "play": "play",
+                        "rocket": "rocket",
+                        "search": "search",
+                        "share": "share",
+                        "squares": "squares",
+                        "star": "star",
+                        "star-fill": "star-fill",
+                        "stats": "stats",
+                        "target": "target",
+                        "team": "team",
+                        "trash": "trash",
+                        "twitter": "twitter",
+                        "umbrella": "umbrella",
+                        "vision": "vision",
+                        "wallet": "wallet"
+                    },
+                    "default_value": [],
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 1,
+                    "ajax": 0,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5baa452333332",
+                    "label": "Link",
+                    "name": "link",
+                    "type": "link",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array"
+                }
+            ]
+        },
+        {
+            "key": "field_5baa457140b6a",
+            "label": "Content",
+            "name": "content",
+            "type": "wysiwyg",
+            "instructions": "(allowed formats: <strong>Paragraph<\/strong>; allowed text styles: <strong>-<\/strong>)",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 0,
+            "delay": 0
+        }
+    ],
+    "modified": 1541628650
+}

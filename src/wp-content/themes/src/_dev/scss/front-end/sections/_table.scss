@@ -1,0 +1,238 @@
+.table {
+
+  &__inner {
+    padding: 50px 0;
+  }
+
+  &__rows {
+    width: 100%;
+  }
+
+  &__row {
+    display: flex;
+
+    @include rwd('tablet') {
+      display: block;
+    }
+
+    &:first-child {
+
+      @include parent('.table__rows', '.table__rows--topHeader') {
+
+        @include rwd('tablet') {
+          display: none;
+        }
+      }
+    }
+  }
+
+  &__cell {
+    position: relative;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 54px 30px;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 1.24;
+    color: $c-blue-01;
+    text-align: center;
+    border: 1px solid $c-gray-01;
+    border-bottom: 0;
+
+    @include rwd('laptop') {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    @include rwd('large-tablet') {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-size: 15px;
+      line-height: 1.4;
+    }
+
+    @include rwd('tablet', 'up') {
+
+      &:nth-last-child(n+2) {
+        border-right: 0;
+
+        @include rtl() {
+          border-right: 1px solid $c-gray-01;
+          border-left: 0;
+        }
+      }
+    }
+
+    @include rwd('tablet') {
+      padding-left: 30%;
+
+      @include rtl() {
+        padding-left: 20px;
+        padding-right: 30%;
+      }
+
+      &:before {
+        content: attr(data-label);
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 0;
+        left: 0;
+        width: 30%;
+        height: 100%;
+        background-color: $c-white;
+        border-right: 1px solid $c-gray-01;
+        border-radius: 5px 0 0 5px;
+
+        @include rtl() {
+          left: auto;
+          right: 0;
+          border-right: 0;
+          border-left: 1px solid $c-gray-01;
+          border-radius: 0 5px 5px 0;
+        }
+      }
+
+      &:first-child {
+        padding-left: 20px;
+
+        @include rtl() {
+          padding-right: 20px;
+        }
+
+        &:before {
+          display: none;
+        }
+      }
+    }
+
+    @include rwd('large-phone') {
+      padding-left: 50%;
+
+      @include rtl() {
+        padding-left: 0;
+        padding-right: 50%;
+      }
+
+      &:before {
+        width: 50%;
+      }
+
+      &:first-child {
+        padding-left: 20px;
+
+        @include rtl() {
+          padding-right: 20px;
+        }
+      }
+    }
+
+    &:nth-child(1) {
+      flex: initial;
+      padding-left: 40px;
+      padding-right: 40px;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 1.4;
+      color: $c-black;
+      background-color: $c-white;
+    }
+
+    @include parent('.table__row', ':first-child') {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 1.4;
+      color: $c-black;
+      background-color: $c-white;
+
+      @include rwd('tablet') {
+        display: none;
+      }
+
+      &:first-child {
+        visibility: hidden;
+      }
+
+      &:nth-child(2) {
+        border-top-left-radius: 5px;
+
+        @include rtl() {
+          border-top-left-radius: 0;
+          border-top-right-radius: 5px;
+        }
+      }
+
+      &:last-child {
+        border-top-right-radius: 5px;
+
+        @include rtl() {
+          border-top-right-radius: 0;
+          border-top-left-radius: 5px;
+        }
+      }
+    }
+
+    @include parent('.table__row', ':nth-child(2)') {
+
+      &:first-child {
+        border-top-left-radius: 5px;
+
+        @include rtl() {
+          border-top-left-radius: 0;
+          border-top-right-radius: 5px;
+        }
+
+        @include rwd('tablet') {
+          border-top-right-radius: 5px;
+
+          @include rtl() {
+            border-top-left-radius: 5px;
+          }
+        }
+      }
+    }
+
+    @include parent('.table__row', ':last-child') {
+
+      @include rwd('tablet', 'up') {
+        border-bottom: 1px solid $c-gray-01;
+
+        &:first-child {
+          border-bottom-left-radius: 5px;
+
+          @include rtl() {
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 5px;
+          }
+        }
+      }
+
+      &:last-child {
+        border-bottom: 1px solid $c-gray-01;
+        border-bottom-right-radius: 5px;
+
+        @include rtl() {
+          border-bottom-right-radius: 0;
+          border-bottom-left-radius: 5px;
+        }
+
+        @include rwd('tablet') {
+          border-bottom-left-radius: 5px;
+
+          @include rtl() {
+            border-bottom-right-radius: 5px;
+          }
+        }
+      }
+    }
+
+    span {
+      display: table;
+    }
+  }
+}

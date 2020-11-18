@@ -1,0 +1,135 @@
+.personInfo {
+  position: relative;
+  overflow: hidden;
+
+  &--hidden {
+    display: none;
+  }
+
+  &__image {
+    float: left;
+    width: 74px;
+    height: 74px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid $c-gray-01;
+    border-radius: 50%;
+
+    @include rtl() {
+      float: right;
+    }
+  }
+
+  &__content {
+    float: right;
+    width: calc(100% - 94px);
+    padding: 16px 0 24px 0;
+
+    @include rtl() {
+      float: left;
+    }
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.4;
+    color: $c-blue-01;
+  }
+
+  &__position {
+    padding-right: 30px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.67;
+
+    @include rtl() {
+      padding-right: 0;
+      padding-left: 30px;
+    }
+  }
+
+  &__contactItems {
+    margin-top: 16px;
+  }
+
+  &__contactItem {
+    position: relative;
+    margin-top: 8px;
+    padding-left: 24px;
+
+    @include rtl() {
+      padding-left: 0;
+      padding-right: 24px;
+    }
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-size: 14px;
+      line-height: 1.5;
+      color: $c-blue-01;
+
+      @include rtl() {
+        left: auto;
+        right: 0;
+      }
+    }
+
+    a {  
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 1.4;
+      color: $c-gray-02;
+      word-break: break-word;
+      transition: color .3s;
+
+      &:hover {
+        opacity: .5;
+      }
+    }
+  }
+
+  &__socialItems {
+    font-size: 0;
+    margin: 8px -10px -10px -10px;
+  }
+
+  &__socialItem {
+    margin: 10px;
+    min-width: initial;
+  }
+
+  &__star {
+    position: absolute;
+    top: 16px;
+    right: 0;
+    transition: opacity .3s;
+
+    @include rtl() {
+      right: auto;
+      left: 0;
+    }
+
+    &:hover {
+      opacity: .5;
+    }
+
+    &:before {
+      @include icomoon('star');
+      font-size: 19px;
+      line-height: 1;
+      color: $c-blue-01;
+
+      @include parent('.personInfo', '.personInfo--favorite') {
+        @include icomoon('star-fill');
+      }
+    }
+  }
+}

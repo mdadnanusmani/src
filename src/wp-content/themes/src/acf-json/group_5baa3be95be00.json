@@ -1,0 +1,139 @@
+{
+    "key": "group_5baa3be95be00",
+    "title": "Management: Contact",
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "options-section_contact"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "fields": [
+        {
+            "key": "field_5ba8de882e148",
+            "label": "Text",
+            "name": "contact_text",
+            "type": "wysiwyg",
+            "instructions": "(allowed formats: <strong>Heading, Paragraph<\/strong>; allowed text styles: <strong>-<\/strong>)",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 0,
+            "delay": 0
+        },
+        {
+            "key": "field_5ba8de982e149",
+            "label": "Items",
+            "name": "contact_items",
+            "type": "repeater",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 2,
+            "max": 2,
+            "layout": "row",
+            "button_label": "Add box",
+            "sub_fields": [
+                {
+                    "key": "field_5ba8dea22e14a",
+                    "label": "Icon",
+                    "name": "icon",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "academy": "academy",
+                        "calendar": "calendar",
+                        "chart": "chart",
+                        "cv": "cv",
+                        "email": "email",
+                        "eye-close": "eye-close",
+                        "eye-open": "eye-open",
+                        "file": "file",
+                        "heart": "heart",
+                        "home": "home",
+                        "interview": "interview",
+                        "letter": "letter",
+                        "lifebuoy": "lifebuoy",
+                        "linkedin": "linkedin",
+                        "location": "location",
+                        "logout": "logout",
+                        "microphone": "microphone",
+                        "money": "money",
+                        "mouse": "mouse",
+                        "palm": "palm",
+                        "pdf": "pdf",
+                        "phone": "phone",
+                        "play": "play",
+                        "rocket": "rocket",
+                        "search": "search",
+                        "share": "share",
+                        "squares": "squares",
+                        "star": "star",
+                        "star-fill": "star-fill",
+                        "stats": "stats",
+                        "target": "target",
+                        "team": "team",
+                        "trash": "trash",
+                        "twitter": "twitter",
+                        "umbrella": "umbrella",
+                        "vision": "vision",
+                        "wallet": "wallet"
+                    },
+                    "default_value": [],
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 1,
+                    "ajax": 0,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5ba8deac2e14b",
+                    "label": "Link",
+                    "name": "link",
+                    "type": "link",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array"
+                }
+            ]
+        }
+    ],
+    "modified": 1541628649
+}

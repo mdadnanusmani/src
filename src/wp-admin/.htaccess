@@ -1,0 +1,5 @@
+# BEGIN SEO (Cache-Control)
+  <IfModule mod_expires.c>
+    ExpiresActive off
+  </IfModule>
+# END SEO (Cache-Control)

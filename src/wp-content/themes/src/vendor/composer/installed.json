@@ -1,0 +1,37 @@
+[
+    {
+        "name": "gbiorczyk/wordpress-framework",
+        "version": "1.2.2",
+        "version_normalized": "1.2.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://gitlab.com/gbiorczyk/wordpress-framework.git",
+            "reference": "a3802cd5ee84aa201e3ba9afce66c2d131158fd0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://gitlab.com/api/v4/projects/gbiorczyk%2Fwordpress-framework/repository/archive.zip?sha=a3802cd5ee84aa201e3ba9afce66c2d131158fd0",
+            "reference": "a3802cd5ee84aa201e3ba9afce66c2d131158fd0",
+            "shasum": ""
+        },
+        "time": "2019-01-02T19:41:17+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Framework\\": "src"
+            }
+        },
+        "license": [
+            "All rights reserved"
+        ],
+        "authors": [
+            {
+                "name": "Mateusz Gbiorczyk",
+                "email": "mateusz@gbiorczyk.pl",
+                "homepage": "https://gbiorczyk.pl/"
+            }
+        ],
+        "description": "WordPress Framework"
+    }
+]

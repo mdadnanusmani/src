@@ -1,0 +1,147 @@
+.faqTabs {
+
+  &__inner {
+    padding: 30px 0 15px 0;
+  }
+
+  &__wrapper {
+    padding-top: 5px;
+  }
+
+  /* ---
+    Categories
+  --- */
+
+    &__categories {
+      padding: 30px 0;
+    }
+
+    &__category {
+      margin-top: 40px;
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+
+    &__categoryLink {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 1.34;
+      color: $c-gray-02;
+      transition: color .3s;
+
+      &--active {
+        font-weight: 700;
+        color: $c-blue-01;
+      }
+    }
+
+  /* ---
+    Items
+  --- */
+
+    &__items {
+
+      @include rwd('large-tablet') {
+        margin-top: -10px;
+      }
+    }
+
+    &__item {
+      display: none;
+
+      &--active {
+        display: block;
+      }
+    }
+
+    &__question {
+      position: relative;
+      padding: 30px 84px 30px 35px;
+      font-size: 0;
+      border-bottom: 1px solid $c-gray-01;
+
+      @include rtl() {
+        padding-left: 84px;
+        padding-right: 35px;
+      }
+
+      @include rwd('large-tablet') {
+        padding-left: 0;
+        padding-right: 44px;
+
+        @include rtl() {
+          padding-left: 44px;
+          padding-right: 0;
+        }
+      }
+
+      &:last-child {
+        border-bottom: 0;
+      }
+    }
+
+    &__questionToggle {
+      position: absolute;
+      bottom: 26px;
+      right: 40px;
+      padding: 10px;
+
+      @include rtl() {
+        right: auto;
+        left: 40px;
+      }
+
+      @include rwd('large-tablet') {
+        right: -10px;
+
+        @include rtl() {
+          right: auto;
+          left: -10px;
+        }
+      }
+      
+      &:before {
+        display: block;
+        @include icomoon('arrow-down');
+        color: $c-blue-01;
+        font-size: 8px;
+        line-height: 1;
+        transition: transform .3s;
+
+        @include parent('.faqTabs__question', '.faqTabs__question--active') {
+          transform: rotate(180deg);
+        }
+      }
+    }
+
+    &__questionTitle {
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 1.4;
+      cursor: pointer;
+
+      @include parent('.faqTabs__question', '.faqTabs__question--active') {
+        font-weight: 700;
+      }
+    }
+
+    &__questionWrapper {
+      height: 0;
+      overflow: hidden;
+    }
+
+    &__questionDesc {
+      padding-top: 25px;
+      margin-bottom: -15px;
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity .7s, transform .5s;
+
+      @include parent('.faqTabs__question', '.faqTabs__question--active') {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+}

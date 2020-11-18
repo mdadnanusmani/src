@@ -1,0 +1,126 @@
+/* ---
+  Basic version:
+  https://meyerweb.com/eric/tools/css/reset/
+--- */
+
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed, 
+  figure, figcaption, footer, header, hgroup, 
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+
+  article, aside, details, figcaption, figure, 
+  footer, header, hgroup, menu, nav, section {
+    display: block;
+  }
+
+  body {
+    line-height: 1;
+  }
+
+  ol, ul {
+    list-style: none;
+  }
+
+  blockquote, q {
+    quotes: none;
+  }
+
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+    content: '';
+    content: none;
+  }
+
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+/* ---
+  Modifications:
+  Mateusz Gbiorczyk
+--- */
+
+  /* - Hidden attribute - */
+
+    *[hidden] {
+      display: none;
+    }
+
+  /* - Reset for SVG oraz elements of form - */
+
+    svg,
+    input, textarea, button, select {
+      vertical-align: baseline;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-family: inherit;
+      font-size: 100%;
+      outline: none;
+    }
+
+    input, textarea, select, button {
+      background: none;
+      border-radius: 0;
+      outline: none;
+      appearance: none;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    select::-ms-expand,
+    input::-ms-clear {
+      display: none;
+    }
+
+  /* - IE11 - */
+
+    template {
+      display: none;
+    }
+
+  /* - Fonts on iOS, ignoring font size changes - */
+
+    body {
+      -webkit-font-smoothing: antialiased;
+      -webkit-text-size-adjust: 100%;
+    }
+
+  /* - Links styling - */
+
+    a {
+      color: inherit;
+    }
+
+    a,
+    a:hover,
+    a:focus,
+    *:focus {
+      outline: 0;
+      text-decoration: none;
+    }
+
+  /* - Reset for images - */
+
+    img {
+      border: 0;
+    }

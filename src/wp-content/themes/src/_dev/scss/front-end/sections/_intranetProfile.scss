@@ -1,0 +1,222 @@
+.intranetProfile {
+  margin-top: 100px;
+  border-bottom: 1px solid $c-gray-01;
+  overflow: hidden;
+
+  @include rwd('large-laptop-h') {
+    margin-top: 50px;
+  }
+
+  @include rwd('large-tablet') {
+    margin-top: 50px;
+  }
+
+  /* ---
+    Content
+  --- */
+
+    &__content {
+      width: 100%;
+      padding: 50px 0 60px 0;
+    }
+
+    &__newsTitle,
+    &__linksTitle {
+      font-weight: 300;
+      font-size: 30px;
+      line-height: 1.24;
+      color: $c-blue-01;
+    }
+
+    &__linksTitle {
+      margin-top: 20px;
+    }
+
+    &__linksItems {
+      font-size: 0;
+      margin: 20px -10px -10px -10px;
+    }
+
+    &__linksItem {
+      margin: 10px;
+    }
+
+    &__tabsList {
+      margin-top: 50px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    &__tabsItem {
+      display: flex;
+      flex: 1;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 20px;
+      font-size: 14px;
+      line-height: 1.43;
+      color: $c-gray-02;
+      text-align: center;
+      background-color: $c-gray-04;
+      transition: color .3s, background-color .3s;
+
+      &:hover,
+      &--active {
+        color: $c-blue-01;
+        background-color: $c-gray-03;
+      }
+    }
+
+    &__tabsNewsItems {
+      margin-top: 1px;
+      min-height: 300px;
+
+      @include rwd('large-tablet') {
+        min-height: initial;
+      }
+    }
+
+    &__tabsNewsItem {
+      display: none;
+      margin-top: -1px;
+      border: 1px solid $c-gray-01 !important;
+      border-top: 0;
+      border-radius: 0 !important;
+
+      &--active {
+        display: block;
+      }
+    }
+
+    &__tabsMoreWrapper {
+      text-align: center;
+    }
+
+    &__tabsMore {
+      display: none;
+      margin-top: 50px;
+
+      &--active {
+        display: inline-block;
+      }
+    }
+
+  /* ---
+    Side
+  --- */
+
+    &__side {
+      position: relative;
+      display: flex;
+      width: 100%;
+      padding: 50px 0 60px 34px;
+
+      @include rtl() {
+        padding-left: 0;
+        padding-right: 34px;
+      }
+
+      @include rwd('large-tablet') {
+        padding: 40px 34px;
+      }
+
+      &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 4000px;
+        height: 100%;
+        background-color: rgba($c-gray-01, .2);
+
+        @include rtl() {
+          left: auto;
+          right: 0;
+        }
+
+        @include rwd('large-tablet') {
+          width: 100%;
+        }
+      }
+
+      > * {
+        position: relative;
+      }
+    }
+
+    &__sideOuter {
+      width: 100%;
+    }
+
+    &__search {
+      margin-top: 26px;
+      border-top: 1px solid $c-gray-01;
+    }
+
+    &__searchForm {
+      padding: 50px 0 20px 0;
+      overflow: hidden;
+    }
+
+    &__searchInput {
+      float: left;
+      width: calc(100% - 50px);
+      height: 40px;
+      padding: 0 20px;
+      font-weight: 300;
+      font-size: 13px;
+      line-height: 38px;
+      color: rgba($c-black, .66);
+      letter-spacing: .65px;
+      background-color: $c-white;
+      border: 1px solid $c-gray-01;
+      border-radius: 5px;
+
+      @include placeholder() {
+        color: rgba($c-black, .66);
+      }
+    }
+
+    &__searchButton {
+      float: right;
+      width: 40px;
+      height: 40px;
+      color: $c-white;
+      text-align: center;
+      background-color: $c-blue-01;
+      border: 1px solid $c-blue-01;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: color .3s, background-color .3s;
+
+      &:hover {
+        color: $c-blue-01;
+        background-color: $c-white;
+      }
+
+      &:before {
+        @include icomoon('search');
+        font-size: 15px;
+        line-height: 38px;
+      }
+    }
+
+    &__contactItems {
+      height: 0;
+      margin-right: -20px;
+      padding-right: 20px;
+      overflow-y: auto;
+
+      @include rwd('large-tablet') {
+        height: 410px !important;
+      }
+
+      @include rtl() {
+        margin-right: 0;
+        padding-right: 0;
+        margin-left: -20px;
+        padding-left: 20px;
+      }
+    }
+}

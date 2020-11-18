@@ -1,0 +1,61 @@
+body.post-type-wpf-contact-forms {
+
+  .acf-field[data-name^="messages"] {
+
+    .acf-required {
+      float: left;
+      margin-right: 10px;
+    }
+  }
+
+  .acf-field[data-type="message"] {
+    
+    .acf-input {
+
+      strong {
+        display: inline-block;
+        margin: 5px;
+        padding: 5px 15px;
+        color: #ffffff;
+        background-color: #0073aa;
+
+        &::selection {
+          color: #444;
+          background-color: #ffffff;
+        }
+      }
+    }
+  }
+
+  .acf-field[data-name="validate_file_extensions"] {
+    
+    ul {
+      overflow: hidden;
+
+      li {
+        float: left;
+        width: 12.5%;
+        min-width: 100px;
+
+        &:first-child {
+          width: 100%;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+
+  .acf-field[data-name="template"] {
+    
+    textarea {
+      height: 550px;
+    }
+  }
+
+  .acf-field[data-name="message"] {
+    
+    textarea {
+      height: 220px;
+    }
+  }
+}

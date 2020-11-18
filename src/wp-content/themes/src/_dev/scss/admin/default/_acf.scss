@@ -1,0 +1,56 @@
+/* ---
+  Flexible content
+--- */
+
+  .acf-fc-popup ul {
+    max-width: 400px;
+  }
+
+  .acf-fc-popup li {
+    float: left !important;
+    width: 50%;
+  }
+
+  .acf-fc-popup a {
+    padding: 5px 10px 6px 10px !important;
+    font-size: 12px !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+/* ---
+  Editor field
+--- */
+
+  .acf-editor-wrap iframe {
+    min-height: 100px !important;
+  }
+
+  .acf-editor-wrap iframe {
+    height: auto !important;
+  }
+
+  .acf-field[data-name=content] .acf-editor-wrap iframe {
+    min-height: 300px !important;
+  }
+
+/* ---
+  Textarea field
+--- */
+
+  .acf-field textarea {
+    height: 66px;
+  }
+
+  .acf-field[data-setting=select] textarea {
+    height: auto;
+  }
+
+/* ---
+  Gallery field
+--- */
+
+  .acf-gallery {
+    height: 200px !important;
+  }

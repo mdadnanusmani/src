@@ -1,0 +1,301 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SRC\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-10 13:36+0000\n"
+"PO-Revision-Date: 2018-11-04 07:17+0000\n"
+"Last-Translator: Administrator <mateusz@gbiorczyk.pl>\n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100 >= 3 "
+"&& n%100<=10 ? 3 : n%100 >= 11 && n%100<=99 ? 4 : 5;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#. Name of the template
+#: components/flexible/team-people--popup.php:7
+msgid "Contact"
+msgstr "اتصل"
+
+#. Name of the template
+#: functions/framework/post-types.php:25
+msgid "Products"
+msgstr "المنتجات"
+
+#: components/flexible/files-list.php:16
+msgid "Download file"
+msgstr "تحميل الملف"
+
+#: components/flexible/jobs-list.php:15
+msgid "All Departments"
+msgstr "جميع الأقسام"
+
+#: components/flexible/jobs-list.php:26
+msgid "Position"
+msgstr "المسمى الوظيفي"
+
+#: components/flexible/jobs-list.php:29
+msgid "Posted"
+msgstr "أُعلن"
+
+#: components/flexible/jobs-list.php:32 components/sections/jobs/offer.php:47
+msgid "Closing"
+msgstr "إنتهاء"
+
+#: components/flexible/jobs-list.php:45
+msgid "Posted:"
+msgstr "أُعلن"
+
+#: components/flexible/jobs-list.php:48
+msgid "Closing:"
+msgstr "إنتهاء"
+
+#: components/flexible/jobs-list.php:56 components/intranet/tabs.php:27
+#: components/sections/archive/list.php:34
+#: components/sections/search/list.php:18
+msgid "Load more"
+msgstr "المزيد"
+
+#: components/flexible/news-list.php:28 components/intranet/news.php:23
+#: components/intranet/tabs.php:19 components/sections/archive/posts.php:25
+#: components/sections/search/posts.php:25
+msgid "See more"
+msgstr "المزيد"
+
+#: components/flexible/partners-list.php:13
+msgid "View more"
+msgstr "عرض المزيد"
+
+#: components/flexible/text-media--media.php:24
+msgid "Play video"
+msgstr "استعراض الفيديو"
+
+#: components/flexible/text-media--media.php:25
+msgid "Pause video"
+msgstr "ايقاف مؤقت"
+
+#: components/intranet/links.php:8
+msgid "Quick links"
+msgstr "روابط سريعة"
+
+#: components/intranet/news.php:1
+msgid "Recent news"
+msgstr "آخر الأخبار"
+
+#: components/intranet/profile.php:20
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: components/intranet/profile.php:23
+msgid "Skype"
+msgstr "Skype"
+
+#: components/intranet/_core.php:33
+msgid "Search..."
+msgstr "بحث"
+
+#: functions/framework/post-types.php:8 components/sections/archive/desc.php:5
+msgid "News & Research"
+msgstr "الأخبــــار"
+
+#: functions/framework/post-types.php:44
+msgid "Jobs"
+msgstr "وظائف"
+
+#: functions/framework/post-types.php:63
+msgid "People"
+msgstr "الموظفين"
+
+#: functions/framework/post-types.php:80
+msgid "Intranet Pages"
+msgstr "صفحات البوابة الداخلية"
+
+#: functions/framework/taxonomies.php:9
+msgid "News categories"
+msgstr "تصنيفات الأخبار"
+
+#: functions/framework/taxonomies.php:27
+msgid "Jobs categories"
+msgstr "تصنيف الوظائف"
+
+#: functions/framework/taxonomies.php:45
+msgid "People categories"
+msgstr "تصنيف الموظفين"
+
+#: functions/framework/taxonomies.php:61
+msgid "Intranet categories"
+msgstr "تصنيفات البوابة الداخلية"
+
+#: functions/framework/translate.php:5
+msgid "January"
+msgstr "يناير"
+
+#: functions/framework/translate.php:6
+msgid "February"
+msgstr "فبراير"
+
+#: functions/framework/translate.php:7
+msgid "March"
+msgstr "مارس"
+
+#: functions/framework/translate.php:8
+msgid "April"
+msgstr "أبريل"
+
+#: functions/framework/translate.php:9
+msgid "May"
+msgstr "مايو"
+
+#: functions/framework/translate.php:10
+msgid "June"
+msgstr "يونيو"
+
+#: functions/framework/translate.php:11
+msgid "July"
+msgstr "يوليو"
+
+#: functions/framework/translate.php:12
+msgid "August"
+msgstr "أغسطس"
+
+#: functions/framework/translate.php:13
+msgid "September"
+msgstr "سبتمبر"
+
+#: functions/framework/translate.php:14
+msgid "October"
+msgstr "أكتوبر"
+
+#: functions/framework/translate.php:15
+msgid "November"
+msgstr "نوفمبر"
+
+#: functions/framework/translate.php:16
+msgid "December"
+msgstr "ديسمبر"
+
+#: functions/framework/translate.php:19
+msgid "Su"
+msgstr "الأحـــد"
+
+#: functions/framework/translate.php:20
+msgid "Mo"
+msgstr "الإثــنــيــن"
+
+#: functions/framework/translate.php:21
+msgid "Tu"
+msgstr "الــثــُــلاثـــاء"
+
+#: functions/framework/translate.php:22
+msgid "We"
+msgstr "الأربــعــاء"
+
+#: functions/framework/translate.php:23
+msgid "Th"
+msgstr "الــخــمــيــس"
+
+#: functions/framework/translate.php:24
+msgid "Fr"
+msgstr "الــجــُــمــْــعــَــة"
+
+#: functions/framework/translate.php:25
+msgid "Sa"
+msgstr "الــســبــت"
+
+#: components/layout/footer/intranet.php:9
+msgid "Intranet helpdesk"
+msgstr "الدعم الفني للبوابة الداخلية"
+
+#: components/layout/header/intranet.php:10
+#, php-format
+msgid "Welcome, %s!"
+msgstr "مرحباً، \"%s\""
+
+#: components/sections/archive/list.php:19
+msgid "All publications"
+msgstr "جميع المنشورات"
+
+#: components/sections/home/slider.php:19
+msgid "Scroll down"
+msgstr "للأسفل"
+
+#: components/sections/home/slider.php:37
+msgid "News"
+msgstr "الأخبار"
+
+#: components/sections/home/slider.php:44
+msgid "Read more"
+msgstr "قراءة المزيد"
+
+#: components/sections/jobs/offer.php:37
+msgid "Offer details"
+msgstr "تفاصيل العرض"
+
+#: components/sections/jobs/offer.php:41
+msgid "Published"
+msgstr "منشور"
+
+#: components/sections/jobs/offer.php:53
+msgid "Location"
+msgstr "الموقع"
+
+#: components/sections/jobs/offer.php:59
+msgid "Expertise level"
+msgstr "مستوى الخبرة"
+
+#: components/sections/jobs/offer.php:65
+msgid "Type of employment"
+msgstr "نوع التوظيف"
+
+#: components/sections/jobs/offer.php:71
+msgid "Reference No."
+msgstr "الرقم المرجعي"
+
+#: components/sections/jobs/offer.php:77
+msgid "Nationality"
+msgstr "الجنسية"
+
+#: components/sections/jobs/offer.php:83
+msgid "Number of vacancies"
+msgstr "عدد الشواغرالوظيفية"
+
+#: components/sections/jobs/offer.php:89
+msgid "Apply now"
+msgstr "تقدم الآن"
+
+#: components/sections/product/related.php:4
+msgid "See other products"
+msgstr "منتجات اخرى"
+
+#: components/sections/search/desc.php:6
+#, php-format
+msgid "Search results for \"%s\""
+msgstr "نتائج البحث ل \"%s\""
+
+#: components/sections/search/desc.php:8
+msgid "Sorry, no posts were found. Please try again."
+msgstr "لاتوجد تنائج، الرجاء المحاولة مرة أخرى"
+
+#: functions/api/Site/Mailchimp.php:49
+#, php-format
+msgid "%s is already a list member."
+msgstr ""
+"%s أحد اعضاء القائمة\n"
+
+#: vendor/gbiorczyk/wordpress-framework/src/Helpers/Breadcrumbs.php:55
+msgid "Search Results"
+msgstr "نتائج البحث"
+
+#. Name of the theme
+msgid "SRC"
+msgstr "الشركة السعودية للتموين العقاري"
+
+#. Author of the theme
+msgid "Mateusz Gbiorczyk"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://crafton.pl/"
+msgstr ""

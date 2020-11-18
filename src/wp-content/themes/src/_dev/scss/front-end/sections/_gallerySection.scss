@@ -1,0 +1,33 @@
+.gallerySection {
+
+  &__inner {
+    padding: 50px 0;
+
+    .gSlider {
+      height: 400px;
+
+      @include rwd('large-tablet') {
+        height: 300px;
+      }
+    }
+  }
+
+  &__item {
+    opacity: .33;
+    transition: opacity .3s;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  &__itemImage {
+    width: auto;
+    height: 320px;
+
+    @include rwd('large-tablet') {
+      height: 220px;
+    }
+  }
+}

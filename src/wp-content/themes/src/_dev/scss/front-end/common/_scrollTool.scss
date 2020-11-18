@@ -1,0 +1,85 @@
+.scrollTool {
+  position: fixed;
+  bottom: 0;
+  right: -1px;
+  z-index: 100;
+
+  @include rwd('large-tablet') {
+    display: none;
+  }
+
+  @include rtl() {
+    right: auto;
+    left: -1px;
+  }
+
+  &__up,
+  &__top,
+  &__down {
+    display: block;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+
+    &--hidden {
+      display: none;
+    }
+
+    &:before,
+    &:after {
+      display: block;
+      font-size: 14px;
+      line-height: 1;
+      text-align: center;
+      transition: transform .3s;
+    }
+
+    &:hover {
+
+      &:before,
+      &:after {
+        transform: scale(.5);
+      }
+    }
+  }
+
+  &__up,
+  &__down {
+    background-color: $c-white;
+    border: 1px solid $c-gray-01;
+
+    &:before {
+      color: $c-gray-01;
+    }
+  }
+
+  &__up {
+    border-bottom: 0;
+
+    &:before {
+      @include icomoon('arrow-up');
+    }
+  }
+
+  &__down {
+
+    &:before {
+      @include icomoon('arrow-down');
+    }
+  }
+
+  &__top {
+    background-color: $c-blue-01;
+    border-top: 0;
+
+    &:before,
+    &:after {
+      @include icomoon('arrow-up');
+      color: $c-white;
+    }
+
+    &:after {
+      margin-top: -5px;
+    }
+  }
+}

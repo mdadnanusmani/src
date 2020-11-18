@@ -1,0 +1,180 @@
+.productsTabs {
+  margin-top: 0 !important;
+  padding: 0 !important;
+  background-color: $c-white !important;
+
+  /* ---
+    Tabs
+  --- */
+
+    &__buttons {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    &__button {
+      display: flex;
+      flex: 1;
+      align-items: center;
+      padding: 55px 50px 55px 100px;
+      transition: backgorund-color .3s;
+
+      &:before,
+      &:after {
+        content: '';
+        display: block;
+        clear: both;
+      }
+
+      @include rtl() {
+        padding-right: 100px;
+        padding-left: 50px;
+      }
+
+      @include rwd('laptop') {
+        padding-left: 50px;
+
+        @include rtl() {
+          padding-right: 50px;
+        }
+      }
+
+      @include rwd('large-tablet') {
+        padding-top: 30px;
+        padding-bottom: 30px;
+      }
+
+      &--active {
+        background-color: $c-gray-03;
+      }
+    }
+
+    &__buttonIcon {
+      float: left;
+      margin-right: 30px;
+
+      @include rtl() {
+        float: right;
+        margin-right: 0;
+        margin-left: 30px;
+      }
+
+      &:before {
+        font-size: 92px;
+        line-height: 1;
+        color: $c-blue-01;
+
+        @include rwd('large-tablet') {
+          font-size: 46px;
+        }
+      }
+
+      svg {
+
+        @include parent('.productsTabs__button', ':hover') {
+          opacity: 1;
+          transform: scale(1);
+
+          @include rwd('large-tablet') {
+            transform: scale(.45);
+          }
+        }
+      }
+    }
+
+    &__buttonTitle {
+      font-weight: 300;
+      font-size: 30px;
+      line-height: 1.24;
+
+      @include rwd('large-tablet') {
+        font-size: 15px;
+        line-height: 1.4;
+      }
+    }
+
+  /* ---
+    Items
+  --- */
+
+    &__itemsWrapper {
+      padding: 100px 0;
+      background-color: $c-gray-03;
+
+      @include rwd('large-tablet') {
+        padding: 50px 0 0 0;
+      }
+    }
+
+    &__item {
+      position: relative;
+      padding-top: 50px;
+      display: none;
+      overflow: hidden;
+
+      @include rwd('tablet') {
+        padding-top: 0;
+      }
+
+      &--active {
+        display: block;
+      }
+    }
+
+    &__itemBg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: calc(100% - 200px);
+      height: calc(100% - 50px);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      @include rtl() {
+        left: auto;
+        right: 0;
+      }
+
+      @include rwd('tablet') {
+        position: relative;
+        width: 100%;
+        height: 250px;
+      }
+
+      @include parent('.productsTabs__item', '.productsTabs__item--reverse') {
+        left: auto;
+        right: 0;
+
+        @include rtl() {
+          right: auto;
+          left: 0;
+        }
+      }
+    }
+
+    &__itemContent {
+      position: relative;
+      float: right;
+      width: 460px;
+      padding: 80px 65px;
+      background-color: $c-blue-01;
+
+      @include rwd('tablet') {
+        width: 100%;
+        padding: 40px;
+      }
+
+      @include rtl() {
+        float: left;
+      }
+
+      @include parent('.productsTabs__item', '.productsTabs__item--reverse') {
+        float: left;
+
+        @include rtl() {
+          float: right;
+        }
+      }
+    }
+}

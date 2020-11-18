@@ -1,0 +1,32 @@
+{
+  "name": "wordpress-framework",
+  "description": "WordPress Framework Assets",
+  "license": "All rights reserved",
+  "author": {
+    "name": "Mateusz Gbiorczyk",
+    "email": "mateusz@gbiorczyk.pl",
+    "url": "https://gbiorczyk.pl/"
+  },
+  "scripts": {
+    "build": "SET NODE_ENV=production & gulp build & gulp merge",
+    "dev": "SET NODE_ENV=development & gulp build & gulp merge & gulp watch"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-if": "^2.0.2",
+    "gulp-jsvalidate": "^4.0.0",
+    "gulp-minifier": "^1.2.2",
+    "gulp-plumber": "^1.2.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-util": "^3.0.8",
+    "vee-validate": "^2.0.9",
+    "vue": "^2.5.17",
+    "vue-recaptcha": "^1.1.1"
+  }
+}

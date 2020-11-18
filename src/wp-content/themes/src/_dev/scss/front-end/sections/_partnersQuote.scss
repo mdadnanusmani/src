@@ -1,0 +1,210 @@
+.partnersQuote {
+  overflow: hidden;
+
+  &__inner {
+    position: relative;
+    margin: 50px 0;
+  }
+
+  /* ---
+    Background
+  --- */
+
+    &__innerBg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50%;
+      height: 100%;
+      background-position: left center;
+      background-size: auto 100%;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+
+      @include rtl() {
+        left: auto;
+        right: 0;
+        background-position: right center;
+      }
+
+      @include rwd('tablet') {
+        display: none;
+      }
+
+      @include browser('ie') {
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+      }
+
+      @include browser('edge') {
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+      }
+
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba($c-blue-01, .85);
+      }
+    }
+
+  /* ---
+    Quote
+  --- */
+
+    &__quote {
+      position: relative;
+
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: -20px;
+        right: -20px;
+        height: 100%;
+        background-color: rgba($c-blue-01, .85);
+
+        @include rwd('tablet', 'up') {
+          display: none;
+        }
+      }
+    }
+
+    &__quoteInner {
+      position: relative;
+      padding: 170px 95px 180px 0;
+      overflow: hidden;
+      z-index: 10;
+
+      @include rwd('laptop') {
+        padding-top: 110px;
+        padding-bottom: 120px;
+      }
+
+      @include rwd('large-tablet') {
+        padding-right: $colGridMargin / 2;
+      }
+
+      @include rwd('tablet') {
+        padding-top: 50px;
+        padding-bottom: 60px;
+      }
+
+      @include rtl() {
+        padding-right: 0;
+        padding-left: 95px;
+
+        @include rwd('large-tablet') {
+          padding-left: $colGridMargin / 2;
+        }
+      }
+    }
+
+    &__quoteText {
+      padding-right: 100px;
+      font-weight: 300;
+      font-size: 28px;
+      line-height: 1.43;
+      color: $c-white;
+
+      @include rwd('large-tablet') {
+        padding-right: 0;
+      }
+
+      @include rtl() {
+        padding-right: 0;
+        padding-left: 100px;
+
+        @include rwd('large-tablet') {
+          padding-left: 0;
+        }
+      }
+    }
+
+    &__quoteAuthor {
+      float: right;
+      margin-top: 43px;
+      display: flex;
+      align-items: center;
+
+      @include rtl() {
+        float: left;
+      }
+    }
+
+    &__quoteAuthorImage {
+      width: 60px;
+      height: 60px;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 50%;
+    }
+
+    &__quoteAuthorName {
+      margin-left: 17px;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 1.4;
+      color: $c-white;
+
+      @include rtl() {
+        margin-left: 0;
+        margin-right: 17px;
+      }
+    }
+
+  /* ---
+    Partners
+  --- */
+
+    &__partnersInner {
+      display: flex;
+      width: 100%;
+
+      @include rwd('tablet') {
+        margin-top: 60px;
+      }
+
+      .gSlider {
+        height: auto;
+
+        @include rwd('tablet') {
+          height: 160px;
+        }
+      }
+    }
+
+    &__partner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &__partnerLink {
+      display: block;
+      font-size: 0;
+
+      @include rwd('tablet') {
+        padding: 0 30px;
+      }
+    }
+
+    &__partnerLogo {
+      transition: opacity .3s;
+      max-width: 240px;
+      max-height: 80px;
+
+      &:hover {
+        opacity: .5;
+      }
+    }
+}

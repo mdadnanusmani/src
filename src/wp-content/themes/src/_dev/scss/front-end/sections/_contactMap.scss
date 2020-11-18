@@ -1,0 +1,30 @@
+.contactMap {
+  padding-top: 50px !important;
+
+  &__inner {
+    padding: 50px 0;
+
+    @include rwd('large-tablet') {
+      padding-top: 30px;
+    }
+  }
+
+  &__headline {
+    margin-bottom: 30px;
+    color: inherit;
+  }
+
+  &__form {
+    max-width: 450px;
+    margin: 0 auto;
+  }
+
+  &__map {
+    width: 100%;
+    min-height: 400px;
+
+    @include rwd('large-tablet') {
+      margin-top: 60px;
+    }
+  }
+}

@@ -1,0 +1,211 @@
+.peoplePopup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba($c-white, .75);
+  z-index: 1000;
+
+  &--active {
+    display: block;
+  }
+
+  &__outer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  &__inner {
+    width: 100%;
+    max-height: calc(100vh - 60px);
+    padding: 50px 100px 45px 50px;
+    background-color: rgba($c-blue-01, .98);
+    overflow-y: auto;
+
+    @include rtl() {
+      padding-left: 100px;
+      padding-right: 50px;
+    }
+
+    @include rwd('large-tablet') {
+      padding-right: 50px;
+
+      @include rtl() {
+        padding-left: 50px;
+      }
+    }
+
+    @include rwd('tablet') {
+      padding: 30px;
+
+      @include rtl() {
+        padding: 30px;
+      }
+    }
+
+    &:before,
+    &:after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+  }
+
+  &__side {
+    float: left;
+    width: 252px;
+    padding-right: 40px;
+
+    @include rtl() {
+      float: right;
+      padding-right: 0;
+      padding-left: 40px;
+    }
+
+    @include rwd('tablet') {
+      float: none;
+      width: auto;
+      padding-right: 0;
+
+      @include rtl() {
+        float: none;
+        padding-left: 0;
+      }
+    }
+  }
+
+  &__content {
+    float: right;
+    width: calc(100% - 252px);
+    padding: 40px 0 20px 0;
+
+    @include rwd('tablet') {
+      width: 100%;
+    }
+  }
+
+  /* ---
+    Side
+  --- */
+
+    &__image {
+      width: 212px;
+      height: 258px;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border: 1px solid $c-gray-01;
+    }
+
+    &__socialsTitle {
+      margin-top: 40px;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 1.28;
+      color: $c-white;
+    }
+
+    &__socials {
+      margin-top: 26px;
+    }
+
+    &__social {
+      position: relative;
+      margin-top: 30px;
+      padding-left: 24px;
+
+      @include rtl() {
+        padding-left: 0;
+        padding-right: 24px;
+      }
+
+      @include rwd('large-tablet') {
+        margin-top: 10px;
+      }
+
+      &:first-child {
+        margin-top: 0;
+
+        @include rwd('large-tablet') {
+          margin-top: 0;
+        }
+      }
+
+      &:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 14px;
+        line-height: 1.5;
+        color: $c-white;
+
+        @include rtl() {
+          left: auto;
+          right: 0;
+        }
+      }
+    }
+
+    &__socialLink {
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 1.4;
+      color: $c-white;
+      transition: opacity .3s;
+
+      &:hover {
+        opacity: .5;
+      }
+    }
+
+  /* ---
+    Content
+  --- */
+
+    &__title {
+      font-weight: 300;
+      font-size: 30px;
+      line-height: 1.24;
+      color: $c-white;
+    }
+
+    &__position {
+      margin-top: 8px;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 1.28;
+      color: $c-white;
+    }
+
+    &__desc {
+      margin-top: 70px;
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 1.4;
+      color: $c-white;
+
+      @include rwd('large-tablet', 'up') {
+        column-count: 2;
+        column-gap: 40px;
+      }
+
+      @include rwd('large-tablet') {
+        margin-top: 30px;
+      }
+
+      p {
+        margin-top: 20px;
+
+        &:first-child {
+          margin-top: 0;
+        }
+      }
+    }
+}

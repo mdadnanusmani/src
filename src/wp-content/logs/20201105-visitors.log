@@ -1,0 +1,337 @@
+13.66.139.2     - [05-Nov-2020 00:01:41 Asia/Riyadh] "GET /atom.xml :443" 404 - Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+13.66.139.2     - [05-Nov-2020 00:01:46 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+69.191.249.214  - [05-Nov-2020 00:06:50 Asia/Riyadh] "GET /board-of-directors-report/ :443" 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359 Safari/537.36 [https://srco.com.sa/board-of-directors-report/]
+13.66.139.2     - [05-Nov-2020 00:24:24 Asia/Riyadh] "GET /sitemap-taxonomies-news-category.xml :443" 200 - Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+108.174.2.215   - [05-Nov-2020 00:28:17 Asia/Riyadh] "GET /ar/our-business-2/ :443" 200 - LinkedInBot/1.0 (compatible; Mozilla/5.0; Apache-HttpClient +http://www.linkedin.com)
+207.241.229.223 - [05-Nov-2020 00:35:01 Asia/Riyadh] "GET /ar/أخبار/news-ar/news5/ :443" 200 - Mozilla/5.0 (compatible; special_archiver/3.1.1 +http://www.archive.org/details/archive.org_bot)
+69.191.249.206  - [05-Nov-2020 00:37:44 Asia/Riyadh] "GET /financial-statements/ :443" 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359 Safari/537.36 [https://srco.com.sa/financial-statements/]
+95.187.146.119  - [05-Nov-2020 00:38:27 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 13_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0 Mobile/15E148 Safari/604.1
+95.187.146.119  - [05-Nov-2020 00:38:33 Asia/Riyadh] "GET /ar/ :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 13_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0 Mobile/15E148 Safari/604.1
+95.187.146.119  - [05-Nov-2020 00:39:39 Asia/Riyadh] "GET /ar/products-2/ :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 13_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0 Mobile/15E148 Safari/604.1
+95.187.146.119  - [05-Nov-2020 00:41:14 Asia/Riyadh] "GET /ar/الأسئلة-الشائعة/ :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 13_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0 Mobile/15E148 Safari/604.1
+95.187.146.119  - [05-Nov-2020 00:42:46 Asia/Riyadh] "GET /ar/partners-ar/ :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 13_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0 Mobile/15E148 Safari/604.1
+34.222.216.15   - [05-Nov-2020 00:42:51 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36
+95.187.146.119  - [05-Nov-2020 00:43:09 Asia/Riyadh] "GET /ar/about-src-2/ :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 13_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0 Mobile/15E148 Safari/604.1
+51.211.194.198  - [05-Nov-2020 00:43:38 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
+51.211.194.198  - [05-Nov-2020 00:43:46 Asia/Riyadh] "GET /ar/ :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
+51.211.194.198  - [05-Nov-2020 00:45:07 Asia/Riyadh] "GET /ar/ :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
+114.119.143.101 - [05-Nov-2020 00:45:08 Asia/Riyadh] "GET /ar/Ø£Ø®Ø¨Ø§Ø±/news-ar/news4 :443" 404 - Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot;+https://aspiegel.com/petalbot)
+114.119.143.101 - [05-Nov-2020 00:45:09 Asia/Riyadh] "GET /ar/ :443" 200 - Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot;+https://aspiegel.com/petalbot)
+51.211.194.198  - [05-Nov-2020 00:45:29 Asia/Riyadh] "GET /ar/products-2/ :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
+51.211.194.198  - [05-Nov-2020 00:45:31 Asia/Riyadh] "GET /ar/products-2/ :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
+51.211.194.198  - [05-Nov-2020 00:45:53 Asia/Riyadh] "GET /ar/products-2/ :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
+51.211.194.198  - [05-Nov-2020 00:47:02 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
+94.99.252.105   - [05-Nov-2020 00:48:34 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/86.0.4240.93 Mobile/15E148 Safari/604.1 [https://www.google.com/]
+51.211.194.198  - [05-Nov-2020 00:49:40 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
+94.99.252.105   - [05-Nov-2020 00:50:26 Asia/Riyadh] "GET /ar/ :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/86.0.4240.93 Mobile/15E148 Safari/604.1
+94.99.252.105   - [05-Nov-2020 00:52:48 Asia/Riyadh] "GET /ar/ :443" 200 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/601.2.4 (KHTML, like Gecko) Version/9.0.1 Safari/601.2.4 facebookexternalhit/1.1 Facebot Twitterbot/1.0
+94.99.252.105   - [05-Nov-2020 00:52:56 Asia/Riyadh] "GET /ar/ :443" 200 - WhatsApp/2.20.111.3 i
+114.119.152.5   - [05-Nov-2020 01:02:15 Asia/Riyadh] "GET /news/news/home-loans-become-more-accessible-for-saudi-house-hunters-src-signs-partnership-agreement-with-ncb-to-acquire-mortgage-portfolio/ :443" 200 - Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot;+https://aspiegel.com/petalbot)
+51.211.194.198  - [05-Nov-2020 01:04:23 Asia/Riyadh] "GET /ar/ :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
+51.211.194.198  - [05-Nov-2020 01:04:46 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
+114.119.132.131 - [05-Nov-2020 01:07:26 Asia/Riyadh] "GET /about-us :443" 404 - Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot;+https://aspiegel.com/petalbot)
+114.119.132.131 - [05-Nov-2020 01:07:29 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot;+https://aspiegel.com/petalbot)
+37.43.135.116   - [05-Nov-2020 01:13:45 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36 [https://fortinet.lightning.force.com/]
+173.252.127.28  - [05-Nov-2020 01:20:27 Asia/Riyadh] "GET / :443" 200 - facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+5.82.69.250     - [05-Nov-2020 01:22:49 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
+95.187.146.119  - [05-Nov-2020 01:30:33 Asia/Riyadh] "GET /ar/about-src-2/ :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 13_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0 Mobile/15E148 Safari/604.1
+95.187.146.119  - [05-Nov-2020 01:30:54 Asia/Riyadh] "GET /ar/partners-ar/ :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 13_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0 Mobile/15E148 Safari/604.1
+207.99.15.85    - [05-Nov-2020 01:38:58 Asia/Riyadh] "GET /board-of-directors-report/ :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+114.239.214.181 - [05-Nov-2020 01:49:49 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html)
+188.52.57.163   - [05-Nov-2020 01:52:37 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 13_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Mobile/15E148 Safari/604.1
+13.66.139.2     - [05-Nov-2020 01:57:13 Asia/Riyadh] "GET /whistleblower/faqs/ :443" 200 - Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+13.66.139.2     - [05-Nov-2020 01:57:16 Asia/Riyadh] "GET /en/saudi-real-estate-refinance-company-src-signs-sar1bn-deal-with-bidaya-home-finance/ :443" 404 - Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+13.66.139.2     - [05-Nov-2020 01:57:17 Asia/Riyadh] "GET /sitemap.xml.gz :443" 404 - Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+13.66.139.2     - [05-Nov-2020 01:57:25 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+69.191.249.206  - [05-Nov-2020 02:07:18 Asia/Riyadh] "GET /board-of-directors-report/ :443" 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359 Safari/537.36 [https://srco.com.sa/board-of-directors-report/]
+151.254.168.167 - [05-Nov-2020 02:11:44 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+49.89.226.162   - [05-Nov-2020 02:14:35 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html)
+13.66.139.2     - [05-Nov-2020 02:22:14 Asia/Riyadh] "GET /sitemap-posttypes-news.xml :443" 200 - Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+69.191.249.212  - [05-Nov-2020 02:33:22 Asia/Riyadh] "GET /financial-statements/ :443" 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359 Safari/537.36 [https://srco.com.sa/financial-statements/]
+207.46.13.149   - [05-Nov-2020 02:59:56 Asia/Riyadh] "GET /financial-statements/ :443" 200 - Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+207.46.13.156   - [05-Nov-2020 03:14:52 Asia/Riyadh] "GET /ar/Ø§Ù„Ø£Ø³Ø¦Ù„Ø©-Ø§Ù„Ø´Ø§Ø¦Ø¹Ø©/ :443" 404 - Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+207.46.13.156   - [05-Nov-2020 03:14:53 Asia/Riyadh] "GET /ar/ :443" 200 - Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+66.249.69.253   - [05-Nov-2020 03:21:19 Asia/Riyadh] "GET /ar/products-2/ :443" 200 - Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+13.66.139.2     - [05-Nov-2020 03:29:19 Asia/Riyadh] "GET /sitemaps.xml :443" 404 - Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+13.66.139.2     - [05-Nov-2020 03:30:06 Asia/Riyadh] "GET /sitemap-posttypes-news.xml :443" 200 - Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+114.119.147.81  - [05-Nov-2020 03:40:22 Asia/Riyadh] "GET /about-src/ :443" 200 - Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot;+https://aspiegel.com/petalbot)
+207.99.15.85    - [05-Nov-2020 03:58:01 Asia/Riyadh] "GET /news/news/src-injects-another-sar1-billion-into-saudi-housing-finance-market/ :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+5.41.67.139     - [05-Nov-2020 04:01:46 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15
+5.41.67.139     - [05-Nov-2020 04:01:55 Asia/Riyadh] "GET /ar/ :443" 200 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15
+5.41.67.139     - [05-Nov-2020 04:02:41 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15
+5.41.67.139     - [05-Nov-2020 04:02:55 Asia/Riyadh] "GET /ar/ :443" 200 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15
+5.41.67.139     - [05-Nov-2020 04:03:31 Asia/Riyadh] "GET /ar/partners-ar/ :443" 200 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15
+5.41.67.139     - [05-Nov-2020 04:03:52 Asia/Riyadh] "GET /ar/products-2/ :443" 200 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15
+69.191.249.214  - [05-Nov-2020 04:09:39 Asia/Riyadh] "GET /board-of-directors-report/ :443" 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359 Safari/537.36 [https://srco.com.sa/board-of-directors-report/]
+94.98.202.209   - [05-Nov-2020 04:12:37 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15
+94.98.202.209   - [05-Nov-2020 04:12:49 Asia/Riyadh] "GET /career/ :443" 200 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15
+69.191.249.202  - [05-Nov-2020 04:35:16 Asia/Riyadh] "GET /financial-statements/ :443" 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359 Safari/537.36 [https://srco.com.sa/financial-statements/]
+13.66.139.2     - [05-Nov-2020 04:35:16 Asia/Riyadh] "GET /sitemap-posttypes-page.xml :443" 200 - Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+13.66.139.2     - [05-Nov-2020 04:45:57 Asia/Riyadh] "GET /sitemap-posttypes-products.xml :443" 200 - Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+117.95.229.124  - [05-Nov-2020 05:15:51 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html)
+106.111.46.197  - [05-Nov-2020 05:33:54 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html)
+157.55.39.110   - [05-Nov-2020 05:56:11 Asia/Riyadh] "GET /about-src/ :443" 200 - Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+69.191.249.220  - [05-Nov-2020 06:09:42 Asia/Riyadh] "GET /board-of-directors-report/ :443" 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359 Safari/537.36 [https://srco.com.sa/board-of-directors-report/]
+151.254.142.212 - [05-Nov-2020 06:12:58 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15
+151.254.142.212 - [05-Nov-2020 06:13:06 Asia/Riyadh] "GET /ar/ :443" 200 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15
+151.254.142.212 - [05-Nov-2020 06:13:57 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15
+91.241.19.182   - [05-Nov-2020 06:25:36 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 6.1; rv:5.0) Gecko/20100101 Firefox/5.0
+192.255.109.240 - [05-Nov-2020 06:34:09 Asia/Riyadh] "GET /contact/ :443" 200 - User-Agent\" \"Mozilla/5.0 (Windows NT 6.1;) Gecko/20100101 Firefox/13.0.1, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+82.197.42.253   - [05-Nov-2020 06:35:58 Asia/Riyadh] "GET /ar/ :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 13_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Mobile/15E148 Safari/604.1
+69.191.249.217  - [05-Nov-2020 06:37:40 Asia/Riyadh] "GET /financial-statements/ :443" 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359 Safari/537.36 [https://srco.com.sa/financial-statements/]
+66.220.149.15   - [05-Nov-2020 06:41:17 Asia/Riyadh] "GET /ar/our-business-2/ :443" 200 - facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+13.66.139.2     - [05-Nov-2020 06:45:05 Asia/Riyadh] "GET /sitemap-posttypes-page.xml :443" 200 - Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+104.43.17.36    - [05-Nov-2020 06:59:32 Asia/Riyadh] "GET /installer-backup.php :443" 404 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+104.43.17.36    - [05-Nov-2020 06:59:33 Asia/Riyadh] "GET /installer.php :443" 404 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+104.43.17.36    - [05-Nov-2020 06:59:34 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+104.43.17.36    - [05-Nov-2020 06:59:34 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+5.41.160.81     - [05-Nov-2020 07:19:02 Asia/Riyadh] "GET /ar/partners-ar/ :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 13_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0 Mobile/15E148 Safari/604.1
+34.215.11.212   - [05-Nov-2020 07:25:40 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36
+82.197.42.253   - [05-Nov-2020 07:37:55 Asia/Riyadh] "GET /ar/ :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 13_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Mobile/15E148 Safari/604.1
+114.119.137.249 - [05-Nov-2020 07:42:09 Asia/Riyadh] "GET /ar/Ø£Ø®Ø¨Ø§Ø±/news-ar/news1 :443" 404 - Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot;+https://aspiegel.com/petalbot)
+114.119.137.249 - [05-Nov-2020 07:42:10 Asia/Riyadh] "GET /ar/ :443" 200 - Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot;+https://aspiegel.com/petalbot)
+51.39.37.233    - [05-Nov-2020 07:42:20 Asia/Riyadh] "GET /ar/القوائم-المالية/ :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 13_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Mobile/15E148 Safari/604.1
+69.191.249.206  - [05-Nov-2020 08:08:49 Asia/Riyadh] "GET /board-of-directors-report/ :443" 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359 Safari/537.36 [https://srco.com.sa/board-of-directors-report/]
+95.185.85.29    - [05-Nov-2020 08:19:09 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 14_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
+182.73.13.118   - [05-Nov-2020 08:24:33 Asia/Riyadh] "GET /news/ :443" 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.11
+182.73.13.118   - [05-Nov-2020 08:24:37 Asia/Riyadh] "GET /news/ :443" 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.11
+17.58.99.126    - [05-Nov-2020 08:25:52 Asia/Riyadh] "GET /faq/ :443" 200 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15 (Applebot/0.1; +http://www.apple.com/go/applebot)
+69.191.249.210  - [05-Nov-2020 08:33:39 Asia/Riyadh] "GET /financial-statements/ :443" 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359 Safari/537.36 [https://srco.com.sa/financial-statements/]
+35.173.186.156  - [05-Nov-2020 08:51:43 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36 [http://www.srco.com.sa/]
+176.98.34.98    - [05-Nov-2020 09:08:02 Asia/Riyadh] "GET / :443" 200 - PolycomVVX Lync/15.0 (Windows 6.1/x86, x86)
+37.121.166.51   - [05-Nov-2020 09:17:48 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Linux; Android 10; HMA-L29) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.185 Mobile Safari/537.36
+62.96.244.8     - [05-Nov-2020 09:21:14 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+62.96.244.8     - [05-Nov-2020 09:21:22 Asia/Riyadh] "GET /financial-statements/ :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+176.98.34.98    - [05-Nov-2020 09:27:03 Asia/Riyadh] "GET / :443" 200 - PolycomVVX Lync/15.0 (Windows 6.1/x86, x86)
+176.98.34.98    - [05-Nov-2020 09:41:32 Asia/Riyadh] "GET / :443" 200 - PolycomVVX Lync/15.0 (Windows 6.1/x86, x86)
+176.98.34.98    - [05-Nov-2020 09:44:54 Asia/Riyadh] "GET / :443" 200 - PolycomVVX Lync/15.0 (Windows 6.1/x86, x86)
+176.98.34.98    - [05-Nov-2020 09:50:05 Asia/Riyadh] "GET / :443" 200 - PolycomVVX Lync/15.0 (Windows 6.1/x86, x86)
+195.10.197.244  - [05-Nov-2020 10:09:05 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36 [http://www.sama.gov.sa/]
+195.10.197.244  - [05-Nov-2020 10:09:42 Asia/Riyadh] "GET /ar/ :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+195.10.197.244  - [05-Nov-2020 10:09:47 Asia/Riyadh] "GET /ar/products-2/ :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+69.191.249.214  - [05-Nov-2020 10:13:32 Asia/Riyadh] "GET /board-of-directors-report/ :443" 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359 Safari/537.36 [https://srco.com.sa/board-of-directors-report/]
+157.55.39.110   - [05-Nov-2020 10:24:27 Asia/Riyadh] "GET /board-of-directors-report/ :443" 200 - Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+66.249.69.251   - [05-Nov-2020 10:27:19 Asia/Riyadh] "GET /career/ :443" 200 - Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+37.106.62.125   - [05-Nov-2020 10:27:51 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:82.0) Gecko/20100101 Firefox/82.0 [https://www.google.com/]
+69.191.249.207  - [05-Nov-2020 10:37:44 Asia/Riyadh] "GET /financial-statements/ :443" 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359 Safari/537.36 [https://srco.com.sa/financial-statements/]
+54.200.224.84   - [05-Nov-2020 10:39:12 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36
+199.16.157.180  - [05-Nov-2020 10:43:04 Asia/Riyadh] "GET / :443" 200 - Twitterbot/1.0
+34.220.36.207   - [05-Nov-2020 10:55:31 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; el-gr) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16
+5.156.86.80     - [05-Nov-2020 10:57:54 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 13_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/123.0.328412499 Mobile/15E148 Safari/604.1
+5.156.86.80     - [05-Nov-2020 10:58:26 Asia/Riyadh] "GET /products/ :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 13_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/123.0.328412499 Mobile/15E148 Safari/604.1
+5.156.86.80     - [05-Nov-2020 10:58:42 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 13_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/123.0.328412499 Mobile/15E148 Safari/604.1
+176.44.224.93   - [05-Nov-2020 11:00:26 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:82.0) Gecko/20100101 Firefox/82.0
+66.249.69.225   - [05-Nov-2020 11:01:57 Asia/Riyadh] "GET /career/ :443" 200 - Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+95.185.85.29    - [05-Nov-2020 11:06:13 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 14_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
+93.168.254.1    - [05-Nov-2020 11:08:23 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 6.1; rv:81.0) Gecko/20100101 Firefox/81.0
+117.144.138.130 - [05-Nov-2020 11:19:25 Asia/Riyadh] "GET /news/ :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+176.98.34.98    - [05-Nov-2020 11:31:00 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 14_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
+188.50.143.156  - [05-Nov-2020 11:45:14 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36 Edg/86.0.622.61
+109.206.81.40   - [05-Nov-2020 11:47:41 Asia/Riyadh] "GET /ar/partners-ar/ :443" 200 - Mozilla/5.0 (Linux; Android 8.0.0; RNE-L21) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.110 Mobile Safari/537.36
+207.99.15.85    - [05-Nov-2020 11:53:57 Asia/Riyadh] "GET /board-of-directors-report/ :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+69.191.249.218  - [05-Nov-2020 12:11:08 Asia/Riyadh] "GET /board-of-directors-report/ :443" 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359 Safari/537.36 [https://srco.com.sa/board-of-directors-report/]
+92.40.186.146   - [05-Nov-2020 12:20:29 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15
+52.25.94.232    - [05-Nov-2020 12:27:41 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36
+176.224.178.172 - [05-Nov-2020 12:28:29 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Linux; Android 10; SM-N960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.110 Mobile Safari/537.36
+78.95.239.168   - [05-Nov-2020 12:28:37 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36 [https://www.google.com/]
+5.41.200.233    - [05-Nov-2020 12:37:42 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
+5.41.200.233    - [05-Nov-2020 12:37:52 Asia/Riyadh] "GET /ar/ :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
+5.41.200.233    - [05-Nov-2020 12:38:20 Asia/Riyadh] "GET /ar/products-2/ :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
+69.191.249.215  - [05-Nov-2020 12:38:45 Asia/Riyadh] "GET /financial-statements/ :443" 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359 Safari/537.36 [https://srco.com.sa/financial-statements/]
+40.94.87.54     - [05-Nov-2020 12:39:42 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36
+51.36.199.148   - [05-Nov-2020 12:41:32 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Linux; Android 10; STK-L21) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.110 Mobile Safari/537.36
+207.45.249.137  - [05-Nov-2020 12:48:13 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+207.45.249.137  - [05-Nov-2020 12:48:18 Asia/Riyadh] "GET /about-src/ :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+165.225.106.94  - [05-Nov-2020 12:53:20 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+165.225.106.94  - [05-Nov-2020 12:55:26 Asia/Riyadh] "GET /about-src/ :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+93.112.37.226   - [05-Nov-2020 13:07:48 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36
+198.36.40.151   - [05-Nov-2020 13:11:50 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko
+198.36.40.151   - [05-Nov-2020 13:11:55 Asia/Riyadh] "GET /about-src/ :443" 200 - Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko
+198.36.40.151   - [05-Nov-2020 13:12:28 Asia/Riyadh] "GET /about-src/ :443" 200 - Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko
+198.36.40.151   - [05-Nov-2020 13:12:45 Asia/Riyadh] "GET /about-src/ :443" 200 - Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko
+198.36.40.151   - [05-Nov-2020 13:13:22 Asia/Riyadh] "GET /products/ :443" 200 - Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko
+198.36.40.151   - [05-Nov-2020 13:13:40 Asia/Riyadh] "GET /products/ :443" 200 - Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko
+198.36.40.151   - [05-Nov-2020 13:13:58 Asia/Riyadh] "GET /products/ :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36 Edg/81.0.416.64
+114.119.140.179 - [05-Nov-2020 13:14:08 Asia/Riyadh] "GET /whistleblower/announcements/ :443" 200 - Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot;+https://aspiegel.com/petalbot)
+198.36.40.151   - [05-Nov-2020 13:14:15 Asia/Riyadh] "GET /about-src/ :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36 Edg/81.0.416.64
+198.36.40.151   - [05-Nov-2020 13:15:16 Asia/Riyadh] "GET /about-src/ :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36 Edg/81.0.416.64
+82.197.43.249   - [05-Nov-2020 13:15:19 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36 [https://www.google.com/]
+82.197.43.249   - [05-Nov-2020 13:15:22 Asia/Riyadh] "GET /ar/ :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+82.197.43.249   - [05-Nov-2020 13:15:27 Asia/Riyadh] "GET /ar/career-2/ :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+82.197.43.249   - [05-Nov-2020 13:16:08 Asia/Riyadh] "GET /ar/career-2/ :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+82.197.43.249   - [05-Nov-2020 13:16:23 Asia/Riyadh] "GET /ar/contact-2/ :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+176.98.34.98    - [05-Nov-2020 13:19:29 Asia/Riyadh] "POST /AutoDiscover/autodiscover.xml :443" 404 - Microsoft Office/16.0 (Windows NT 10.0; Microsoft PowerPoint 16.0.4266; Pro)
+176.98.34.98    - [05-Nov-2020 13:19:30 Asia/Riyadh] "POST / :443" 200 - Microsoft Office/16.0 (Windows NT 10.0; Microsoft PowerPoint 16.0.4266; Pro)
+66.249.69.251   - [05-Nov-2020 13:30:59 Asia/Riyadh] "GET /ar/career-2/ :443" 200 - Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+176.44.0.48     - [05-Nov-2020 13:32:26 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/86.0.4240.93 Mobile/15E148 Safari/604.1
+92.40.187.50    - [05-Nov-2020 13:38:31 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15
+5.41.160.81     - [05-Nov-2020 13:42:46 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+5.41.160.81     - [05-Nov-2020 13:43:12 Asia/Riyadh] "GET /products/ :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+66.249.69.225   - [05-Nov-2020 13:46:33 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+157.55.39.72    - [05-Nov-2020 13:46:44 Asia/Riyadh] "GET /partners/ :443" 200 - Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+54.209.132.2    - [05-Nov-2020 13:49:56 Asia/Riyadh] "GET /wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php :443" 404 - Mozlila/5.0 (Linux; Android 7.0; SM-G892A Bulid/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.107 Moblie Safari/537.36 [www.google.com]
+54.209.132.2    - [05-Nov-2020 13:49:57 Asia/Riyadh] "GET / :443" 200 - Mozlila/5.0 (Linux; Android 7.0; SM-G892A Bulid/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.107 Moblie Safari/537.36 [www.google.com]
+151.254.235.48  - [05-Nov-2020 13:52:26 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Mobile/15E148 Safari/604.1
+95.186.116.68   - [05-Nov-2020 14:02:29 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Linux; Android 9; STK-L21) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.110 Mobile Safari/537.36
+69.191.249.220  - [05-Nov-2020 14:16:09 Asia/Riyadh] "GET /board-of-directors-report/ :443" 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359 Safari/537.36 [https://srco.com.sa/board-of-directors-report/]
+81.134.198.194  - [05-Nov-2020 14:27:34 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+81.134.198.194  - [05-Nov-2020 14:27:37 Asia/Riyadh] "GET /contact/ :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+81.134.198.194  - [05-Nov-2020 14:27:38 Asia/Riyadh] "GET /contact/ :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+81.134.198.194  - [05-Nov-2020 14:27:39 Asia/Riyadh] "GET /contact/ :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+217.173.89.40   - [05-Nov-2020 14:29:29 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36 [https://www.google.com/]
+217.173.89.40   - [05-Nov-2020 14:29:38 Asia/Riyadh] "GET /about-src/ :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36
+217.173.89.40   - [05-Nov-2020 14:29:49 Asia/Riyadh] "GET /financial-statements/ :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36
+184.154.36.170  - [05-Nov-2020 14:37:12 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/6.0) [http://www.google.com/url?url=www.srco.com.sa&yahoo.com]
+184.154.36.170  - [05-Nov-2020 14:37:14 Asia/Riyadh] "GET /th1s_1s_a_4o4.html :443" 404 - SiteLockSpider [en] (WinNT; I ;Nav)
+184.154.36.170  - [05-Nov-2020 14:37:16 Asia/Riyadh] "GET /contact/ :443" 200 - Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/6.0) [http://www.google.com/url?url=www.srco.com.sa&yahoo.com]
+184.154.36.170  - [05-Nov-2020 14:37:19 Asia/Riyadh] "GET /board-of-directors-report/ :443" 200 - Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/6.0) [http://www.google.com/url?url=www.srco.com.sa&yahoo.com]
+184.154.36.170  - [05-Nov-2020 14:37:21 Asia/Riyadh] "GET /news/ :443" 200 - Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/6.0) [http://www.google.com/url?url=www.srco.com.sa&yahoo.com]
+184.154.36.170  - [05-Nov-2020 14:37:24 Asia/Riyadh] "GET /career/ :443" 200 - Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/6.0) [http://www.google.com/url?url=www.srco.com.sa&yahoo.com]
+184.154.36.170  - [05-Nov-2020 14:37:26 Asia/Riyadh] "GET /ar/ :443" 200 - Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/6.0) [http://www.google.com/url?url=www.srco.com.sa&yahoo.com]
+184.154.36.170  - [05-Nov-2020 14:37:28 Asia/Riyadh] "GET /ar/تقرير-مجلس-الإدارة/ :443" 200 - Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/6.0) [http://www.google.com/url?url=www.srco.com.sa&yahoo.com]
+184.154.36.170  - [05-Nov-2020 14:37:30 Asia/Riyadh] "GET /news/news/home-loans-become-more-accessible-for-saudi-house-hunters-src-signs-partnership-agreement-with-ncb-to-acquire-mortgage-portfolio/ :443" 200 - Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/6.0) [http://www.google.com/url?url=www.srco.com.sa&yahoo.com]
+184.154.36.170  - [05-Nov-2020 14:37:32 Asia/Riyadh] "GET /ar/أخبار/news-ar/news4/ :443" 200 - Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/6.0) [http://www.google.com/url?url=www.srco.com.sa&yahoo.com]
+131.220.6.152   - [05-Nov-2020 14:38:13 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36
+69.191.249.216  - [05-Nov-2020 14:38:17 Asia/Riyadh] "GET /financial-statements/ :443" 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359 Safari/537.36 [https://srco.com.sa/financial-statements/]
+70.39.129.99    - [05-Nov-2020 14:40:32 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+51.36.77.166    - [05-Nov-2020 14:42:52 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 14_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
+51.36.77.166    - [05-Nov-2020 14:42:58 Asia/Riyadh] "GET /ar/ :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 14_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
+78.95.206.13    - [05-Nov-2020 14:44:22 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/132.0.339365841 Mobile/15E148 Safari/604.1
+66.249.93.72    - [05-Nov-2020 14:44:24 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Linux; Android 7.0; SM-G930V Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36 (compatible; Google-Read-Aloud; +https://support.google.com/webmasters/answer/1061943)
+66.249.93.74    - [05-Nov-2020 14:44:25 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Linux; Android 7.0; SM-G930V Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36 (compatible; Google-Read-Aloud; +https://support.google.com/webmasters/answer/1061943)
+78.95.206.13    - [05-Nov-2020 14:45:10 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/132.0.339365841 Mobile/15E148 Safari/604.1
+78.95.206.13    - [05-Nov-2020 14:45:13 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/132.0.339365841 Mobile/15E148 Safari/604.1
+78.95.206.13    - [05-Nov-2020 14:45:21 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/132.0.339365841 Mobile/15E148 Safari/604.1
+5.82.69.57      - [05-Nov-2020 14:59:28 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Linux; Android 9; MHA-L29) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.185 Mobile Safari/537.36 [http://www.sama.gov.sa/]
+5.82.69.57      - [05-Nov-2020 14:59:38 Asia/Riyadh] "GET /contact/ :443" 200 - Mozilla/5.0 (Linux; Android 9; MHA-L29) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.185 Mobile Safari/537.36
+37.121.217.228  - [05-Nov-2020 15:19:50 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36
+37.121.217.228  - [05-Nov-2020 15:20:06 Asia/Riyadh] "GET /partner-link/ :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36
+37.121.217.228  - [05-Nov-2020 15:20:25 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36
+37.121.217.228  - [05-Nov-2020 15:20:47 Asia/Riyadh] "GET /about-src/ :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36
+37.121.217.228  - [05-Nov-2020 15:21:00 Asia/Riyadh] "GET /ar/about-src-2/ :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36
+37.121.217.228  - [05-Nov-2020 15:21:17 Asia/Riyadh] "GET /ar/about-src-2/ :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36
+37.121.217.228  - [05-Nov-2020 15:21:27 Asia/Riyadh] "GET /ar/partners-ar/ :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36
+37.121.217.228  - [05-Nov-2020 15:21:39 Asia/Riyadh] "GET /ar/products-2/ :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36
+37.121.217.228  - [05-Nov-2020 15:21:53 Asia/Riyadh] "GET /ar/partners-ar/ :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36
+193.169.254.26  - [05-Nov-2020 15:29:11 Asia/Riyadh] "GET /sftp-config.json :443" 404 - Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0
+193.169.254.26  - [05-Nov-2020 15:29:12 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0
+193.169.254.26  - [05-Nov-2020 15:29:13 Asia/Riyadh] "GET /.ftpconfig :443" 404 - Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0
+193.169.254.26  - [05-Nov-2020 15:29:14 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0
+193.169.254.26  - [05-Nov-2020 15:29:15 Asia/Riyadh] "GET /.remote-sync.json :443" 404 - Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0
+193.169.254.26  - [05-Nov-2020 15:29:15 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0
+193.169.254.26  - [05-Nov-2020 15:29:16 Asia/Riyadh] "GET /.vscode/ftp-sync.json :443" 404 - Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0
+193.169.254.26  - [05-Nov-2020 15:29:17 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0
+193.169.254.26  - [05-Nov-2020 15:29:18 Asia/Riyadh] "GET /.vscode/sftp.json :443" 404 - Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0
+193.169.254.26  - [05-Nov-2020 15:29:19 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0
+193.169.254.26  - [05-Nov-2020 15:29:20 Asia/Riyadh] "GET /deployment-config.json :443" 404 - Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0
+193.169.254.26  - [05-Nov-2020 15:29:21 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0
+193.169.254.26  - [05-Nov-2020 15:29:22 Asia/Riyadh] "GET /ftpsync.settings :443" 404 - Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0
+193.169.254.26  - [05-Nov-2020 15:29:23 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0
+154.51.173.90   - [05-Nov-2020 15:33:37 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:76.0) Gecko/20100101 Firefox/76.0
+35.180.20.168   - [05-Nov-2020 15:33:39 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (iPad; CPU OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B14 3 Safari/601.1
+77.67.20.129    - [05-Nov-2020 15:37:42 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+3.18.67.70      - [05-Nov-2020 15:41:58 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36
+70.39.129.107   - [05-Nov-2020 15:43:41 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+66.249.69.251   - [05-Nov-2020 15:46:20 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+5.156.201.84    - [05-Nov-2020 15:46:27 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 13_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Mobile/15E148 Safari/604.1
+3.18.67.70      - [05-Nov-2020 15:53:47 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36
+207.99.15.85    - [05-Nov-2020 15:55:27 Asia/Riyadh] "GET /support-ticket/ :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+207.99.15.85    - [05-Nov-2020 15:57:52 Asia/Riyadh] "GET /support-ticket/downloads/ :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+37.105.195.138  - [05-Nov-2020 16:15:39 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:82.0) Gecko/20100101 Firefox/82.0
+34.219.189.254  - [05-Nov-2020 16:20:30 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36
+69.191.249.202  - [05-Nov-2020 16:20:51 Asia/Riyadh] "GET /board-of-directors-report/ :443" 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359 Safari/537.36 [https://srco.com.sa/board-of-directors-report/]
+13.66.139.2     - [05-Nov-2020 16:24:01 Asia/Riyadh] "GET /sitemap-taxonomies-news-category.xml :443" 200 - Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+192.29.97.49    - [05-Nov-2020 16:32:55 Asia/Riyadh] "GET / :443" 200 - DF Bot 1.0 [http://www.srco.com.sa/]
+192.29.97.49    - [05-Nov-2020 16:33:01 Asia/Riyadh] "GET /about-src/ :443" 200 - DF Bot 1.0
+192.29.97.49    - [05-Nov-2020 16:33:09 Asia/Riyadh] "GET /about-src/ :443" 200 - DF Bot 1.0
+192.29.97.49    - [05-Nov-2020 16:33:21 Asia/Riyadh] "GET /career/ :443" 200 - DF Bot 1.0
+192.29.97.49    - [05-Nov-2020 16:33:24 Asia/Riyadh] "GET /products/ :443" 200 - DF Bot 1.0
+192.29.97.49    - [05-Nov-2020 16:33:28 Asia/Riyadh] "GET /products/ :443" 200 - DF Bot 1.0
+69.191.249.206  - [05-Nov-2020 16:37:35 Asia/Riyadh] "GET /financial-statements/ :443" 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359 Safari/537.36 [https://srco.com.sa/financial-statements/]
+2.89.195.194    - [05-Nov-2020 16:44:58 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Linux; Android 10; SAMSUNG SM-N981B) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/12.1 Chrome/79.0.3945.136 Mobile Safari/537.36
+66.249.69.253   - [05-Nov-2020 16:46:12 Asia/Riyadh] "GET /ar/our-business-2/ :443" 200 - Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+2.89.98.201     - [05-Nov-2020 16:51:04 Asia/Riyadh] "GET /ar/ :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 13_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Mobile/15E148 Safari/604.1
+66.249.69.253   - [05-Nov-2020 16:51:09 Asia/Riyadh] "GET /ar/our-business-2/ :443" 200 - Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+2.89.98.201     - [05-Nov-2020 16:51:20 Asia/Riyadh] "GET /ar/products-2/ :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 13_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Mobile/15E148 Safari/604.1
+157.55.39.110   - [05-Nov-2020 16:52:19 Asia/Riyadh] "GET /ar/products-2/ :443" 200 - Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+2.89.98.201     - [05-Nov-2020 16:54:31 Asia/Riyadh] "GET /ar/ :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 13_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Mobile/15E148 Safari/604.1
+2.89.98.201     - [05-Nov-2020 16:54:32 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 13_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Mobile/15E148 Safari/604.1
+213.210.196.194 - [05-Nov-2020 17:00:56 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+213.210.196.194 - [05-Nov-2020 17:04:19 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+213.210.196.194 - [05-Nov-2020 17:07:19 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+46.153.101.183  - [05-Nov-2020 17:20:41 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Linux; Android 10; SM-G986B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.185 Mobile Safari/537.36
+93.169.113.4    - [05-Nov-2020 17:25:18 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Linux; Android 10; SM-A107F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.110 Mobile Safari/537.36 [http://www.sama.gov.sa/]
+93.169.113.4    - [05-Nov-2020 17:25:40 Asia/Riyadh] "GET /products/ :443" 200 - Mozilla/5.0 (Linux; Android 10; SM-A107F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.110 Mobile Safari/537.36
+13.66.139.2     - [05-Nov-2020 17:34:27 Asia/Riyadh] "GET /atom.xml :443" 404 - Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+13.66.139.2     - [05-Nov-2020 17:34:31 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+78.95.11.76     - [05-Nov-2020 18:09:41 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 13_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Mobile/15E148 Safari/604.1
+78.95.11.76     - [05-Nov-2020 18:10:42 Asia/Riyadh] "GET /career/ :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 13_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Mobile/15E148 Safari/604.1
+69.191.249.220  - [05-Nov-2020 18:25:08 Asia/Riyadh] "GET /board-of-directors-report/ :443" 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359 Safari/537.36 [https://srco.com.sa/board-of-directors-report/]
+207.45.249.132  - [05-Nov-2020 18:28:12 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36
+37.43.73.121    - [05-Nov-2020 18:29:41 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 14_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
+69.191.249.220  - [05-Nov-2020 18:33:03 Asia/Riyadh] "GET /financial-statements/ :443" 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359 Safari/537.36 [https://srco.com.sa/financial-statements/]
+51.253.126.162  - [05-Nov-2020 18:49:00 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 13_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Mobile/15E148 Safari/604.1
+51.253.126.162  - [05-Nov-2020 18:49:05 Asia/Riyadh] "GET /ar/ :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 13_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Mobile/15E148 Safari/604.1
+51.253.126.162  - [05-Nov-2020 18:49:10 Asia/Riyadh] "GET /ar/contact-2/ :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 13_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Mobile/15E148 Safari/604.1
+51.253.126.162  - [05-Nov-2020 18:49:53 Asia/Riyadh] "GET /ar/ :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 13_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Mobile/15E148 Safari/604.1
+18.217.96.164   - [05-Nov-2020 18:53:40 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36
+66.249.69.225   - [05-Nov-2020 19:00:06 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+157.55.39.72    - [05-Nov-2020 19:05:11 Asia/Riyadh] "GET /ar/about-src-2/ :443" 200 - Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+207.99.15.85    - [05-Nov-2020 19:24:58 Asia/Riyadh] "GET /tel:966118029400 :443" 404 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+207.99.15.85    - [05-Nov-2020 19:24:59 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+13.66.139.2     - [05-Nov-2020 19:33:59 Asia/Riyadh] "GET /en/src-injects-another-sar1-billion-into-saudi-housing-finance-market/ :443" 404 - Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+13.66.139.2     - [05-Nov-2020 19:34:00 Asia/Riyadh] "GET /about-us/ :443" 404 - Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+13.66.139.2     - [05-Nov-2020 19:34:01 Asia/Riyadh] "GET /Ø§Ù„Ø§ØªÙØ§Ù‚ÙŠØ©-Ø§Ù„Ø«Ø§Ù†ÙŠØ©-Ù…Ù†-Ù†ÙˆØ¹Ù‡Ø§-Ù„Ù„Ø´Ø±ÙƒØ©-ÙÙŠ-Øº/ :443" 404 - Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+13.66.139.2     - [05-Nov-2020 19:34:02 Asia/Riyadh] "GET /sitemap.xml.gz :443" 404 - Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+13.66.139.2     - [05-Nov-2020 19:34:06 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+207.99.15.85    - [05-Nov-2020 19:39:56 Asia/Riyadh] "GET /support-ticket/downloads/ :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+54.236.59.181   - [05-Nov-2020 19:41:56 Asia/Riyadh] "GET / :443" 200 - \"Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27\"
+37.125.204.78   - [05-Nov-2020 19:58:08 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_8 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Mobile/15E148 Safari/604.1
+37.125.204.78   - [05-Nov-2020 19:58:29 Asia/Riyadh] "GET /ar/ :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_8 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Mobile/15E148 Safari/604.1
+13.66.139.2     - [05-Nov-2020 19:58:41 Asia/Riyadh] "GET /sitemap-posttypes-news.xml :443" 200 - Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+37.125.204.78   - [05-Nov-2020 19:59:50 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_8 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Mobile/15E148 Safari/604.1
+66.249.69.251   - [05-Nov-2020 20:08:48 Asia/Riyadh] "GET /ads.txt :443" 404 - Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+66.249.69.251   - [05-Nov-2020 20:08:56 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+95.185.155.52   - [05-Nov-2020 20:19:48 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Linux; Android 9; ANE-LX1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.127 Mobile Safari/537.36 [http://www.sama.gov.sa/]
+69.191.249.206  - [05-Nov-2020 20:30:15 Asia/Riyadh] "GET /board-of-directors-report/ :443" 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359 Safari/537.36 [https://srco.com.sa/board-of-directors-report/]
+69.191.249.211  - [05-Nov-2020 20:31:59 Asia/Riyadh] "GET /financial-statements/ :443" 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359 Safari/537.36 [https://srco.com.sa/financial-statements/]
+81.130.208.29   - [05-Nov-2020 20:34:51 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+37.105.226.37   - [05-Nov-2020 20:48:29 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36 [http://www.sama.gov.sa/]
+37.105.226.37   - [05-Nov-2020 20:48:36 Asia/Riyadh] "GET /ar/ :443" 200 - Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+85.154.47.27    - [05-Nov-2020 20:57:26 Asia/Riyadh] "GET /ar :443" 200 - Mozilla/5.0 (Linux; Android 9; JAT-L29) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.110 Mobile Safari/537.36
+13.66.139.2     - [05-Nov-2020 21:06:56 Asia/Riyadh] "GET /sitemaps.xml :443" 404 - Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+13.66.139.2     - [05-Nov-2020 21:06:58 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+37.105.226.37   - [05-Nov-2020 21:09:41 Asia/Riyadh] "GET /ar/products-2/ :443" 200 - Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+34.99.252.57    - [05-Nov-2020 21:13:30 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36
+34.99.252.57    - [05-Nov-2020 21:13:41 Asia/Riyadh] "GET /whistleblower/ :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36
+52.251.58.116   - [05-Nov-2020 21:29:14 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+81.130.208.29   - [05-Nov-2020 21:38:45 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+31.166.252.102  - [05-Nov-2020 22:08:28 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36
+13.66.139.2     - [05-Nov-2020 22:11:48 Asia/Riyadh] "GET /sitemap-posttypes-page.xml :443" 200 - Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+31.166.252.102  - [05-Nov-2020 22:14:19 Asia/Riyadh] "GET /products/ :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36
+31.166.252.102  - [05-Nov-2020 22:14:20 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (X11; Linux x86_64; rv:10.0) Gecko/20150101 Firefox/20.0 (Chrome)
+31.166.252.102  - [05-Nov-2020 22:14:21 Asia/Riyadh] "GET /ar/products-2/ :443" 200 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36
+31.166.252.102  - [05-Nov-2020 22:14:26 Asia/Riyadh] "GET /products/ :443" 200 - Mozilla/5.0 (X11; Linux x86_64; rv:10.0) Gecko/20150101 Firefox/20.0 (Chrome)
+31.166.252.102  - [05-Nov-2020 22:14:32 Asia/Riyadh] "GET /ar/products-2/ :443" 200 - Mozilla/5.0 (X11; Linux x86_64; rv:10.0) Gecko/20150101 Firefox/20.0 (Chrome)
+13.66.139.2     - [05-Nov-2020 22:21:38 Asia/Riyadh] "GET /sitemap-posttypes-products.xml :443" 200 - Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+93.158.161.24   - [05-Nov-2020 22:27:26 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
+69.191.249.220  - [05-Nov-2020 22:30:50 Asia/Riyadh] "GET /financial-statements/ :443" 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359 Safari/537.36 [https://srco.com.sa/financial-statements/]
+69.191.249.220  - [05-Nov-2020 22:35:45 Asia/Riyadh] "GET /board-of-directors-report/ :443" 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359 Safari/537.36 [https://srco.com.sa/board-of-directors-report/]
+13.66.139.2     - [05-Nov-2020 22:53:57 Asia/Riyadh] "GET /Ù…Ù†-Ù†Ø­Ù†/ :443" 404 - Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+13.66.139.2     - [05-Nov-2020 22:53:57 Asia/Riyadh] "GET /ar/أخبار/news-ar/news1/ :443" 200 - Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+207.46.13.149   - [05-Nov-2020 22:54:56 Asia/Riyadh] "GET /ar/career-2/ :443" 200 - Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+51.36.145.211   - [05-Nov-2020 23:04:09 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Mobile/15E148 Safari/604.1
+66.249.69.251   - [05-Nov-2020 23:11:28 Asia/Riyadh] "GET /career/ :443" 200 - Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+157.55.39.72    - [05-Nov-2020 23:16:55 Asia/Riyadh] "GET /career/ :443" 200 - Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+182.65.74.101   - [05-Nov-2020 23:25:31 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2376.69 Safari/537.36
+93.168.133.212  - [05-Nov-2020 23:40:17 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 [LinkedInApp] [https://www.linkedin.com/]
+93.168.133.212  - [05-Nov-2020 23:40:18 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/601.2.4 (KHTML, like Gecko) Version/9.0.1 Safari/601.2.4 facebookexternalhit/1.1 Facebot Twitterbot/1.0
+93.168.133.212  - [05-Nov-2020 23:40:22 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
+93.168.133.212  - [05-Nov-2020 23:40:45 Asia/Riyadh] "GET /ar/ :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
+93.168.133.212  - [05-Nov-2020 23:41:44 Asia/Riyadh] "GET /ar/ :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
+93.168.133.212  - [05-Nov-2020 23:41:48 Asia/Riyadh] "GET /ar/career-2/ :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
+95.185.9.178    - [05-Nov-2020 23:41:53 Asia/Riyadh] "GET / :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
+93.168.133.212  - [05-Nov-2020 23:42:42 Asia/Riyadh] "GET /ar/career-2/ :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
+93.168.133.212  - [05-Nov-2020 23:43:09 Asia/Riyadh] "GET /ar/القوائم-المالية/ :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
+93.168.133.212  - [05-Nov-2020 23:43:18 Asia/Riyadh] "GET /ar/products-2/ :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
+93.168.133.212  - [05-Nov-2020 23:43:19 Asia/Riyadh] "GET /ar/products-2/ :443" 200 - Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1

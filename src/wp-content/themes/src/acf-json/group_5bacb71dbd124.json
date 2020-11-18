@@ -1,0 +1,194 @@
+{
+    "key": "group_5bacb71dbd124",
+    "title": "Management: Intranet",
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "options-intranet"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1541628650,
+    "fields": [
+        {
+            "key": "field_5bc88a5cd12a3",
+            "label": "Recent",
+            "name": "intranet_recent",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "row",
+            "sub_fields": [
+                {
+                    "key": "field_5bc88a8dd12a4",
+                    "label": "Category index",
+                    "name": "index",
+                    "type": "number",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 1,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "min": 1,
+                    "max": "",
+                    "step": 1
+                }
+            ]
+        },
+        {
+            "key": "field_5bacc3cbea0d6",
+            "label": "Links",
+            "name": "intranet_links",
+            "type": "repeater",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "row",
+            "button_label": "Add link",
+            "sub_fields": [
+                {
+                    "key": "field_5bacc3e9ea0d7",
+                    "label": "Link",
+                    "name": "link",
+                    "type": "link",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array"
+                }
+            ]
+        },
+        {
+            "key": "field_5bacc477a56be",
+            "label": "Contacts",
+            "name": "intranet_contact",
+            "type": "repeater",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 2,
+            "max": 2,
+            "layout": "row",
+            "button_label": "Add box",
+            "sub_fields": [
+                {
+                    "key": "field_5bacc477a56bf",
+                    "label": "Icon",
+                    "name": "icon",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "academy": "academy",
+                        "calendar": "calendar",
+                        "chart": "chart",
+                        "cv": "cv",
+                        "email": "email",
+                        "eye-close": "eye-close",
+                        "eye-open": "eye-open",
+                        "file": "file",
+                        "heart": "heart",
+                        "home": "home",
+                        "interview": "interview",
+                        "letter": "letter",
+                        "lifebuoy": "lifebuoy",
+                        "linkedin": "linkedin",
+                        "location": "location",
+                        "logout": "logout",
+                        "microphone": "microphone",
+                        "money": "money",
+                        "mouse": "mouse",
+                        "palm": "palm",
+                        "pdf": "pdf",
+                        "phone": "phone",
+                        "play": "play",
+                        "rocket": "rocket",
+                        "search": "search",
+                        "share": "share",
+                        "squares": "squares",
+                        "star": "star",
+                        "star-fill": "star-fill",
+                        "stats": "stats",
+                        "target": "target",
+                        "team": "team",
+                        "trash": "trash",
+                        "twitter": "twitter",
+                        "umbrella": "umbrella",
+                        "vision": "vision",
+                        "wallet": "wallet"
+                    },
+                    "default_value": [],
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 1,
+                    "ajax": 0,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5bacc477a56c0",
+                    "label": "Link",
+                    "name": "link",
+                    "type": "link",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array"
+                }
+            ]
+        }
+    ]
+}

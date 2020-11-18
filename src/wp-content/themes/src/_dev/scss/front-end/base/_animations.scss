@@ -1,0 +1,77 @@
+@keyframes hoverAnimate {
+
+  0% {
+    opacity: 0;
+    transform: rotate(0deg) translateX(3px) rotate(0deg);
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: rotate(360deg) translateX(3px) rotate(-360deg);
+  }
+
+}
+
+@keyframes hoverAnimateReverse {
+
+  0% {
+    opacity: 0;
+    transform: rotate(360deg) translateX(3px) rotate(-360deg);
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: rotate(0deg) translateX(3px) rotate(0deg);
+  }
+
+}
+
+@keyframes scrollButton {
+
+  0% {
+    opacity: 0;
+    transform: translateY(0);
+  }
+
+  1% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  99% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+}
+
+@keyframes buttonWaiting {
+
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: .1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
+}

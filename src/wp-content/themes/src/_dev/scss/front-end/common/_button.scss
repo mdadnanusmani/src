@@ -1,0 +1,215 @@
+/* ---
+  Inline style
+--- */
+
+  .button--inline,
+  .wysiwyg a {
+    position: relative;
+    display: inline-block;
+    padding: 0 0 0 58px;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 1.54;
+    color: rgba($c-black, .66);
+    letter-spacing: .65px;
+    transition: padding .3s, color .3s;
+    white-space: nowrap;
+    cursor: pointer;
+    overflow: hidden;
+    cursor: pointer;
+
+    @include rtl() {
+      padding: 0 58px 0 0;
+    }
+
+    &:before,
+    &:after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      width: 44px;
+      height: 1px;
+      background-color: $c-blue-01;
+      transform: translateX(0);
+      transition: transform .3s;
+    }
+
+    &:before {
+      left: 0;
+
+      @include rtl() {
+        left: -45px;
+      }
+    }
+
+    &:after {
+      right: -45px;
+
+      @include rtl() {
+        right: 0;
+      }
+    }
+
+    &:hover {
+      padding: 0 58px 0 0;
+      color: $c-blue-01;
+
+      @include rtl() {
+        padding: 0 0 0 58px;
+      }
+
+      &:before,
+      &:after {
+        transform: translateX(-100%);
+
+        @include rtl() {
+          transform: translateX(100%);
+        }
+      }
+    }
+
+    &.button--white {
+      color: rgba($c-white, .66);
+
+      &:hover {
+
+        @include parent('.wysiwyg', '.wysiwyg--white') {
+          color: rgba($c-white, .66);
+        }
+      }
+    }
+
+    &.button--white {
+
+      &:hover {
+        color: $c-blue-01;
+      }
+
+      &:before,
+      &:after {
+        background-color: $c-blue-01;
+      }
+    }
+
+    &.button--violet {
+
+      &:hover {
+        color: $c-blue-02;
+      }
+
+      &:before,
+      &:after {
+        background-color: $c-blue-02;
+      }
+    }
+
+    &.button--navy {
+
+      &:hover {
+        color: $c-blue-03;
+      }
+
+      &:before,
+      &:after {
+        background-color: $c-blue-03;
+      }
+    }
+  }
+
+  .wysiwyg.wysiwyg--white a {
+    color: $c-white;
+
+    &:before,
+    &:after {
+      background-color: $c-white;
+    }
+  }
+
+/* ---
+  Background style
+--- */
+
+  .button--bg {
+    display: inline-block;
+    min-width: 100px;
+    padding: 0 20px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 38px;
+    letter-spacing: .65px;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    transition: color .3s, background-color .3s;
+    cursor: pointer;
+
+    &.button--blue {
+      color: $c-white;
+      background-color: $c-blue-01;
+      border-color: $c-blue-01;
+
+      &:hover {
+        color: $c-blue-01;
+        background-color: transparent;
+      }
+    }
+
+    &.button--large {
+      padding: 0 45px;
+      line-height: 56px;
+    }
+
+    &.button--loading {
+      animation: buttonWaiting 1s linear infinite;
+    }
+  }
+
+/* ---
+  Border style
+--- */
+
+  .button--border {
+    display: inline-block;
+    min-width: 100px;
+    padding: 0 20px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 38px;
+    letter-spacing: .65px;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    transition: color .3s, background-color .3s;
+    cursor: pointer;
+
+    &.button--blue {
+      color: $c-blue-01;
+      background-color: transparent;
+      border-color: $c-blue-01;
+
+      &:hover {
+        color: $c-white;
+        background-color: $c-blue-01;
+      }
+    }
+
+    &.button--whiteNavy {
+      color: $c-white;
+      background-color: $c-blue-03;
+      border-color: $c-white;
+
+      &:hover {
+        color: $c-blue-03;
+        background-color: $c-white;
+      }
+    }
+
+    &.button--large {
+      padding: 0 45px;
+      line-height: 56px;
+    }
+
+    &.button--loading {
+      animation: buttonWaiting 1s linear infinite;
+    }
+  }

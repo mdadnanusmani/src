@@ -1,0 +1,134 @@
+.productInfo {
+  overflow: hidden;
+
+  &--blue {
+    background-color: $c-blue-01;
+  }
+
+  &--violet {
+    background-color: $c-blue-02;
+  }
+
+  &--navy {
+    background-color: $c-blue-03;
+  }
+
+  &__inner {
+    padding: 30px 0;
+  }
+
+  &__item {
+    margin-top: 20px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  /* ---
+    Table
+  --- */
+
+    &__tableWrapper {
+      padding: 20px 0;
+    }
+
+    &__table {
+      display: flex;
+      flex-wrap: wrap;
+      border: 1px solid $c-white;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+
+    &__tableCell {
+      flex: 1;
+      min-height: 220px;
+      padding: 24px 30px;
+      font-size: 15px;
+      line-height: 1.6;
+      color: $c-white;
+      border-left: 1px solid $c-white;
+
+      &:first-child {
+        border-left: 0;
+      }
+
+      @include rtl() {
+        border-left: 0;
+        border-right: 1px solid $c-white;
+
+        &:first-child {
+          border-right: 0;
+        }
+      }
+
+      @include rwd('large-tablet') {
+        flex: initial;
+        width: 100%;
+        min-height: 98px;
+        border-left: 0;
+        border-top: 1px solid $c-white;
+
+        &:first-child {
+          border-top: 0;
+        }
+      }
+    }
+
+  /* ---
+    Stats
+  --- */
+
+    &__stats {
+      margin-top: -46px;
+      padding: 13px 0;
+      min-height: 192px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    &__stat {
+      flex: 1;
+      margin-top: 46px;
+
+      @include rwd('large-tablet') {
+        flex: initial;
+        width: 50%;
+      }
+
+      @include rwd('small-tablet') {
+        width: 100%;
+      }
+    }
+
+    &__statNumber {
+      margin: 0 -8px;
+      font-weight: 300;
+      font-size: 60px;
+      line-height: .94;
+      color: $c-white;
+
+      span {
+        display: inline-block;
+        padding: 0 8px;
+
+        &:first-child {
+          direction: ltr;
+        }
+      }
+    }
+
+    &__statTitle {
+      margin-top: 16px;
+      max-width: 100px;
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 1.6;
+      color: $c-white;
+
+      @include rwd('large-tablet') {
+        max-width: 100%;
+      }
+    }
+}

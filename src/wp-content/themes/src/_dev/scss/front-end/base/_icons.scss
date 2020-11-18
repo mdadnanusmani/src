@@ -1,0 +1,101 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icons/icomoon.eot');
+  src:
+    url('../fonts/icons/icomoon.eot#iefix') format('embedded-opentype'),
+    url('../fonts/icons/icomoon.ttf') format('truetype'),
+    url('../fonts/icons/icomoon.woff') format('woff'),
+    url('../fonts/icons/icomoon.svg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$icons : (
+  'academy' : '\e900',
+  'arrow-double-left' : '\e931',
+  'arrow-double-right' : '\e932',
+  'arrow-down' : '\e901',
+  'arrow-left' : '\e902',
+  'arrow-long-down' : '\e905',
+  'arrow-long-left' : '\e906',
+  'arrow-long-right' : '\e907',
+  'arrow-long-up' : '\e908',
+  'arrow-right' : '\e903',
+  'arrow-rounded-ar-down' : '\e909',
+  'arrow-rounded-ar-left' : '\e90a',
+  'arrow-rounded-ar-right' : '\e90b',
+  'arrow-rounded-ar-up' : '\e90c',
+  'arrow-rounded-down' : '\e92b',
+  'arrow-rounded-left' : '\e92a',
+  'arrow-rounded-right' : '\e929',
+  'arrow-rounded-up' : '\e928',
+  'arrow-up' : '\e904',
+  'calendar' : '\e92e',
+  'chart' : '\e90d',
+  'cv' : '\e90e',
+  'email' : '\e90f',
+  'eye-close' : '\e934',
+  'eye-open' : '\e935',
+  'file' : '\e910',
+  'heart' : '\e911',
+  'home' : '\e912',
+  'interview' : '\e913',
+  'letter' : '\e914',
+  'lifebuoy' : '\e915',
+  'linkedin' : '\e916',
+  'location' : '\e933',
+  'logout' : '\e92f',
+  'microphone' : '\e917',
+  'money' : '\e918',
+  'mouse' : '\e919',
+  'palm' : '\e91a',
+  'pdf' : '\e92c',
+  'phone' : '\e91b',
+  'play' : '\e91c',
+  'rocket' : '\e91d',
+  'search' : '\e91e',
+  'share' : '\e91f',
+  'squares' : '\e920',
+  'star' : '\e930',
+  'star-fill' : '\e936',
+  'stats' : '\e921',
+  'target' : '\e922',
+  'team' : '\e923',
+  'trash' : '\e92d',
+  'twitter' : '\e924',
+  'umbrella' : '\e925',
+  'vision' : '\e926',
+  'wallet' : '\e927'
+);
+
+@mixin icomoon($icon) {
+
+  @if map-has-key($icons, $icon) {
+
+    & {
+      content: inspect(map-get($icons, $icon)) !important;
+      font-family: 'icomoon' !important;
+      speak: none;
+      font-style: normal;
+      font-weight: normal;
+      font-variant: normal;
+      text-transform: none;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+  } @else {
+
+    @warn 'Unfortunately, not found icon called `#{$icon}`!';
+
+  }
+
+}
+
+@each $icon, $content in $icons {
+
+  .icon-#{$icon}:before {
+    @include icomoon($icon);
+  }
+
+}

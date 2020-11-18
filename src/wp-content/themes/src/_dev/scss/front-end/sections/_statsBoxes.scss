@@ -1,0 +1,306 @@
+.statsBoxes {
+
+  &__inner {
+    padding: 30px 0 50px 0;
+  }
+
+  &__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-top: 1px;
+  }
+
+  &__item {
+    display: flex;
+    width: 33.33333%;
+    min-height: 330px;
+    margin-top: -1px;
+    overflow: hidden;
+
+  &:before,
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+    @include rwd('large-tablet') {
+      width: 50%;
+      min-height: 200px;
+
+      &:first-child {
+        margin-bottom: 40px;
+      }
+    }
+
+    @include rwd('tablet') {
+      width: 100%;
+    }
+
+    &--wide {
+      width: 66.66666%;
+      padding-right: 60px;
+      border: none;
+
+      @include rwd('large-tablet') {
+        width: 100%;
+        padding-right: 0;
+      }
+
+      @include rtl() {
+        padding-right: 0;
+        padding-left: 60px;
+
+        @include rwd('large-tablet') {
+          padding-left: 0;
+        }
+      }
+    }
+
+    &--number {
+      padding: 30px 50px;
+      border: 1px solid $c-gray-01;
+
+      @include rwd('large-tablet') {
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+
+      @include rwd('large-tablet', 'up') {
+
+        &:nth-child(3n+3),
+        &:nth-child(3n+4) {
+          border-right: none;
+
+          @include rtl() {
+            border-left: none;
+            border-right: 1px solid $c-gray-01;
+          }
+
+          &:last-child {
+            border-right: 1px solid $c-gray-01;
+
+            @include rtl() {
+              border-left: 1px solid $c-gray-01;
+            }
+          }
+        }
+
+        &:nth-child(2) {
+          border-top-left-radius: 5px;
+          border-top-right-radius: 5px;
+
+          &:last-child {
+            border-bottom-left-radius: 5px;
+
+            @include rtl() {
+              border-bottom-right-radius: 5px;
+            }
+          }
+        }
+
+        &:nth-child(3) {
+          border-top-left-radius: 5px;
+
+          @include rtl() {
+            border-top-left-radius: 0;
+            border-top-right-radius: 5px;
+          }
+
+          &:last-child {
+            border-top-left-radius: 0;
+
+            @include rtl() {
+              border-top-right-radius: 0;
+            }
+          }
+        }
+
+        &:last-child,
+        &:nth-last-child(2),
+        &:nth-last-child(3),
+        &:nth-last-child(4),
+        &:nth-last-child(5) {
+
+          &:nth-child(3n+3) {
+            border-bottom-left-radius: 5px;
+
+            @include rtl() {
+              border-bottom-right-radius: 5px;
+            }
+          }
+        }
+
+        &:nth-last-child(2),
+        &:nth-last-child(3),
+        &:nth-last-child(4),
+        &:nth-last-child(5) {
+          
+          @include rtl() {
+            border-bottom-left-radius: 0;
+          }
+        }
+
+        &:last-child {
+          border-bottom-right-radius: 5px;
+
+          @include rtl() {
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 5px;
+          }
+        }
+      }
+
+      @include rwd('large-tablet') {
+      
+        @include rwd('large-tablet', 'up') {
+        
+          &:nth-child(2n+2) {
+            border-right: 0;
+
+            @include rtl() {
+              border-right: 1px solid $c-gray-01;
+              border-left: 0;
+            }
+
+            &:last-child {
+              border-right: 1px solid $c-gray-01;
+
+              @include rtl() {
+                border-left: 1px solid $c-gray-01;
+              }
+            }
+          }
+
+          &:nth-child(2) {
+            border-top-left-radius: 5px;
+
+            @include rtl() {
+              border-top-left-radius: 0;
+              border-top-right-radius: 5px;
+
+              &:last-child {
+                border-top-left-radius: 5px;
+              }
+            }
+          }
+
+          &:nth-child(3) {
+            border-top-right-radius: 5px;
+
+            @include rtl() {
+              border-top-right-radius: 0;
+              border-top-left-radius: 5px;
+            }
+          }
+
+          &:last-child {
+            border-bottom-right-radius: 5px;
+
+            @include rtl() {
+              border-bottom-right-radius: 0;
+              border-bottom-left-radius: 5px;
+            }
+
+            &:nth-child(2n+2) {
+              border-bottom-left-radius: 5px;
+
+              @include rtl() {
+                border-bottom-right-radius: 5px;
+              }
+            }
+          }
+
+          &:nth-last-child(2) {
+
+            &:nth-child(2n+2) {
+              border-bottom-left-radius: 5px;
+
+              @include rtl() {
+                border-bottom-left-radius: 0;
+                border-bottom-right-radius: 5px;
+              }
+            }
+          }
+
+          &:nth-last-child(3) {
+
+            &:nth-child(2n+2) {
+              border-bottom-left-radius: 5px;
+
+              @include rtl() {
+                border-bottom-left-radius: 0;
+                border-bottom-right-radius: 5px;
+              }
+            }
+          }
+        }
+      }
+
+      @include rwd('tablet') {
+        
+        &:first-child {
+          border-top-left-radius: 5px;
+          border-top-right-radius: 5px;
+        }
+        
+        &:last-child {
+          border-bottom-left-radius: 5px;
+          border-bottom-right-radius: 5px;
+        }
+      }
+    }
+  }
+
+  &__itemInner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  &__itemNumber {
+    margin: 0 -10px;
+    font-weight: 300;
+    font-size: 80px;
+    line-height: 0.9375;
+    color: $c-blue-01;
+
+    &:before,
+    &:after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+
+    @include rwd('laptop') {
+      font-size: 60px;
+      line-height: 1.04;
+    }
+
+    span {
+      float: left;
+      padding: 0 10px;
+
+      &:first-child {
+        direction: ltr;
+      }
+
+      @include rtl() {
+        float: right;
+      }
+    }
+  }
+
+  &__itemTitle {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.4;
+    text-align: right;
+
+    @include rtl() {
+     text-align: left; 
+    }
+  }
+}

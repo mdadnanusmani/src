@@ -1,0 +1,374 @@
+
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+
+# BEGIN WP Better Permalinks (Post Types)
+  <IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteRule ^news/banque-saudi-fransi-to-expand-ltfr-mortgages-with-src-funding/$ /news/news/banque-saudi-fransi-to-expand-ltfr-mortgages-with-src-funding/ [R=301,L]
+    RewriteRule ^ar/أخبار/news6/$ /ar/أخبار/news-ar/news6/ [R=301,L]
+    RewriteRule ^news/src-injects-another-sar1-billion-into-saudi-housing-finance-market/$ /news/news/src-injects-another-sar1-billion-into-saudi-housing-finance-market/ [R=301,L]
+    RewriteRule ^news/saudi-real-estate-refinance-company-src-signs-sar1bn-deal-with-bidaya-home-finance/$ /news/news/saudi-real-estate-refinance-company-src-signs-sar1bn-deal-with-bidaya-home-finance/ [R=301,L]
+    RewriteRule ^news/home-loans-become-more-accessible-for-saudi-house-hunters-src-signs-partnership-agreement-with-ncb-to-acquire-mortgage-portfolio/$ /news/news/home-loans-become-more-accessible-for-saudi-house-hunters-src-signs-partnership-agreement-with-ncb-to-acquire-mortgage-portfolio/ [R=301,L]
+    RewriteRule ^news/aiming-to-provide-more-accessible-home-loans-src-signs-partnership-agreement-with-dat/$ /news/news/aiming-to-provide-more-accessible-home-loans-src-signs-partnership-agreement-with-dat/ [R=301,L]
+    RewriteRule ^news/src-signs-a-strategic-partnership-deal-of-sar-1bn-with-deutsche-gulf-finance/$ /news/news/src-signs-a-strategic-partnership-deal-of-sar-1bn-with-deutsche-gulf-finance/ [R=301,L]
+    RewriteRule ^ar/أخبار/news5/$ /ar/أخبار/news-ar/news5/ [R=301,L]
+    RewriteRule ^ar/أخبار/news4/$ /ar/أخبار/news-ar/news4/ [R=301,L]
+    RewriteRule ^ar/أخبار/news3/$ /ar/أخبار/news-ar/news3/ [R=301,L]
+    RewriteRule ^ar/أخبار/news2/$ /ar/أخبار/news-ar/news2/ [R=301,L]
+    RewriteRule ^ar/أخبار/news1/$ /ar/أخبار/news-ar/news1/ [R=301,L]
+  </IfModule>
+# END WP Better Permalinks (Post Types)
+
+
+# BEGIN WP Better Permalinks (Terms)
+  <IfModule mod_rewrite.c>
+    RewriteEngine on
+  </IfModule>
+# END WP Better Permalinks (Terms)
+
+
+# BEGIN Security (load JS & CSS)
+  <IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteCond %{REQUEST_FILENAME} ^.*wp-admin/load-scripts.php$ [OR]
+    RewriteCond %{REQUEST_FILENAME} ^.*wp-admin/load-styles.php$
+    RewriteCond %{HTTP_COOKIE} !^.*wordpress_logged_in.*$ [NC]
+    RewriteRule ^ - [L,R=404]
+  </IfModule>
+# END Security (load JS & CSS)
+
+
+# BEGIN Security (User enumeration)
+  <IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_URI} ^/$
+    RewriteCond %{QUERY_STRING} ^/?author=\d
+    RewriteRule ^ - [L,R=404]
+  </IfModule>
+# END Security (User enumeration)
+
+
+# BEGIN Security (XML-RPC)
+  <files xmlrpc.php>
+    order allow,deny
+    deny from all
+  </files>
+# END Security (XML-RPC)
+
+
+# BEGIN Security (HTTP headers)
+  <ifModule mod_headers.c>
+    Header set X-XSS-Protection "1; mode=block"
+    Header set X-Frame-Options "sameorigin"
+    Header set X-Content-Type-Options "nosniff"
+  </IfModule>
+# END Security (HTTP headers)
+
+
+# BEGIN Security (URL Hacking)
+  <IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_METHOD} ^(HEAD|TRACE|DELETE|TRACK) [NC]
+    RewriteRule ^(.*)$ - [F,L]
+  </IfModule>
+# END Security (URL Hacking)
+
+
+# BEGIN Security (Repair database)
+  <IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteRule ^wp-admin/maint/repair.php?$ - [L,R=404]
+  </IfModule>
+# END Security (Repair database)
+
+
+# BEGIN Security (Files)
+  <files ~ "^(?i)(.*\.htaccess)$">
+    order allow,deny
+    deny from all
+  </files>
+  <files ~ "^(?i)(.*\.htpasswd)$">
+    order allow,deny
+    deny from all
+  </files>
+  <files ~ "^(?i)(.*\.ini)$">
+    order allow,deny
+    deny from all
+  </files>
+  <files ~ "^(?i)(.*\.phps)$">
+    order allow,deny
+    deny from all
+  </files>
+  <files ~ "^(?i)(.*\.fla)$">
+    order allow,deny
+    deny from all
+  </files>
+  <files ~ "^(?i)(.*\.log)$">
+    order allow,deny
+    deny from all
+  </files>
+  <files ~ "^(?i)(error_log)$">
+    order allow,deny
+    deny from all
+  </files>
+  <files ~ "^(?i)(.*\.sh)$">
+    order allow,deny
+    deny from all
+  </files>
+  <files ~ "^(?i)(changelog\.txt)$">
+    order allow,deny
+    deny from all
+  </files>
+  <files ~ "^(?i)(license\.html)$">
+    order allow,deny
+    deny from all
+  </files>
+  <files ~ "^(?i)(license\.txt)$">
+    order allow,deny
+    deny from all
+  </files>
+  <files ~ "^(?i)(license\.commercial\.txt)$">
+    order allow,deny
+    deny from all
+  </files>
+  <files ~ "^(?i)(readme\.html)$">
+    order allow,deny
+    deny from all
+  </files>
+  <files ~ "^(?i)(readme\.md)$">
+    order allow,deny
+    deny from all
+  </files>
+  <files ~ "^(?i)(readme\.txt)$">
+    order allow,deny
+    deny from all
+  </files>
+  <files ~ "^(?i)(install\.php)$">
+    order allow,deny
+    deny from all
+  </files>
+  <files ~ "^(?i)(.*\.bak)$">
+    order allow,deny
+    deny from all
+  </files>
+  <files ~ "^(?i)(.*\.git)$">
+    order allow,deny
+    deny from all
+  </files>
+  <files ~ "^(?i)(.*\.svn)$">
+    order allow,deny
+    deny from all
+  </files>
+  <files ~ "^(?i)(.*\.sql)$">
+    order allow,deny
+    deny from all
+  </files>
+  <files ~ "^(?i)(.*\.tar)$">
+    order allow,deny
+    deny from all
+  </files>
+  <files ~ "^(?i)(.*\.tar\.gz)$">
+    order allow,deny
+    deny from all
+  </files>
+# END Security (Files)
+
+
+# BEGIN Security (Directory access)
+  <IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteRule ^wp-admin/includes/ - [L,R=404]
+    RewriteRule !^wp-includes/ - [S=3]
+    RewriteRule ^wp-includes/[^/]+\.php$ - [L,R=404]
+    RewriteRule ^wp-includes/js/tinymce/langs/.+\.php - [L,R=404]
+    RewriteRule ^wp-includes/theme-compat/ - [L,R=404]
+    RewriteRule ^wp-content/([^.]+).php?$ - [L,R=404]
+  </IfModule>
+# END Security (Directory access)
+
+
+# BEGIN Security (Indexes)
+  Options All -Indexes
+# END Security (Indexes)
+
+
+# BEGIN Security (wp-config.php)
+  <Files wp-config.php>
+    Order Allow,Deny
+    Deny from all
+  </Files>
+# END Security (wp-config.php)
+
+
+# BEGIN Security (PHP errors)
+  <IfModule mod_php5.c>
+    php_value display_startup_errors off
+    php_value display_errors off
+  </IfModule>
+  <IfModule mod_php7.c>
+    php_value display_startup_errors off
+    php_value display_errors off
+  </IfModule>
+# END Security (PHP errors)
+
+
+# BEGIN 404
+  <IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_URI} ^/.*\.(gif|jpeg|jpg|png|svg|css|js|eot|woff|woff2|ttf)$ [NC]
+    RewriteRule ^ - [L,R=404]
+  </IfModule>
+# END 404
+
+
+# BEGIN Cache-Control
+  <IfDefine Expires>
+    Expires A25920000
+  </IfDefine>
+
+  <IfModule mod_expires.c>
+    ExpiresActive on
+    ExpiresDefault                                    "access plus 1 month"
+
+    # DATA
+    ExpiresByType text/xml                            "access plus 0 seconds"
+    ExpiresByType text/html                           "access plus 0 seconds"
+    ExpiresByType text/plain                          "access plus 0 seconds"
+    ExpiresByType application/xml                     "access plus 0 seconds"
+    ExpiresByType application/json                    "access plus 0 seconds"
+    ExpiresByType application/rss+xml                 "access plus 1 hour"
+    ExpiresByType application/atom+xml                "access plus 1 hour"
+    ExpiresByType text/x-component                    "access plus 1 hour"
+
+    # MANIFEST
+    ExpiresByType application/x-web-app-manifest+json "access plus 0 seconds"
+    ExpiresByType text/cache-manifest                 "access plus 0 seconds"
+
+    # SCRIPTS
+    ExpiresByType text/css                            "access plus 1 month"
+    ExpiresByType text/javascript                     "access plus 1 month"
+    ExpiresByType application/javascript              "access plus 1 month"
+    ExpiresByType application/x-javascript            "access plus 1 month"
+
+    # IMAGES
+    ExpiresByType image/gif                           "access plus 1 month"
+    ExpiresByType image/png                           "access plus 1 month"
+    ExpiresByType image/jpe                           "access plus 1 month"
+    ExpiresByType image/jpg                           "access plus 1 month"
+    ExpiresByType image/jpeg                          "access plus 1 month"
+    ExpiresByType image/jp2                           "access plus 1 month"
+    ExpiresByType image/pipeg                         "access plus 1 month"
+    ExpiresByType image/bmp                           "access plus 1 month"
+    ExpiresByType image/tiff                          "access plus 1 month"
+    ExpiresByType image/svg+xml                       "access plus 1 month"
+    ExpiresByType image/vnd.microsoft.icon            "access plus 1 month"
+
+    # ICONS
+    ExpiresByType image/ico                           "access plus 1 month"
+    ExpiresByType image/icon                          "access plus 1 month"
+    ExpiresByType text/ico                            "access plus 1 month"
+    ExpiresByType image/x-ico                         "access plus 1 month"
+    ExpiresByType image/x-icon                        "access plus 1 month"
+    ExpiresByType application/ico                     "access plus 1 month"
+
+    # AUDIO
+    ExpiresByType audio/ogg                           "access plus 1 month"
+    ExpiresByType audio/basic                         "access plus 1 month"
+    ExpiresByType audio/mid                           "access plus 1 month"
+    ExpiresByType audio/midi                          "access plus 1 month"
+    ExpiresByType audio/mpeg                          "access plus 1 month"
+    ExpiresByType audio/x-aiff                        "access plus 1 month"
+    ExpiresByType audio/x-mpegurl                     "access plus 1 month"
+    ExpiresByType audio/x-pn-realaudio                "access plus 1 month"
+    ExpiresByType audio/x-wav                         "access plus 1 month"
+
+    # VIDEO
+    ExpiresByType video/ogg                           "access plus 1 month"
+    ExpiresByType video/mp4                           "access plus 1 month"
+    ExpiresByType video/webm                          "access plus 1 month"
+    ExpiresByType video/x-msvideo                     "access plus 1 month"
+    ExpiresByType video/mpeg                          "access plus 1 month"
+    ExpiresByType video/quicktime                     "access plus 1 month"
+    ExpiresByType video/x-la-asf                      "access plus 1 month"
+    ExpiresByType video/x-ms-asf                      "access plus 1 month"
+    ExpiresByType x-world/x-vrml                      "access plus 1 month"
+
+    # FONTS
+    ExpiresByType font/truetype                       "access plus 1 month"
+    ExpiresByType font/opentype                       "access plus 1 month"
+    ExpiresByType application/x-font-ttf              "access plus 1 month"
+    ExpiresByType application/x-font-woff             "access plus 1 month"
+    ExpiresByType application/font-woff               "access plus 1 month"
+    ExpiresByType application/vnd.ms-fontobject       "access plus 1 month"
+
+    # FLASH
+    ExpiresByType application/x-shockwave-flash       "access plus 1 month"
+    ExpiresByType video/x-flv                         "access plus 1 month"
+
+    # OTHERS
+    ExpiresByType application/pdf                     "access plus 1 month"
+    ExpiresByType image/vnd.wap.wbmp                  "access plus 1 month"
+    ExpiresByType application/vnd.wap.wbxml           "access plus 1 month"
+    ExpiresByType application/smil                    "access plus 1 month"
+
+    <IfModule mod_headers.c>
+      Header append Cache-Control "public"
+      <FilesMatch ".(js|css|xml|gz|html)$">
+        Header append Vary: Accept-Encoding
+      </FilesMatch>
+    </IfModule>
+  </IfModule>
+
+  <IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/plain
+    AddOutputFilterByType DEFLATE text/html
+    AddOutputFilterByType DEFLATE text/css
+    AddOutputFilterByType DEFLATE text/javascript
+    AddOutputFilterByType DEFLATE application/javascript
+    AddOutputFilterByType DEFLATE application/x-javascript
+  </IfModule>
+# END SEO (Cache-Control
+
+
+# BEGIN SEO (Redirect host)
+  <IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{SERVER_PORT} 80 [OR]
+    RewriteCond %{HTTP_HOST} !^www\. [NC]
+    RewriteCond %{HTTP_HOST} ^(?:www\.)?(.+)$ [NC]
+    RewriteRule ^ https://www.%1%{REQUEST_URI} [L,NE,R=301]
+  </IfModule>
+# END SEO (Redirect host)
+
+
+# BEGIN Favicon (Redirect file)
+  <IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^favicon.ico$ /wp-content/themes/src/assets/img/favicons/favicon.ico [NC,L]
+  </IfModule>
+# END Favicon (Redirect file)
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteRule ^my-login /wp-login.php [QSA,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php73” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php73 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

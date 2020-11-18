@@ -1,0 +1,54 @@
+.hideScroll {
+  
+  @include rwd('large-tablet', 'up') {
+    opacity: 0;
+
+    &--hidden {
+      transform: translateY(100px);
+
+      &.hideScroll--left {
+        transform: translateX(-100px);
+
+        @include rtl() {
+          transform: translateX(100px);
+        }
+      }
+
+      &.hideScroll--right {
+        transform: translateX(100px);
+
+        @include rtl() {
+          transform: translateX(-100px);
+        }
+      }
+
+      &.hideScroll--circle {
+        transform: scale(0);
+      }
+    }
+
+    &--active {
+      transition: transform .7s, opacity 1s;
+      transform: translateY(0);
+      opacity: 1;
+
+      &.hideScroll--left,
+      &.hideScroll--right {
+        transform: translateX(0);
+
+        @include rtl() {
+          transform: translateX(0);
+        }
+      }
+
+      &.hideScroll--circle {
+        transform: scale(1);
+      }
+    }
+  }
+
+  @include parent('body', '.login') {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
